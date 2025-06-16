@@ -1,0 +1,20 @@
+{
+    "clinical": {
+        "Age": 71,
+        "Gender": 0,
+        "BMI": 20.57,
+        "FamilyHistoryAlzheimers": 0,
+        "Hypertension": 0,
+        "CardiovascularDisease": 1,
+        "MMSE": 20.52,
+        "ADL": 2.35,
+        "FunctionalAssessment": 3.61,
+        "MemoryComplaints": 0,
+        "BehavioralProblems": 0
+    },
+    "speech": {
+        "Transcript_CTD": "The patient exhibits signs of cognitive decline, with difficulty in recalling recent events and names.",
+        "Transcript_PFT": "The patient struggles with performing daily tasks independently, often requiring assistance from family members.",
+        "Transcript_SFT": "The patient shows signs of frustration and confusion during conversations, often repeating questions and losing track of topics."
+    }
+}

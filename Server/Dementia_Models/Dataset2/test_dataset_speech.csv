@@ -1,0 +1,865 @@
+recordID,Transcript_CTD,Transcript_PFT,Transcript_SFT,combined_text,TTR,Brunet_Index,Avg_Word_Length,NOUN_ratio,VERB_ratio,PRONOUN_ratio,Subordinate_Clauses,Parse_Tree_Depth,Idea_Density,Key_Elements_Described,Irrelevant_Details,Pauses,Repair_Rate,Topic_1,Topic_2,Topic_3,Topic_4,Topic_5,Named_Entity_Count,Polarity,Subjectivity,Severity
+127,the water is spilling over from the sink the water is spilling over from the sink and the s the sink is spilling over water spilling out of the sink water spilling out of the sink the water is spilling over from the sink water spilling out of the sink the water is spilling over from the sink and the s the sink is spilling over the water is spilling over from the sink upset the water up the sink,,,the water is spilling over from the sink the water is spilling over from the sink and the s the sink is spilling over water spilling out of the sink water spilling out of the sink the water is spilling over from the sink water spilling out of the sink the water is spilling over from the sink and the s the sink is spilling over the water is spilling over from the sink upset the water up the sink,0.1625,17.636139780236892,3.975,0.225,0.1375,0.0,0.0,20,16.25,0,0,0,0.0,0.974961265034084,0.0062700353282833,0.0062500254976007,0.0062686230070392,0.0062500511329924,0,0.0,0.0,1
+643,the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house,,,the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house the window is open looking out onto uh shrubbery and a path to another house,0.25,13.721484340058892,4.133333333333334,0.2666666666666666,0.0666666666666666,0.0,0.0,9,25.0,0,0,4,0.0,0.0069373330951765,0.0069394667495332,0.0069255842251493,0.0069424204189201,0.9722551955112206,0,0.0,0.5,1
+731,"Pat: There’s er a woman washing pots, well she’s washing or drying pots at the sink but she’s not concentrating. The sink is overflowing um; there’s, window is looking out onto the garden. There are two children behind her, one of whom has climbed onto a high stool to steal um cookies, um, and he’s male. Um, there’s a girl, the other child is a girl, er she’s reaching up for him to give her one of these cookies but the chair is toppling over.
+","Pat: (8 seconds) Badger, better (1 second) bunk, bed, butter (1 second) um brash, blink (1 second) boom, bash (2 seconds) brandish, bolster (1 second) blink. brandish um bend.
+","Pat: Cat, dog, lion, tiger, panther, zebra, giraffe, um monkey, ape (1 second) um (3 seconds) leopard (1 second) elephant, rhinoceros (1 second) um (8 seconds) skunk, um (2 seconds) beaver (1 second) badger (2 seconds) um (4 seconds) dingo (4 seconds) fox.
+","Pat: There’s er a woman washing pots, well she’s washing or drying pots at the sink but she’s not concentrating. The sink is overflowing um; there’s, window is looking out onto the garden. There are two children behind her, one of whom has climbed onto a high stool to steal um cookies, um, and he’s male. Um, there’s a girl, the other child is a girl, er she’s reaching up for him to give her one of these cookies but the chair is toppling over.
+",0.7647058823529411,9.309742035198065,4.258823529411765,0.1495327102803738,0.1401869158878504,0.1121495327102803,0.25,4,76.47058823529412,1,0,4,0.0,0.0057893679858377,0.92799616302547,0.0058975726298948,0.0057967495825465,0.0545201467762507,3,-0.09125,0.4287499999999999,0
+732,"Pat: A child’s fallen off its stool (1 second) um (2 seconds) there’s some water (1 second) leaking out of the sink, flowing out of the sink. Um 
+","Pat: Possible (1 second) parameter (1 second) probable, um (1 second) post (1 second) um (4 seconds) please, pleasing, pleasure (2 seconds) um (6 seconds) pole, pole (1 second) possible (6 seconds) paste (1 second) pasty (3 seconds) um 
+","Pat: Fox, lion (1 second) er (1 second) giraffe, rhino (1 second) elephant (2 seconds) dog, cat (2 seconds) tortoise um (2 seconds) armadillo (4 seconds) um (10 seconds) okapi, um (2 seconds) camel (3 seconds) giraffe (1 second) lion, tiger (1 second) um (2 seconds) monkey, gorilla, um (1 second). 
+","Pat: A child’s fallen off its stool (1 second) um (2 seconds) there’s some water (1 second) leaking out of the sink, flowing out of the sink. Um 
+",0.8214285714285714,7.288573381181308,4.178571428571429,0.15,0.125,0.05,0.0,5,82.14285714285714,0,0,2,0.0,0.1773139014891532,0.7057986313314949,0.0901146438294167,0.0133998167132589,0.0133730066366761,4,0.0,0.0,2
+1,"Pat: (4 seconds) There’s a lad stood on the stool that’s falling off,
+trying to reach down for the cookie jar. (2 seconds) His sister’s stood
+there waiting (1 second) with her hand risen, er (tuts) raised to take a
+cookie. Er, a mum’s doing washing up but she’s left the taps on and the
+sink is overflowing. (1 second) Window’s open (1 second) and on the side
+is two cups and a plate; and she’s washing a plate. (5 seconds)
+","Pat: (1 second) Pipe, plane, people (5 seconds) plumbing (10 seconds)
+plastic (2 seconds) photo (1 second) picture (1 second) petal (1 second)
+plant (4 seconds) er potato (4 seconds) um (3 seconds) pilot. (11
+seconds)
+","Pat: (1 second) Dogs, cats, birds (1 second) monkeys, rabbits (1 second)
+pigs (5 seconds) birds (1 second) er seagulls, zebras, giraffes,
+penguins (5 seconds) polar bears, brown bears (laughs) (7 seconds)
+lizards, snakes, spiders (2 seconds) mice (2 seconds) rats (2 seconds)
+horses (2 seconds) badgers. (3 seconds)
+","Pat: (4 seconds) There’s a lad stood on the stool that’s falling off,
+trying to reach down for the cookie jar. (2 seconds) His sister’s stood
+there waiting (1 second) with her hand risen, er (tuts) raised to take a
+cookie. Er, a mum’s doing washing up but she’s left the taps on and the
+sink is overflowing. (1 second) Window’s open (1 second) and on the side
+is two cups and a plate; and she’s washing a plate. (5 seconds)
+",0.7037037037037037,9.537202037709244,4.234567901234568,0.1709401709401709,0.1282051282051282,0.0512820512820512,0.0,5,70.37037037037037,0,0,0,0.0,0.0052970841929406,0.9786675394320864,0.0054150954114385,0.0053216186620104,0.0052986623015238,8,-0.1293650793650793,0.2555555555555556,2
+347,and the wa and the uh the sink is full of dishes uh full of water and the wa and the uh the sink is full of dishes uh full of water and the wa and the uh the sink is full of dishes uh full of water,,,and the wa and the uh the sink is full of dishes uh full of water and the wa and the uh the sink is full of dishes uh full of water and the wa and the uh the sink is full of dishes uh full of water,0.2083333333333333,14.119537270648111,3.125,0.25,0.0,0.0,0.0,7,20.833333333333336,0,0,6,0.0,0.7145742867517542,0.0105749728411763,0.0105927508103524,0.2536730576148723,0.0105849319818448,0,0.35,0.5499999999999999,3
+691,the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies,,,the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies the children have cookies,0.125,15.754394681325284,5.5,0.5,0.21875,0.0,0.0,14,12.5,1,0,0,0.0,0.0117647493164408,0.5574292876488482,0.4072483143217237,0.0117647404472464,0.0117929082657408,0,0.0,0.0,1
+470,shh dont tell anybody and hm i dont really know anything else going on hm have a heck of a lot to do with it and uh  i dont know what else uh hm  i dont know what else they would want uh anything else that im supposed to pick up i cant make out anything in particular going on outside cant think of anything uh why isnt anything do anybody doing anything about that,,,shh dont tell anybody and hm i dont really know anything else going on hm have a heck of a lot to do with it and uh  i dont know what else uh hm  i dont know what else they would want uh anything else that im supposed to pick up i cant make out anything in particular going on outside cant think of anything uh why isnt anything do anybody doing anything about that,0.5733333333333334,10.187690623014982,3.8533333333333335,0.0235294117647058,0.1647058823529411,0.2235294117647059,0.0,8,57.333333333333336,0,0,4,0.0,0.0062398802865002,0.0061735348494095,0.0061242559853428,0.862207290966349,0.1192550379123985,0,0.1222222222222222,0.1944444444444444,0
+247,the lad the stool hes standing on is falling the stool that the the boy was standing on was about to fall and the stool on which the boy is standing is about to fall the boy is was standing on a stool but the action is thatthe stool has slipped and he is falling he is on a three legged stool which is falling uh which is tilted,,,the lad the stool hes standing on is falling the stool that the the boy was standing on was about to fall and the stool on which the boy is standing is about to fall the boy is was standing on a stool but the action is thatthe stool has slipped and he is falling he is on a three legged stool which is falling uh which is tilted,0.391304347826087,11.681747848725992,3.768115942028986,0.1428571428571428,0.1571428571428571,0.0857142857142857,0.0,8,39.130434782608695,0,0,1,0.0,0.0078410711869775,0.0725774309557755,0.4158156793277952,0.4960510319547682,0.0077147865746835,1,0.1,0.1,0
+305,and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar,,,and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar and there the kids are trying to get cookies outta the cookie jar,0.2307692307692307,13.766233089156527,4.076923076923077,0.3076923076923077,0.2307692307692307,0.0,0.0,4,23.07692307692308,1,0,0,0.0,0.0080000796812734,0.00809064488673,0.9678917352532534,0.0080074608667792,0.0080100793119639,0,0.0,0.0,1
+762,"Pat: (8 seconds) The lady is in the kitchen and she’s drying (1 second) the pots. (3 seconds) And the children are in the room as well; the little boy is up onto the top and he’s getting some things out of the cupboard (1 second) and the little girl is waiting down s, s, for him to collect that and he’ll give it to her. And that’s, er that’s what’s happening there.
+","Pat: Pot (5 seconds) plimsoll (8 seconds) brine (2 seconds) prism (4 seconds) pancake (6 seconds) brush (8 seconds) pencil (5 seconds) prison (5 seconds) pack. (3 seconds) (buzzer sounds)
+","Pat: Dog (1 second) cat, lion, cheetah (4 seconds) um do, um (1 second) horses (1 second) lions (1 second) elephants (1 second) squirrels (2 seconds) birds (3 seconds) fish (5 seconds) cheetahs (4 seconds) um what else is there? (13 seconds) (buzzer sounds)
+","Pat: (8 seconds) The lady is in the kitchen and she’s drying (1 second) the pots. (3 seconds) And the children are in the room as well; the little boy is up onto the top and he’s getting some things out of the cupboard (1 second) and the little girl is waiting down s, s, for him to collect that and he’ll give it to her. And that’s, er that’s what’s happening there.
+",0.726027397260274,9.28524272145177,4.041095890410959,0.1354166666666666,0.0729166666666666,0.09375,0.2,4,72.6027397260274,1,0,0,0.0,0.0084247877531905,0.9660227569206498,0.008681158465052,0.0084722502008869,0.0083990466602207,5,-0.1115079365079365,0.3984126984126984,2
+163,shes looking out the window instead of paying attentiontowashing thedishes,,,shes looking out the window instead of paying attentiontowashing thedishes,1.0,4.829605387205156,6.5,0.1818181818181818,0.2727272727272727,0.0909090909090909,0.0,4,100.0,0,0,0,0.0,0.0288584405785374,0.0286215313759725,0.0285877249615096,0.1623697785207767,0.7515625245632037,0,0.0,0.0,0
+355,uh it seems to be summer out it seems to be summertime because there are bushes and everything has leaves on it so it must be summer and um it must be uh summer or youknow maybe autumn because there are bushes and trees and things and theyhave leaveson it looks as though its spring or summer outside and very pleasant uh looks like it might be su spring or summer out because things look like theyregrowingoutside,,,uh it seems to be summer out it seems to be summertime because there are bushes and everything has leaves on it so it must be summer and um it must be uh summer or youknow maybe autumn because there are bushes and trees and things and theyhave leaveson it looks as though its spring or summer outside and very pleasant uh looks like it might be su spring or summer out because things look like theyregrowingoutside,0.5324675324675324,10.525003998900743,4.3896103896103895,0.2077922077922078,0.1038961038961039,0.1428571428571428,3.5,5,53.24675324675325,0,1,4,0.0,0.0069455663971159,0.0069536681628971,0.0069579926572479,0.0069386875074792,0.9722040852752596,6,0.4766666666666666,0.525,0
+222,and the stool is tilting over with one foot over the um edge of the stool uh the chair is tilting and i did say the sk stool is uh tilting uh uh the uh stool is tilting,,,and the stool is tilting over with one foot over the um edge of the stool uh the chair is tilting and i did say the sk stool is uh tilting uh uh the uh stool is tilting,0.4736842105263157,9.562420122084506,3.4473684210526314,0.1842105263157894,0.131578947368421,0.0526315789473684,0.0,4,47.368421052631575,0,0,6,0.0,0.0101091659145152,0.0103303224253291,0.3136098197120595,0.6558217843173125,0.0101289076307834,1,0.0,0.0,0
+477,oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor,,,oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor oh yeah the waters running over on the floor,0.1269841269841269,18.912245627433485,4.0,0.2222222222222222,0.1111111111111111,0.0,0.0,3,12.698412698412698,0,0,0,0.0,0.9777117965725703,0.0055802071742668,0.0055766695493085,0.0055757543546235,0.0055555723492307,0,0.0,0.0,1
+587,and the mothers w drying dishes  and spills water on the floor and the mothers w drying dishes  and spills water on the floor and the mothers w drying dishes  and spills water on the floor,,,and the mothers w drying dishes  and spills water on the floor and the mothers w drying dishes  and spills water on the floor and the mothers w drying dishes  and spills water on the floor,0.2777777777777778,11.597741028939527,4.166666666666667,0.3076923076923077,0.1538461538461538,0.0,0.0,6,27.77777777777778,1,0,0,0.0,0.4840430078384599,0.0105664743356312,0.0105264251643844,0.4843369933414194,0.0105270993201051,0,0.0,0.0,1
+292,oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something,,,oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something oh thats the son come out of from school maybe or something,0.25,13.054055645292888,4.0,0.1538461538461538,0.1538461538461538,0.1538461538461538,0.0,3,25.0,0,0,0,0.0,0.9677305259847512,0.0080718052268457,0.0081215560044023,0.0080559260917761,0.0080201866922242,0,0.0,0.0,1
+140,oh shes she has an open window shes got the window open naturally she got the window open against a mirror,,,oh shes she has an open window shes got the window open naturally she got the window open against a mirror,0.6190476190476191,7.344630989522233,4.095238095238095,0.1739130434782608,0.1739130434782608,0.1739130434782608,0.0,3,61.90476190476191,0,0,0,0.0,0.0155867159924041,0.0159160038057566,0.0157103876941379,0.465176388762378,0.4876105037453232,0,0.025,0.475,0
+754,"Pat: (6 seconds) There’s a little boy getting into the cupboard; um he’s climbed on a stool and is falling off. He’s trying to get the cookie jar. Um, his sister’s waiting for a cookie to be passed down. Um, the mum is drying the pots but she’s left the sink on and the water’s overflowing. There’s pots on the side. Um (1 second) you can see out into the garden. Um (1 second) mum looks too busy to be seeing what the children are doing.
+","Pat: Pound, puppy, um (2 seconds) port, porthole (2 seconds) pickle (1 second) pom-pom, pomegranate (1 second) pelmet (1 second) picture (3 seconds) pouffe (3 seconds) port, porthole, um, ooh, plank (1 second) pelican (2 seconds) pole, poppy (5 seconds) panel (7 seconds) hmm (3 seconds) poncho.(buzzer sounds)
+","Pat: Um, elephant, monkey, zebra, snake, er giraffe, er, dog, cat, mouse, rat, um (1 second) antelope, crocodile, mm (1 second) anteater, um a moose, a cow, pig, sheep, goat, um bear, um (1 second) lion, a tiger, er a panther, a baboon, a gorilla, um (2 seconds) snake (2 seconds) fish, um (1 second) a whale (1 second) shark, dolphin, um (1 second) a spider, an ant, um (1 second) a butterfly (1 second) a ladybird (1 second) um. (buzzer sounds)
+","Pat: (6 seconds) There’s a little boy getting into the cupboard; um he’s climbed on a stool and is falling off. He’s trying to get the cookie jar. Um, his sister’s waiting for a cookie to be passed down. Um, the mum is drying the pots but she’s left the sink on and the water’s overflowing. There’s pots on the side. Um (1 second) you can see out into the garden. Um (1 second) mum looks too busy to be seeing what the children are doing.
+",0.6976744186046512,9.647263409983497,4.104651162790698,0.1621621621621621,0.1351351351351351,0.072072072072072,0.1428571428571428,5,69.76744186046511,0,0,5,0.0,0.0052304699550535,0.9790766991473068,0.0053174301667965,0.005215251115143,0.0051601496156999,4,-0.1418650793650794,0.2984126984126984,0
+141,the boy is cl tipping on the stool as he tries to reachinthecookiejar and a stool the boy is on is about to tip over the boy is up there reaching for it and it looks like hes gonna fall off of the stool okay the boy the boy is standing on a ch chair that is uh starting to fall over and i see a little this little boy standing on a stool reaching forcookies and he lookslikehes readytofall the boy is on the uh step stool uh reachingthecookiejar and the boy is standing on a  stool which is tipping over,,,the boy is cl tipping on the stool as he tries to reachinthecookiejar and a stool the boy is on is about to tip over the boy is up there reaching for it and it looks like hes gonna fall off of the stool okay the boy the boy is standing on a ch chair that is uh starting to fall over and i see a little this little boy standing on a stool reaching forcookies and he lookslikehes readytofall the boy is on the uh step stool uh reachingthecookiejar and the boy is standing on a  stool which is tipping over,0.4509803921568627,11.692822148644291,3.931372549019608,0.1809523809523809,0.1714285714285714,0.0761904761904762,0.6666666666666666,7,45.09803921568628,1,0,3,0.0,0.005040507407018,0.0051967172661926,0.771375583101227,0.2133430793343881,0.0050441128911742,0,0.005,0.4,0
+179,the waters turned on full and uh  waters running on the floor as well as out of the sink and the waters sink is clogged and theres more water going over and its splashing onto the floor you will uh dish waters washing or is uh the sink isoverflowing and meanwhile the waters overflowing out of the sink and dropping on the floorandshesstandinginwater we got a faucet turned on and waters overflowing from the sink onto the floor and water is gushing out there is water coming out of a faucet into a basin which is overflowing onto thefloor,,,the waters turned on full and uh  waters running on the floor as well as out of the sink and the waters sink is clogged and theres more water going over and its splashing onto the floor you will uh dish waters washing or is uh the sink isoverflowing and meanwhile the waters overflowing out of the sink and dropping on the floorandshesstandinginwater we got a faucet turned on and waters overflowing from the sink onto the floor and water is gushing out there is water coming out of a faucet into a basin which is overflowing onto thefloor,0.4646464646464646,11.50869842965128,4.444444444444445,0.2376237623762376,0.1584158415841584,0.0594059405940594,0.0,12,46.464646464646464,0,0,3,0.0,0.9304713932670088,0.0050986643166058,0.0050619339097012,0.0543412213685758,0.0050267871381081,0,0.425,0.525,0
+260,and the waters going on the floor and the waters going on the floor and the waters going on the floor and the waters going on the floor,,,and the waters going on the floor and the waters going on the floor and the waters going on the floor and the waters going on the floor,0.2142857142857142,11.933426964993906,3.857142857142857,0.2857142857142857,0.1428571428571428,0.0,0.0,6,21.428571428571427,0,0,0,0.0,0.9369966885515396,0.0156076059684135,0.0156465136331628,0.0158976006728814,0.0158515911740023,0,0.0,0.0,1
+245,lets say the curtain is blowing its blowing the curtain thats the curtain blowing right,,,lets say the curtain is blowing its blowing the curtain thats the curtain blowing right,0.6,6.58336360818603,4.866666666666666,0.25,0.3125,0.125,0.0,7,60.0,0,0,0,0.0,0.1091865436606822,0.0183505644379361,0.0183585300542997,0.0187437494708903,0.8353606123761915,0,0.2857142857142857,0.5357142857142857,0
+533,and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is,,,and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is and i cant make out what it is,0.125,19.124764380276897,2.875,0.0,0.1111111111111111,0.3333333333333333,0.0,1,12.5,0,0,0,0.0,0.0222223164357799,0.0222387401293166,0.0222228512798652,0.0222239828475542,0.911092109307484,0,0.0,0.0,1
+63,"Pat: Children; er the boy is on, standing on top of a stool trying to
+get into the cookies on the, on the top shelf of the cupboard, um, and
+he’s fa, fa, about to topple off er because he’s unbalanced. The er sink
+is overflowing, er water is falling onto the floor and the feet of the
+woman who is washing up at the sink. The tap is running and she’s just
+letting it run. Um, I can’t quite make out what’s outside. Um (1 second)
+and there are a few dishes on the kitchen. The kitchen cabinet doors at
+the bottom are all closed. The curtains are open showing the garden and
+(1 second) yeah, there’s a tree in the background in the, in the garden.
+(5 seconds)
+","Pat: Er, prompt, Passover, play, played, power, powerful (1 second)
+push, pull (3 seconds) er prompt, prod, poke, er playful, er (8 seconds)
+ping, pong, er prattle, er (1 second) ploy, ployed, played, play,
+playing (1 second) push, pushing, pushed, er practise, practice,
+practical um prompt (2 seconds) piano, um parrot.
+","Pat: Dog, cat, mouse (1 second) rat, um (tuts) budgerigar, crow (1
+second) um horse, goat, sheep, lamb, pig, um (2 seconds) (tuts) giraffe,
+lion, tiger, elephant, rhinoceros (1 second) er antelope, er wildebeest,
+er gnu, um bear, brown bear, grizzly bear, um (4 seconds) camel, um (5
+seconds) insects, um (tuts) flea, um (1 second) yeah, sorry. (2 seconds)
+","Pat: Children; er the boy is on, standing on top of a stool trying to
+get into the cookies on the, on the top shelf of the cupboard, um, and
+he’s fa, fa, about to topple off er because he’s unbalanced. The er sink
+is overflowing, er water is falling onto the floor and the feet of the
+woman who is washing up at the sink. The tap is running and she’s just
+letting it run. Um, I can’t quite make out what’s outside. Um (1 second)
+and there are a few dishes on the kitchen. The kitchen cabinet doors at
+the bottom are all closed. The curtains are open showing the garden and
+(1 second) yeah, there’s a tree in the background in the, in the garden.
+(5 seconds)
+",0.6538461538461539,10.366655272833244,4.061538461538461,0.1520467836257309,0.1052631578947368,0.0701754385964912,0.1,9,65.38461538461539,2,1,3,0.0,0.1063880998192992,0.8822152935031807,0.003730291749173,0.0038220755923411,0.0038442393360058,4,0.0875,0.21875,0
+752,"Pat: There is a lady who is washing the dishes and unbeknown to her the tap is over, the sink is overflowing because the taps are open and the water is all over the kitchen floor. There’s a young boy who’s on a stool trying to grab some cookies from the cookie jar; as he’s doing this his stool is kind of um (1 second) arched backwards and he may fall, and his sister or a female girl is stood next to him um reaching out for a cookie from this boy’s hand.
+","Pat: Pilot, pepper, person, proximal, post, postman, um (2 seconds) pin, pencil, pen (1 second) product, Police, pony, pantomime, phantom (2 seconds) er (1 second) palace, pinnacle, produce (1 second) palm, point (1 second) pick, picking, um poster (1 second) pallet, pain, prick (4 seconds) plant (3 seconds) er (3 seconds) pick. (buzzer sounds)
+","Pat: Dog, cat, horse, donkey, beaver, otter, cow, sheep, kangaroo, hippopotamus, er badger, hedgehog, um (1 second) bat (1 second) er cows, sheeps, lamb, goats um (2 seconds) (tuts) reindeers, antelopes (2 seconds) um I don’t know, what other animals are there? Er, crocodiles, alligators, frogs, toads, lizards, gecko, newts, er moose, bull, er camels, hmm, snakes, sloth, toucans, pelicans, blackbirds, eagle, swan. (buzzer sounds)
+","Pat: There is a lady who is washing the dishes and unbeknown to her the tap is over, the sink is overflowing because the taps are open and the water is all over the kitchen floor. There’s a young boy who’s on a stool trying to grab some cookies from the cookie jar; as he’s doing this his stool is kind of um (1 second) arched backwards and he may fall, and his sister or a female girl is stood next to him um reaching out for a cookie from this boy’s hand.
+",0.7096774193548387,9.684296925224142,3.924731182795699,0.1792452830188679,0.1132075471698113,0.1037735849056603,1.0,8,70.96774193548387,2,0,2,0.0,0.0053945161430842,0.7507778803356793,0.2330581222021744,0.0054412647640213,0.0053282165550405,2,0.1166666666666666,0.3277777777777778,0
+164,looks like theyre dried they look dried on the counter,,,looks like theyre dried they look dried on the counter,0.9,4.964837592205458,4.5,0.0909090909090909,0.2727272727272727,0.1818181818181818,1.0,3,90.0,0,0,0,0.0,0.0251040743957099,0.0253977886298546,0.4455345900420457,0.0250590932669505,0.4789044536654392,0,-0.2,0.6,0
+325,well this is going to fall going to be in for a bad fall,,,well this is going to fall going to be in for a bad fall,0.7857142857142857,5.910439333857668,3.071428571428572,0.0714285714285714,0.2142857142857142,0.0714285714285714,0.0,4,78.57142857142857,0,0,0,0.0,0.0335877614623208,0.0337438861155112,0.8646111244053103,0.0340634879061643,0.0339937401106932,0,-0.6999999999999998,0.6666666666666666,0
+142,and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother,,,and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother and the little girl reaching up to give the jar to the cook to her brother,0.1875,15.800116445161008,3.6875,0.25,0.125,0.0625,0.0,19,18.75,0,0,0,0.0,0.0080002048540647,0.2163554532348382,0.7596379928679647,0.0080001610266422,0.0080061880164901,0,-0.1875,0.5,1
+571,shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet,,,shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet shes uh getting her shoe wet,0.1666666666666666,14.387146584637412,3.8333333333333335,0.1666666666666666,0.1428571428571428,0.2857142857142857,0.0,11,16.666666666666664,0,0,6,0.0,0.5468153875372521,0.0064760714252041,0.0065762121404884,0.4336594595648306,0.0064728693322245,0,-0.0999999999999999,0.3999999999999999,3
+117,in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose,,,in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose in her kéªtêƒé™ëž kitchen doing some work i suppose,0.1666666666666666,16.05393721425397,4.777777777777778,0.3636363636363636,0.1818181818181818,0.1818181818181818,0.0,6,16.666666666666664,1,0,0,0.0,0.0054166132249153,0.9782945295754376,0.0054062684436584,0.0054434556042504,0.005439133151738,0,0.0,0.0,1
+721,"Pat: (1 second) Yeah, it’s a, it appears to be a kitchen where some lady
+is potentially cleaning the pots but the water’s overspilling from the
+sink. There’s childrens trying to get hold of the cookies in the (1
+second) cupboard and it appears the boy is about to fall over the stool.
+(1 second) There’s pots on the (2 seconds) worktop and there appears to
+be a bit of a image of some kind of a garden through the, the kitchen
+window.
+","Pat: (1 second) Prince, pen, patience, psychology (3 seconds) pizza (2
+seconds) parents, philosophy (1 second) pints (7 seconds) pencil, paint
+(1 second) people (1 second) pathways, psychology (11 seconds) progress
+(3 seconds) palliative. (7 seconds)
+","Pat: Er, tiger, lion, giraffe, cat, dog (1 second) whale (1 second)
+leopard, wolf, fox (1 second) cheetah, rhinoceros, hippopotamus (1
+second) zebra, horse, donkey (1 second) sheep, cattle, buffalo (15
+seconds) hyenas, ch (2 seconds) kangaroos. (11 seconds)
+","Pat: (1 second) Yeah, it’s a, it appears to be a kitchen where some lady
+is potentially cleaning the pots but the water’s overspilling from the
+sink. There’s childrens trying to get hold of the cookies in the (1
+second) cupboard and it appears the boy is about to fall over the stool.
+(1 second) There’s pots on the (2 seconds) worktop and there appears to
+be a bit of a image of some kind of a garden through the, the kitchen
+window.
+",0.6265060240963856,9.997460640705002,4.240963855421687,0.1834862385321101,0.0825688073394495,0.0642201834862385,0.0,9,62.65060240963856,2,0,0,0.0,0.0061489281214731,0.97552422272385,0.006135497430399,0.0060838082648005,0.006107543459477,4,-0.025,0.4833333333333333,2
+652,water is running out of the faucet waters running out of the faucet and the waters running out of the faucet filling the sink faucet  with water running out of it and theres water coming out of the spigot,,,water is running out of the faucet waters running out of the faucet and the waters running out of the faucet filling the sink faucet  with water running out of it and theres water coming out of the spigot,0.4102564102564102,10.161323053796837,4.230769230769231,0.2682926829268293,0.1707317073170731,0.048780487804878,0.0,7,41.02564102564102,0,0,0,0.0,0.955463293924766,0.011125780771317,0.0111429864873997,0.0111121635407238,0.0111557752757933,0,0.0,0.0,0
+685,thats what shes washing oh shes drying dishes now shes finished with some of the dishes and the meanwhile shes drying the dishes w w w youknow shes drying the dishes oh shes drying dishes now and uh  shes drying dishes with her apron on,,,thats what shes washing oh shes drying dishes now shes finished with some of the dishes and the meanwhile shes drying the dishes w w w youknow shes drying the dishes oh shes drying dishes now and uh  shes drying dishes with her apron on,0.4666666666666667,10.008620927661449,4.2444444444444445,0.1296296296296296,0.1481481481481481,0.2037037037037037,0.0,5,46.66666666666666,0,0,1,0.0,0.0075116965633686,0.0074695703852545,0.0074366762017567,0.8943773057340594,0.0832047511155605,0,0.0,0.0,0
+736,"Pat: It looks like a slightly chaotic (1 second) sce, scene in a kitchen. Er, there are two young children, a boy and a girl; the boy is stood on a stool which is about to fall over. He’s taking (1 second) cookies from the cookie jar in the cupboard. Er, his mother is apparently ignoring him whilst she daydreams looking out of the window with a slightly (1 second) looks like a slightly rural scene, er, and er she’s obviously in a bit of a daydream cos the sink is overflowing and er water is falling onto the floor. 
+","Pat: Park, portal, porch (3 seconds) principal (5 seconds) perpendicular (1 second) parameter, parabola, parenthesis, paragraph (1 second) psychology, pseudonym (7 seconds) oh I don’t know, um (1 second) brain freeze. (2 seconds) Principality, prince, princess (2 seconds) porcupine, pug (2 seconds) poodle (2 seconds) perch. 
+","Pat: Ant, antelope, aardvark (2 seconds) bat, badger, bull, cat, crocodile (2 seconds) deer (2 seconds) dolphin (1 second) elephant (1 second) fox, ferret (1 second) giraffe, goat (1 second) hyena (1 second) iguana (2 seconds) lemur, leopard (2 seconds) monkey, mouse, owl, oc, ocelot (2 seconds) porcupine (5 seconds) rabbit.
+","Pat: It looks like a slightly chaotic (1 second) sce, scene in a kitchen. Er, there are two young children, a boy and a girl; the boy is stood on a stool which is about to fall over. He’s taking (1 second) cookies from the cookie jar in the cupboard. Er, his mother is apparently ignoring him whilst she daydreams looking out of the window with a slightly (1 second) looks like a slightly rural scene, er, and er she’s obviously in a bit of a daydream cos the sink is overflowing and er water is falling onto the floor. 
+",0.67,9.985575391197788,4.2,0.1652892561983471,0.0909090909090909,0.0661157024793388,0.5,6,67.0,3,0,0,0.0,0.0042279338300661,0.983039663489878,0.0042750348836224,0.0042067655134473,0.0042506022829859,5,-0.0020833333333333,0.1770833333333333,0
+48,"Pat: (1 second) Two kids er going into cupboard on a stool, which they
+shouldn’t be. Mum’s got sink running and water’s piling over sink, cos
+she’s obviously not watching what she’s doing. Er, she’s washing pots.
+Er, she’s looking out of window in garden. (4 seconds) The kids are
+reaching for cookies and tool’s about to, er stool’s about to fall over
+cos they’re, they’re stood on it wrong.
+","Pat: Pear (1 second) people, penis (1 second) P (sighs) plum (5 seconds)
+(sighs) (3 seconds) pony (3 seconds) paper (5 seconds) pin (10 seconds)
+um (5 seconds) places (4 seconds) no.
+","Pat: (Clears throat) Animal, er ant, beetle (1 second) cat, dog,
+elephant, fish (1 second) goat, horse (4 seconds) lamb (1 second) monkey
+(1 second) newt (1 second) octopus (3 seconds) pig, pony (1 second)
+python (4 seconds) rabbit (1 second) rodent, rat (8 seconds) whale (1
+second) dolphin. (5 seconds)
+","Pat: (1 second) Two kids er going into cupboard on a stool, which they
+shouldn’t be. Mum’s got sink running and water’s piling over sink, cos
+she’s obviously not watching what she’s doing. Er, she’s washing pots.
+Er, she’s looking out of window in garden. (4 seconds) The kids are
+reaching for cookies and tool’s about to, er stool’s about to fall over
+cos they’re, they’re stood on it wrong.
+",0.8428571428571429,8.740142563220516,4.614285714285714,0.145631067961165,0.1067961165048543,0.0970873786407767,0.2857142857142857,6,84.28571428571429,1,0,0,0.0,0.0055978616175133,0.9779017086188456,0.0055416281371518,0.0054501208662836,0.0055086807602054,5,-0.3125,0.6,2
+302,the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink,,,the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink the water in the sink,0.1142857142857142,16.918523645248012,3.4,0.4,0.0,0.0,0.0,3,11.428571428571429,0,0,0,0.0,0.946614052415151,0.013385925944704,0.013333336426501,0.0133333447497452,0.0133333404638986,0,0.0,0.0,1
+513,i dont know what else is i mean this is what im supposed to be picking out what else you wanna know what else am i supposed to find out what else am i supposed to know,,,i dont know what else is i mean this is what im supposed to be picking out what else you wanna know what else am i supposed to find out what else am i supposed to know,0.4864864864864865,9.405437034943162,3.5405405405405403,0.0,0.2564102564102564,0.3076923076923077,0.0,4,48.64864864864865,0,0,0,0.0,0.0170643677281644,0.0965185764581324,0.016820322978969,0.852754028889106,0.016842703945628,0,-0.3125,0.6875,0
+377,shes bêœêƒéªå‹ gushing dishes shes bêœêƒéªå‹ gushing dishes,,,shes bêœêƒéªå‹ gushing dishes shes bêœêƒéªå‹ gushing dishes,0.5,5.229269598690466,6.5,0.4,0.4,0.2,0.0,3,50.0,0,0,0,0.0,0.0225532895203368,0.0222371768563456,0.4677902182212611,0.4651905027848581,0.0222288126171982,0,0.0,0.0,2
+709,"Pat: A lady is washing dishes; she’s letting the sink overflow because
+she’s left the tap on. A child is (1 second) climbing up on a stool to
+get to a cookie jar; he’s opened a cupboard. A daughter is standing at
+the bottom of the, the stool um with her arms outrea, reached to catch
+him or maybe to catch the cookie. Er, outside the window there are, or
+at the window there are curtains and there’s a, looks like a driveway
+and possibly a gate, er grass. Er, the curtains are pulled back at the
+end so that there’s, they’re on an angle. Er, the cookie jar looks to be
+quite full of cookies (sighs) (1 second) there’s something else beside
+the cookie jar but I don’t know what that is; it’s kind of a, whether
+it’s a, a chopping board or something like that, I don’t know. (4
+seconds)
+","Pat: (2 seconds) Parcel, paper, um (3 seconds) (sighs) parcel (2
+seconds) perhaps (2 seconds) possibly (3 seconds) (sighs) (8 seconds)
+programme (4 seconds) portfolio (4 seconds) er (2 seconds) can I do
+this, finish the question?
+Oth: Uh.
+Pat: I don’t know. (6 seconds) No (?). Um. (2 seconds) (tuts)
+","Pat: Cat, dog, fish, rabbit, sheep, cow (1 second) um monkey, elephant,
+giraffe, tiger, polar bear (1 second) um (1 second) er (2 seconds)
+elephant (2 seconds) um (3 seconds) fish I’ve said. That’s it. (laughs)
+Oh (1 second) oh. Um (1 second) (sighs) (3 seconds) tiger, tiger,
+elephant (1 second) rhi, rhino (sighs) rhinoceros (4 seconds) (sighs)
+cat (?). (3 seconds)
+","Pat: A lady is washing dishes; she’s letting the sink overflow because
+she’s left the tap on. A child is (1 second) climbing up on a stool to
+get to a cookie jar; he’s opened a cupboard. A daughter is standing at
+the bottom of the, the stool um with her arms outrea, reached to catch
+him or maybe to catch the cookie. Er, outside the window there are, or
+at the window there are curtains and there’s a, looks like a driveway
+and possibly a gate, er grass. Er, the curtains are pulled back at the
+end so that there’s, they’re on an angle. Er, the cookie jar looks to be
+quite full of cookies (sighs) (1 second) there’s something else beside
+the cookie jar but I don’t know what that is; it’s kind of a, whether
+it’s a, a chopping board or something like that, I don’t know. (4
+seconds)
+",0.6381578947368421,10.608811959184708,4.164473684210527,0.1560975609756097,0.1121951219512195,0.1170731707317073,0.5714285714285714,6,63.81578947368421,1,1,1,0.0,0.0032171236838595,0.9869713696389536,0.0032732148011621,0.0032514166368278,0.0032868752391968,4,0.11875,0.3125,2
+443,he was getting a cookie for his sister and for himself he was getting a cookie for his sister and for himself he was getting a cookie for his sister and for himself,,,he was getting a cookie for his sister and for himself he was getting a cookie for his sister and for himself he was getting a cookie for his sister and for himself,0.303030303030303,10.927715255721488,4.0,0.1818181818181818,0.0909090909090909,0.2727272727272727,0.0,5,30.303030303030305,0,0,0,0.0,0.0201228337691666,0.020102785602318,0.9197742986527658,0.0200000316093377,0.0200000503664117,0,0.0,0.0,1
+761,"Pat: (4 seconds) Looks like a (2 seconds) looks like a sketch from the 1950s in a kitchen. (1 second) There’s drapes up at the window. The sink’s overflowing, The woman’s drying a dish; she’s got an apron on, I think. There’s two kids trying to get to the cookie jar in the (2 seconds) middle cupboard, wall cupboard; he’s on a stool and it’s tippling over. Little girl’s (1 second) got her hand up trying to get a cookie off him. There’s water flowing from the sink onto the floor. There’s plates on the (1 second) kitchen side and through the window you’ve got like a garden view.
+","Pat: (3 seconds) Party (1 second) pencil (1 second) photograph (1 second) paper (4 seconds) people, pirate (2 seconds) parrot (1 second) pony (4 seconds) pleat, plait (3 seconds) plane (2 seconds) physicist (7 seconds) plane (2 seconds) plump (1 second) plum, paint, painter (1 second) plot. (buzzer sounds)
+","Pat: (2 seconds) Um, um, er panda, a tiger, a lion, cheetah, jaguar, giraffe, hippopotamus, elephant (1 second) a cow, a pig, a horse, a rabbit (1 second) a parrot (2 seconds) er a whale, a donkey (1 second) er a shark, a jellyfish (1 second) a dog, cat, guinea pig (1 second) a snake (1 second) a lizard (3 seconds) er a butterfly, a moth (1 second) a raccoon, a bear, a polar bear, a penguin, an emu. (buzzer sounds)
+","Pat: (4 seconds) Looks like a (2 seconds) looks like a sketch from the 1950s in a kitchen. (1 second) There’s drapes up at the window. The sink’s overflowing, The woman’s drying a dish; she’s got an apron on, I think. There’s two kids trying to get to the cookie jar in the (2 seconds) middle cupboard, wall cupboard; he’s on a stool and it’s tippling over. Little girl’s (1 second) got her hand up trying to get a cookie off him. There’s water flowing from the sink onto the floor. There’s plates on the (1 second) kitchen side and through the window you’ve got like a garden view.
+",0.6513761467889908,10.194835682137034,4.348623853211009,0.2123287671232876,0.0958904109589041,0.0753424657534246,0.0,6,65.13761467889908,1,0,0,0.0,0.003941023883929,0.9472495694493742,0.0039236218553617,0.0039071441951119,0.0409786406162231,9,-0.15625,0.25,2
+668,oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair,,,oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair oh hes falling off the chair,0.1666666666666666,14.387146584637412,3.8333333333333335,0.1428571428571428,0.1428571428571428,0.1428571428571428,0.0,2,16.666666666666664,0,0,0,0.0,0.0080815543746538,0.008095790741866,0.8187319291229449,0.1570906415314482,0.0080000842290869,0,0.0,0.0,1
+51,"Pat: Has bell gone?
+Oth: So yeah, so basically you will describe the picture.
+Pat: Oh just waiting for bell.
+Oth: It, there’s no bell with this one.
+Pat: Oh. (2 seconds) A mother and two children in the kitchen; mother
+washing up, making a mess of the (1 second) sink, drying the pots. Wind,
+the window is open. The, the boy is climbing on a stool and nearly
+falling off (1 second) reaching for some, a jar of cookies, and the girl
+is pointing (2 seconds) up at the cookies. (1 second) Er, er (1 second)
+the water is splashing on the floor (3 seconds) and it, it shows a nice
+garden in the background. (1 second) The cookie lid is off (1 second)
+door is open (1 second) and the, the curtains are open (1 second) and
+there are some (3 seconds) pots and a plate on the side, left,
+right-hand side (1 second) of the sink.
+Oth: (3 seconds) OK.
+Pat: That’s about it.
+Oth: Fine.
+","Pat: (2 seconds) Petrol (1 second) er any word is it?
+Oth: Yeah, it tells you there; so it’s any word with P.
+Pat: Petrol, pomegranate, petroleum (1 second) er (3 seconds) permanent
+(3 seconds) pasture, pleasure, pumpkin, pomegranate (3 seconds) pandora
+(2 second) painting, plumbing, poultry (3 seconds) pheasant (3 seconds)
+er (7 seconds) (?) platinum (3 seconds) er.
+","Pat: (2 seconds) Budgerigar (5 seconds) fox, rabbits, cats, dogs (2
+seconds) hamsters (7 seconds) er, er (6 seconds) lions, tigers (3
+seconds) cheetahs, elephants (6 seconds) koala, koala bears, sealions (6
+seconds) er (?). (2 seconds) Pangolins (1 second) kangaroos. (3 seconds)
+","Pat: Has bell gone?
+Oth: So yeah, so basically you will describe the picture.
+Pat: Oh just waiting for bell.
+Oth: It, there’s no bell with this one.
+Pat: Oh. (2 seconds) A mother and two children in the kitchen; mother
+washing up, making a mess of the (1 second) sink, drying the pots. Wind,
+the window is open. The, the boy is climbing on a stool and nearly
+falling off (1 second) reaching for some, a jar of cookies, and the girl
+is pointing (2 seconds) up at the cookies. (1 second) Er, er (1 second)
+the water is splashing on the floor (3 seconds) and it, it shows a nice
+garden in the background. (1 second) The cookie lid is off (1 second)
+door is open (1 second) and the, the curtains are open (1 second) and
+there are some (3 seconds) pots and a plate on the side, left,
+right-hand side (1 second) of the sink.
+Oth: (3 seconds) OK.
+Pat: That’s about it.
+Oth: Fine.
+",0.5976331360946746,10.973658626983529,4.165680473372781,0.1581027667984189,0.0553359683794466,0.0434782608695652,0.0,7,59.76331360946746,3,0,0,0.0,0.0025567010436082,0.9627300305145028,0.0295590800283156,0.0025414531274954,0.0026127352860779,19,0.0364035087719298,0.2671052631578947,2
+416,and uh other than the the stool and the cabinets and the dishes thats all i can see oh i see a part of the whole kitchen and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see,,,and uh other than the the stool and the cabinets and the dishes thats all i can see oh i see a part of the whole kitchen and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see and uh other than the the stool and the cabinets and the dishes thats all i can see,0.1919191919191919,16.892137434446443,3.616161616161616,0.1634615384615384,0.1057692307692307,0.1538461538461538,0.0,26,19.19191919191919,1,0,5,0.0,0.4722371217382393,0.0073507398252448,0.0072826251143966,0.5058551892477477,0.0072743240743714,0,-0.0708333333333333,0.3791666666666666,1
+434,no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool,,,no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool no theyre getting the cookie jar out but hes upsetting in his stool,0.25,13.300673048006876,4.230769230769231,0.1333333333333333,0.2,0.2,0.0,4,25.0,0,0,0,0.0,0.0069135984558566,0.0069264475204732,0.9721790736448358,0.0069321483403949,0.0070487320384393,0,0.0,0.0,1
+199,and a child getting cookies out of the cookie jar standing on a stool thatistippingover little boy is crawling up to get in the cookie jar and is ready to fall off of that stool the boy is getting cookies from the jar and he is on a stool the boy is getting cookies and hes going to have an accident because the stool is going to goquite off the boy is reaching for cookies and the stool is falling over and i see a boy on a stool going for a cookie jar and the stoolisfalling over and the boy is uh standing on a stool a high stool and he is uh robbing the cookie jar the boy is standing up trying to get the cookie jar and the uh stoolisfalling and um the boy is taking cookies out of the cookie jar and hes on the stoolandthe stoolisfallingover,,,and a child getting cookies out of the cookie jar standing on a stool thatistippingover little boy is crawling up to get in the cookie jar and is ready to fall off of that stool the boy is getting cookies from the jar and he is on a stool the boy is getting cookies and hes going to have an accident because the stool is going to goquite off the boy is reaching for cookies and the stool is falling over and i see a boy on a stool going for a cookie jar and the stoolisfalling over and the boy is uh standing on a stool a high stool and he is uh robbing the cookie jar the boy is standing up trying to get the cookie jar and the uh stoolisfalling and um the boy is taking cookies out of the cookie jar and hes on the stoolandthe stoolisfallingover,0.3311258278145695,13.889116774603457,3.95364238410596,0.2679738562091503,0.1437908496732026,0.0326797385620915,0.3333333333333333,8,33.11258278145696,1,0,4,0.0,0.0031558291048587,0.0031885644741448,0.9873308036420638,0.0031840883141403,0.0031407144647922,0,0.0575,0.5133333333333333,0
+671,the sink is running over the sink is running over the sink is running over the sink is running over the sink is flowing over and the um uh sink is running over and i s i said the sink was running over the sinks running over the sink is running over,,,the sink is running over the sink is running over the sink is running over the sink is running over the sink is flowing over and the um uh sink is running over and i s i said the sink was running over the sinks running over the sink is running over,0.2692307692307692,12.888868057532791,3.7884615384615374,0.173076923076923,0.2115384615384615,0.0384615384615384,0.0,4,26.923076923076923,0,0,2,0.0,0.9632816906046086,0.0092605836576565,0.0091153906005607,0.0091501575477101,0.0091921775894639,0,-0.1,0.0,0
+744,"Pat: Er, a boy passing a little girl something from a cupboard, er falling off the, er a stool, boy falling off a stool catching a plate. The housewife wiping the er plates. Tap overrunning um (4 seconds) and um (2 seconds) I think that’s it.
+","Pat: Paracetamol, um (1 second) palm oil, um peanuts, er pine nuts, er porridge, um (3 seconds) pepper (1 second) er (6 seconds) pomegranate, peach, pear, um (11 seconds) um (1 second) para, er pharmacy, um (1 second) parachemical (1 second) phy, um (1 second) physics, um (4 seconds) palmistry (1 second) um (5 seconds). 
+","Pat: Cat, dog, um giraffe, elephant, monkey, er parakeet, kitten, er rabbit, goat, hare, er dolphin, shark, um (1 second) er squirrel, rat, er field mouse, um (1 second) blackbird, um, um a wren (1 second) pheasant (sighs) pig (1 second) um (1 second) camel and er sheep, um (4 seconds) bear, tiger (1 second) um (1 second) polar bear, seal (1 second) shark; oh I’ve said that. Um (1 second) penguin (1 second), um (1 second) a snake, cobra, um
+","Pat: Er, a boy passing a little girl something from a cupboard, er falling off the, er a stool, boy falling off a stool catching a plate. The housewife wiping the er plates. Tap overrunning um (4 seconds) and um (2 seconds) I think that’s it.
+",0.7391304347826086,8.4967953613723,4.282608695652174,0.2,0.1333333333333333,0.0666666666666666,0.0,5,73.91304347826086,0,1,2,0.0,0.0074259037693532,0.8769151732965726,0.0076067664378953,0.1006266377030031,0.0074255187931756,3,0.20625,0.7,0
+503,i think thats very important and sometimes typical i dont think thats very important uh that uh doesnt seem to be more doesnt have too much to tell with that,,,i think thats very important and sometimes typical i dont think thats very important uh that uh doesnt seem to be more doesnt have too much to tell with that,0.7,7.831046181641092,4.266666666666667,0.0,0.2,0.1714285714285714,0.5,5,70.0,0,0,2,0.0,0.4055562129904076,0.0154892983379569,0.015523805600589,0.5479339569832304,0.0154967260878158,0,0.3146666666666667,0.64,0
+629,shes washing dishes and the uh waters running over she got her pl yeah and she drying dishes waters running over shes drying the dishes and letting the water  uh keep being uh keep on running in thein thesink,,,shes washing dishes and the uh waters running over she got her pl yeah and she drying dishes waters running over shes drying the dishes and letting the water  uh keep being uh keep on running in thein thesink,0.5897435897435898,8.880233958941457,4.333333333333333,0.1666666666666666,0.2619047619047619,0.119047619047619,0.0,7,58.97435897435898,0,0,3,0.0,0.4191348162890967,0.0087601751408822,0.0087427969123716,0.5546325603196266,0.0087296513380227,0,0.0,0.0,0
+623,and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes,,,and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes and the mother is still uh uh w uh wiping the dishes,0.0833333333333333,26.00577814760197,3.4166666666666665,0.1666666666666666,0.0833333333333333,0.0,0.0,9,8.333333333333332,1,0,27,0.0,0.0036807249267592,0.0036413779278679,0.0036676068516322,0.9853435987529342,0.0036666915408064,0,0.0,0.0,3
+438,and shes obviously thinking of something else because the waters pouring outover the uh sink somehow or shes gotten bemused and let the sink run over and shes probably looking out the window and missing thewater f overflowing in fact shes thinking about something else because the waters running out onto her feet and her mind must be elsewhere because the water has overflowed the mothers we dont think she might be on drugs because uh shes off someplace because the sinksrunningover,,,and shes obviously thinking of something else because the waters pouring outover the uh sink somehow or shes gotten bemused and let the sink run over and shes probably looking out the window and missing thewater f overflowing in fact shes thinking about something else because the waters running out onto her feet and her mind must be elsewhere because the water has overflowed the mothers we dont think she might be on drugs because uh shes off someplace because the sinksrunningover,0.6585365853658537,9.7939256487473,4.914634146341464,0.1931818181818181,0.1363636363636363,0.125,2.0,8,65.85365853658537,1,0,2,0.0,0.4370071026144139,0.0060137473896937,0.0060665430137063,0.3887259794212558,0.1621866275609302,0,-0.1,0.275,0
+287,that is all that i can see here that is all that i can see here that is all that i can see here that is all that i can see here that is all that i can see here,,,that is all that i can see here that is all that i can see here that is all that i can see here that is all that i can see here that is all that i can see here,0.175,14.523931926025782,3.0,0.0,0.125,0.5,0.0,11,17.5,0,0,0,0.0,0.2,0.2,0.2,0.2,0.2,0,0.0,0.0,1
+371,tell me everything you see going on in that picture tell me everything you see going on in that picture tell me everything you see going on in that picture tell me everything you see going on in that picture,,,tell me everything you see going on in that picture tell me everything you see going on in that picture tell me everything you see going on in that picture tell me everything you see going on in that picture,0.25,12.46428835744321,4.2,0.1,0.3,0.3,0.0,4,25.0,0,0,0,0.0,0.0154704589092118,0.015644558353906,0.0154659520930982,0.458080263842853,0.4953387668009308,0,0.0,0.0,1
+769,"Pat: (3 seconds) Oh.
+Oth: Just, just describe the picture.
+Pat: Right, boy and a girl; boy on a stool which is falling over, girl reaching up. They’ve got to a cookie jar; he’s handing her a cookie. He looks like he’s gonna fall fr, on his back. Mum’s there drying the pots (laughs) the sink’s full and there’s water pooling on the floor; mum seems oblivious, kids are oblivious. Er, there’s a lot of health and safety issues at stake. There’s some pots there that look as if they’ve been dried. Um, and then looking through the window, there’s a bit of a driveway and a bit of a garden, um there’s sort of like square panelled window, there’s some curtains with tiebacks, there’s about si, eight cupboards; the one that’s, with the cookie jar is a jar. Um (1 second) they seem to be quite happy, the boy and the girl, at the moment, till he breaks his neck. Um (1 second) yeah, there’s lots of er issues going off there. Mum’s making sure that the pots are clean. Interesting to see that it’s a woman who’s drying the pots and doing the pots and looking after the children, rather than a man; um (1 second) I suppose that’s par for the course. Er, I can see some trees in the backgro, ground through the window. I can see what looks like the roof of another house and I can see, it looks like shrubs but it could be people, in the distance. Yes, mum, even though she’s standing in the pool of water is totally oblivious and she looks like she’s come off the old Fairy um washing up liquid advert and she’s sorta posing there. Cookie jar is absolutely enormous but, judging by them, they’re not part of the obesity crisis; the, the two children are quite slim. It looks quite a dated um picture, probably 1950s/1960s um circa. Um, I don’t know whether that water’s hot or cold, but if it’s hot then she could burn herself. I can see some handles on the cupboard doors, um, and (1 second) yeah, she’s got like a sleeveless dress on and a, an old-fashioned like pinny over the top of it and knee-length skirt and sort of little pumps on and she’s got her hair sort of to her ears in a sort of bob, with a fringe. Doesn’t look like she’s got makeup on, she’s not wearing glasses. I can’t see that she’s wearing any bracelets, earrings or jewellery at all.
+","Pat: People, politician, project (buzzer sounds) mm, people, politician, project, um (1 second) persuasive, um pretend, um political, propaganda, pneumonia, um (tuts) (1 second) Panasonic, Panama, penile, um (1 second) perjury, um (1 second) pro, er protect, projectile, provision, er provide, profusion, um (1 second) er pretend, preternatural, prerequisite, um (1 second) paternal, paternity, er palm. (sighs) (buzzer sounds)
+","Pat: Dog, cat, wolf, mouse, elephant, ape, chimpanzee, um hen, sheep, bull, cow, fr, frog, um (2 seconds) hippopotamus, camel, er unicorn, um donkey, horse, pig, goat, sheep, um (2 seconds) hare, rabbit, weasel, um (3 seconds) bear (5 seconds) orangutan, monkey (1 second) um (2 seconds) ki, um kitten. (buzzer sounds)
+","Pat: (3 seconds) Oh.
+Oth: Just, just describe the picture.
+Pat: Right, boy and a girl; boy on a stool which is falling over, girl reaching up. They’ve got to a cookie jar; he’s handing her a cookie. He looks like he’s gonna fall fr, on his back. Mum’s there drying the pots (laughs) the sink’s full and there’s water pooling on the floor; mum seems oblivious, kids are oblivious. Er, there’s a lot of health and safety issues at stake. There’s some pots there that look as if they’ve been dried. Um, and then looking through the window, there’s a bit of a driveway and a bit of a garden, um there’s sort of like square panelled window, there’s some curtains with tiebacks, there’s about si, eight cupboards; the one that’s, with the cookie jar is a jar. Um (1 second) they seem to be quite happy, the boy and the girl, at the moment, till he breaks his neck. Um (1 second) yeah, there’s lots of er issues going off there. Mum’s making sure that the pots are clean. Interesting to see that it’s a woman who’s drying the pots and doing the pots and looking after the children, rather than a man; um (1 second) I suppose that’s par for the course. Er, I can see some trees in the backgro, ground through the window. I can see what looks like the roof of another house and I can see, it looks like shrubs but it could be people, in the distance. Yes, mum, even though she’s standing in the pool of water is totally oblivious and she looks like she’s come off the old Fairy um washing up liquid advert and she’s sorta posing there. Cookie jar is absolutely enormous but, judging by them, they’re not part of the obesity crisis; the, the two children are quite slim. It looks quite a dated um picture, probably 1950s/1960s um circa. Um, I don’t know whether that water’s hot or cold, but if it’s hot then she could burn herself. I can see some handles on the cupboard doors, um, and (1 second) yeah, she’s got like a sleeveless dress on and a, an old-fashioned like pinny over the top of it and knee-length skirt and sort of little pumps on and she’s got her hair sort of to her ears in a sort of bob, with a fringe. Doesn’t look like she’s got makeup on, she’s not wearing glasses. I can’t see that she’s wearing any bracelets, earrings or jewellery at all.
+",0.5552941176470588,11.667748283079444,4.301176470588235,0.1666666666666666,0.1098901098901098,0.0989010989010989,0.4615384615384615,8,55.52941176470589,0,1,10,0.0,0.0011463817174745,0.9954022993352878,0.0011501212994631,0.0011420743942263,0.0011591232535481,12,0.1030895691609977,0.5392668178382464,0
+238,and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else,,,and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else and lets see what else,0.125,16.920968618253777,3.6,0.2,0.2,0.2,0.0,9,12.5,0,0,0,0.0,0.0222385359559281,0.0222222532478523,0.0222222927941952,0.0222223039601001,0.9110946140419242,0,0.0,0.0,1
+735,"Pat: (1 second) Er, there’s, a young man’s taking er biscuits out of a tin; he’s about to fall off (1 second) a three-legged stool. Um, his sister or accomplice is waiting to catch the biscuit. His er (1 second) mother is standing beside an open window and obviously is not noticing that the sink’s overflowing and going onto the floor. Outside, there’s a nice path outside with a little bush. The curtains are open. Um (1 second) there’s a cup and a dish with a plate on the, on the si, on the side there. Um (1 second) (tuts) (1 second) er that’s about it really. (1 second) It’s a very plain kitchen, I’ll say that. (3 seconds) Forward, how do you press forward? (1 second) What does he mean by forward? (2 seconds) (sighs) What is forward? (3 seconds) Oh scoot. (sighs)
+","Pat: (Sighs) Wor, wor (buzzer sounds) words beginning with P. Er, pineapple (2 seconds) pine tree (2 seconds) er (1 second) peak (15 seconds) (sighs) (13 seconds) oh, oh what about that. (18 seconds)
+","Pat: Er, horse, dog, cat, elephant, giraffe, tiger, lion, cheetah, puma, um (1 second) monkey, er (1 second) hedgehog (laughs) cow (laughs) um (2 seconds) (tuts) oh goodness me. Bison, er (2 seconds) rabbit, fox, er (2 seconds) (sighs) goodness me. (2 seconds) Er (1 second) rhinoceros, um (tuts) (sighs) (6 seconds) crocodile (1 second) (sighs) (1 second) alligator 
+","Pat: (1 second) Er, there’s, a young man’s taking er biscuits out of a tin; he’s about to fall off (1 second) a three-legged stool. Um, his sister or accomplice is waiting to catch the biscuit. His er (1 second) mother is standing beside an open window and obviously is not noticing that the sink’s overflowing and going onto the floor. Outside, there’s a nice path outside with a little bush. The curtains are open. Um (1 second) there’s a cup and a dish with a plate on the, on the si, on the side there. Um (1 second) (tuts) (1 second) er that’s about it really. (1 second) It’s a very plain kitchen, I’ll say that. (3 seconds) Forward, how do you press forward? (1 second) What does he mean by forward? (2 seconds) (sighs) What is forward? (3 seconds) Oh scoot. (sighs)
+",0.6736111111111112,10.342570294498408,4.375,0.1359223300970873,0.0776699029126213,0.0776699029126213,0.0526315789473684,5,67.36111111111111,2,1,3,0.0,0.0029280147042149,0.9882304994052749,0.0029414701278661,0.0029428392693761,0.0029571764932678,14,-0.0436090225563909,0.2974624060150376,0
+70,"Pat: So there is a scene in a kitchen; there are three people, a mother
+and what looks like two children. Well one of them’s on top of a stool
+trying to get cookies out of the cookie jar, whilst the mother is at the
+sink doing dishes, drying up a plate, but the sink’s overflowing.
+There’s a garden outside with a pathway, some grass, um looks like
+another house, and a tree in the distance. At the window there are
+curtains um either side of it, and the window is open, leading to the
+outside. Er, also looks like the little boy that’s getting the cookies
+out the jar is almost falling off the chair (laughs) and the little girl
+next to him is laughing at his hijinks.
+","Pat: Panda, pineapple, purple, plate, penguin, porcupine, um paper (2
+seconds) popcorn (1 second) um (3 seconds) pear, bleurgh-bleurgh (2
+seconds) oh wow, my mind, my mind’s gone blank. Um (3 seconds) pine
+cone, um (5 seconds) wow, I am terrible at remembering things sometimes.
+Er (1 second) (sighs) (10 seconds) why do I keep thinking of things?
+Wait. (1 second) Paw, paw, pa, pal.
+","Pat: Cat, guinea pig, hamster, rabbit, goldfish, giraffe, elephant,
+rhinoceros, capybara, um porcupine, um (1 second) otter, sea otter,
+sealion, dolphin, um shark, whale, um (1 second) squirrel, er chipmunk,
+um (tuts) parrot, er parakeet, pigeon, um coot, swan, er (1 second)
+goose, duck, um (3 seconds) er ooh. (1 second) A um (1 second) tiger, a
+lion, a leopard, er a panda, a er gecko, a lizard, a snake, er.
+","Pat: So there is a scene in a kitchen; there are three people, a mother
+and what looks like two children. Well one of them’s on top of a stool
+trying to get cookies out of the cookie jar, whilst the mother is at the
+sink doing dishes, drying up a plate, but the sink’s overflowing.
+There’s a garden outside with a pathway, some grass, um looks like
+another house, and a tree in the distance. At the window there are
+curtains um either side of it, and the window is open, leading to the
+outside. Er, also looks like the little boy that’s getting the cookies
+out the jar is almost falling off the chair (laughs) and the little girl
+next to him is laughing at his hijinks.
+",0.6434108527131783,10.423632989112477,4.1937984496124034,0.2098765432098765,0.0987654320987654,0.0617283950617283,0.4,9,64.34108527131784,3,1,2,0.0,0.0037506912205333,0.9847518871677828,0.0038310735083886,0.0038183069302077,0.0038480411730872,4,0.0178571428571428,0.3,0
+27,"Pat: Um (1 second) there’s a mum and a boy and a girl in a kitchen;
+mum’s doing the wa, washing up, by the looks of it. There’s water on the
+floor. (1 second) She’s got some curtains hanging out where she’s
+looking out the window, possibly. (1 second) Her son has climbed up to
+the cookie jar and is passing the cookies, cookies (1 second) down to
+his sister whilst the stool’s (1 second) falls over. (3 seconds) (sighs)
+Dunno, dunno what else there is say.
+","Pat: Ooh God. (laughs)
+Oth: (1 second) P.
+Pat: P, anything for P?
+Oth: Yeah.
+Pat: (1 second) A thing?
+Oth: Yeah.
+Pat: (2 seconds) Um, a print, um (1 second) a photograph. (1 second)
+(sighs)
+Oth: Any word beginning with P.
+Pat: Oh word.
+Oth: Any word (1 second) it doesn’t have to be a thing; it, it’s just a
+word beginning with P.
+Pat: Pin (1 second) punch (1 second) play (2 seconds) photograph; no,
+that’s no good. (1 second) Um. (sighs)
+Oth: Go through the alphabet.
+Pat: (Sighs) (sniffs).
+Oth: PA, PO, PE, PR.
+Pat: (1 second) A (1 second) E; no, you want a P, A, P, no. (sighs)
+","Pat: (Sighs) (3 seconds) Dog (sighs) cat (1 second) bird (sighs) mouse,
+hamster (5 seconds) mm (sighs) (1 second) budgerigar, parrot (3 seconds)
+what, any?
+Oth: Any.
+Pat: Anything. Oh snake, frog, beetle, butterfly, er (sighs) um (sighs)
+(sniffs) (1 second) (sighs) (3 seconds) oh stuck. (6 seconds) No. (2
+seconds) Fish. (sighs)
+","Pat: Um (1 second) there’s a mum and a boy and a girl in a kitchen;
+mum’s doing the wa, washing up, by the looks of it. There’s water on the
+floor. (1 second) She’s got some curtains hanging out where she’s
+looking out the window, possibly. (1 second) Her son has climbed up to
+the cookie jar and is passing the cookies, cookies (1 second) down to
+his sister whilst the stool’s (1 second) falls over. (3 seconds) (sighs)
+Dunno, dunno what else there is say.
+",0.7471264367816092,9.419111649242806,4.264367816091954,0.1666666666666666,0.0873015873015873,0.0714285714285714,0.0,5,74.71264367816092,2,0,1,0.0,0.0049723657360167,0.862136440167611,0.1227673197871786,0.004932101668185,0.0051917726410084,7,-0.0259259259259259,0.0481481481481481,2
+73,"Pat: It looks like things, it looks like; it’s in a kitchen, it’s a
+kitchen scene, um, and it looks like there’s a few accidents that are
+about to happen. We have mum stood at the sink washing up and the sink
+is overflowing onto the floor causing a, a, perhaps a potential slip
+hazard, um, or potential flooding um if she doesn’t turn the taps off.
+We have two children who are trying to get to a cookie jar on the top
+shelf of one of the cupboards. Um, the girl’s stood on the floor
+reaching up for a cookie whilst the boy is stood on a stool which is
+starting to tip over and he has his hand in the cookie jar. So the
+stool’s starting to tip over and it looks like he could um end up
+falling on the floor when it does. Um (1 second) mum’s; the sink is near
+the window and we can see out of the window that there’s um what looks
+like a nice garden, um, and we can see that there’s um some cups and a
+plate on the side, either to wash up or that have been washed up. Um (1
+second) that’s as much as I can say really without starting to repeat
+myself.
+","Pat: Please, pancake, pan, popular, pleasant, pacify, pacifist, er
+public, prototype, parrot (1 second) um (1 second) polish (1 second)
+predictable, process, product (2 seconds) um pragmatic, politician,
+politics (1 second) er party (1 second) pebble (1 second) portable (1
+second) precious, princess (2 seconds) um (1 second) paddle. (2 seconds)
+","Pat: Panda, dog, cat, snake, parrot, um lion, llama, um alpaca, um bear,
+um cheetah, um (3 seconds) er (1 second) polar bear, um (2 seconds)
+let’s see what else. Kangaroo, er marmoset, um alligator, crocodile, um
+donkey, horse, er lizard, um fish, er (3 seconds) fox, badger (1 second)
+stoat, weasel (1 second) um. (2 seconds)
+","Pat: It looks like things, it looks like; it’s in a kitchen, it’s a
+kitchen scene, um, and it looks like there’s a few accidents that are
+about to happen. We have mum stood at the sink washing up and the sink
+is overflowing onto the floor causing a, a, perhaps a potential slip
+hazard, um, or potential flooding um if she doesn’t turn the taps off.
+We have two children who are trying to get to a cookie jar on the top
+shelf of one of the cupboards. Um, the girl’s stood on the floor
+reaching up for a cookie whilst the boy is stood on a stool which is
+starting to tip over and he has his hand in the cookie jar. So the
+stool’s starting to tip over and it looks like he could um end up
+falling on the floor when it does. Um (1 second) mum’s; the sink is near
+the window and we can see out of the window that there’s um what looks
+like a nice garden, um, and we can see that there’s um some cups and a
+plate on the side, either to wash up or that have been washed up. Um (1
+second) that’s as much as I can say really without starting to repeat
+myself.
+",0.5462962962962963,11.547546921613586,3.865740740740741,0.1380597014925373,0.1380597014925373,0.1044776119402985,1.0,11,54.629629629629626,1,0,10,0.0,0.0023393206094813,0.8382478929099288,0.154742803368072,0.0023245038875932,0.0023454792249246,4,0.1076923076923076,0.3615384615384615,0
+71,"Pat: (2 seconds) This looks like a mother (1 second) that is distracted;
+she’s got the sink overflowing with water while she’s doing dishes.
+She’s no doubt got the kids driving her crazy. One boy (1 second) on a
+step-stool (1 second) reaching into a cookie jar; looks like the stool’s
+falling over so he’s gonna fall and maybe bonk his head. His little
+sister’s asking for a cookie and she’s kinda laughing (1 second) and it
+is just a very chaotic scene. Looks like there’s, you know, an open
+window with a view to the outside that’s above the sink. Um, can’t tell
+what kinda day it is cos it’s a black and white picture. (1 second)
+That’s it.
+","Pat: Pizza, parable, plum, perfume, pardon (1 second) purse, palatable
+(1 second) plantation, planet, planted (1 second) plume (5 seconds)
+penalty, penitentiary, pending (3 seconds) pellet (2 seconds) persevere
+(1 second) pumping, professional, pipe, pipeline, preparation (2
+seconds) (tuts) (1 second) mm (1 second) pony (2 seconds) par, parse,
+part.
+","Pat: Lion, tiger (1 second) bear, snake, koala bear, kangaroo, monkey,
+elephant, zebra, giraffe, hippopotamus, squirrel, bat, bird (1 second)
+dog (sighs) cat, rabbit (1 second) hamster (1 second) gerbil (2 seconds)
+um (1 second) shark (1 second) fish, whale, dolphin (6 seconds) keep
+going. Um (3 seconds) emu, ostrich (1 second) ape (1 second) alligator,
+crocodile.
+","Pat: (2 seconds) This looks like a mother (1 second) that is distracted;
+she’s got the sink overflowing with water while she’s doing dishes.
+She’s no doubt got the kids driving her crazy. One boy (1 second) on a
+step-stool (1 second) reaching into a cookie jar; looks like the stool’s
+falling over so he’s gonna fall and maybe bonk his head. His little
+sister’s asking for a cookie and she’s kinda laughing (1 second) and it
+is just a very chaotic scene. Looks like there’s, you know, an open
+window with a view to the outside that’s above the sink. Um, can’t tell
+what kinda day it is cos it’s a black and white picture. (1 second)
+That’s it.
+",0.725,9.888065476486952,4.366666666666666,0.1294117647058823,0.1235294117647058,0.1117647058823529,0.4444444444444444,7,72.5,2,0,1,0.0,0.003380956295612,0.8692025197437213,0.1205499319398394,0.0034537194485898,0.0034128725722373,8,-0.1074404761904762,0.2702380952380952,0
+83,a tree and some shrubs theres uh supposedly leaves on the trees,,,a tree and some shrubs theres uh supposedly leaves on the trees,1.0,5.202259720982909,4.333333333333333,0.2307692307692307,0.0769230769230769,0.0769230769230769,0.0,3,100.0,0,1,1,0.0,0.0251997073444052,0.0250782554064752,0.0251881900938014,0.0251734941882088,0.8993603529671093,0,0.0,0.0,0
+366,the lady is wiping dishes uh the the woman is wiping the dishes the lady is wiping a plate while the sink overflows the wife is wiping the dish uh s womans wiping the dishes,,,the lady is wiping dishes uh the the woman is wiping the dishes the lady is wiping a plate while the sink overflows the wife is wiping the dish uh s womans wiping the dishes,0.4571428571428571,9.488709577973124,3.971428571428572,0.3142857142857143,0.1714285714285714,0.0,1.0,8,45.71428571428572,0,0,2,0.0,0.0104456982777389,0.2973711048525917,0.0101328825266492,0.671995123525024,0.0100551908179959,1,0.0,0.0,0
+687,and heres a boy evidently and heres a boy evidently and heres a boy evidently and heres a boy evidently,,,and heres a boy evidently and heres a boy evidently and heres a boy evidently and heres a boy evidently,0.25,9.944933413925623,4.2,0.2,0.2,0.0,0.0,4,25.0,0,0,0,0.0,0.0154581791862118,0.0154349691431665,0.938328968914461,0.0153917365240171,0.0153861462321433,0,0.25,0.25,1
+253,and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever,,,and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever and the uh s theres another woman there sharing their pleasures or whatever,0.25,13.300673048006876,4.846153846153846,0.1428571428571428,0.1428571428571428,0.2142857142857142,0.0,6,25.0,0,0,4,0.0,0.9614899287192477,0.0095708494832059,0.0096605058793105,0.0095861719247475,0.0096925439934884,0,0.0,0.0,1
+20,"Pat: (?) there’s an overflow on the si, sink, er three people, three
+people in the picture; one had a female, one youth, boy, and one a girl.
+The boy is standing very er on, wiggly on a chair which he’s going to
+fall off and er do himself a lot of damage.
+","Pat: (?) (3 seconds) er no I fi, find this thing rather (1 second) daft
+trying to think of a letter with a word beginning with a le, a letter P;
+none just come to mind, it just doesn’t, doesn’t work that way. Er,
+personal; I’m now gonna be um (1 second) er cheating. Postcode,
+pavement, proxy, prison; oh I find this (1 second) difficult (?) having
+to drag out, drag out names which are sitting on the, on the top of your
+head. (27 seconds)
+","Pat: Dog, cat, giraffe, lion, mouse, cow, um really find this difficult animals. Horse, calf,
+er what you see in a zoo, er I don’t really know. Um, this find it’s
+difficult to, it’s not a question I expect anybody to answer, so I don’t
+know what I’m gonna do for the next twenty-four minutes because I just
+can’t think of more animals and I don’t want to repeat ones I’ve already
+mentioned for (?) to your questionnaire, I do not spend my day thinking
+about animals, thank you. I’ve still got nineteen to go and you’re
+getting no more animals out of me, I’m afraid. (1 second) So fourteenth,
+twelve, eleven, ten, nine, eight, seven, six, five, four, three, two,
+one.
+","Pat: (?) there’s an overflow on the si, sink, er three people, three
+people in the picture; one had a female, one youth, boy, and one a girl.
+The boy is standing very er on, wiggly on a chair which he’s going to
+fall off and er do himself a lot of damage.
+",0.7924528301886793,8.523465737488747,3.830188679245283,0.1527777777777778,0.0833333333333333,0.0694444444444444,0.0,7,79.24528301886792,0,0,0,0.0,0.0101307327856855,0.9594144113425478,0.0102609013926954,0.010137588344007,0.0100563661350643,4,-0.1833333333333333,0.4888888888888889,2
+574,cups and plates are sitting on the counter um  cups are sitting on the counter plates sitting onthecounter there are two cups on the counter one plate there are two cups and the handles are in opposite directions and there are two cups on the table and the cups and saucer the cups and the saucer are on the side oh well theres a plate and two cups on the counter theres two cups and this plate on the counter uh the cup two cups and uh a dish on the counter top uh  hm  two cups on the counter  a plate theres two tea k coffee cups a saucer a plate i see two cups and a plate on the right hand side there are two cups and a plate on the counter there are two cups and a plate on the counter and theres a cup uh theres two cups and plate that shes that are sitting on the counter theres a cup two cups and a plate on the counter beside um there are cup two cups and a plate on the counter theres a cup two cups and a plate sitting on the counter top on the counter we have two cups and a plate and theres two cups and a plate on the counter top the ta theres a plate two sau two cups theres a plate and two cups sitting on the cabinet,,,cups and plates are sitting on the counter um  cups are sitting on the counter plates sitting onthecounter there are two cups on the counter one plate there are two cups and the handles are in opposite directions and there are two cups on the table and the cups and saucer the cups and the saucer are on the side oh well theres a plate and two cups on the counter theres two cups and this plate on the counter uh the cup two cups and uh a dish on the counter top uh  hm  two cups on the counter  a plate theres two tea k coffee cups a saucer a plate i see two cups and a plate on the right hand side there are two cups and a plate on the counter there are two cups and a plate on the counter and theres a cup uh theres two cups and plate that shes that are sitting on the counter theres a cup two cups and a plate on the counter beside um there are cup two cups and a plate on the counter theres a cup two cups and a plate sitting on the counter top on the counter we have two cups and a plate and theres two cups and a plate on the counter top the ta theres a plate two sau two cups theres a plate and two cups sitting on the cabinet,0.1924686192468619,18.387850803139685,3.7322175732217575,0.2992125984251969,0.1023622047244094,0.0787401574803149,0.5,9,19.246861924686197,0,0,6,0.0,0.0020014532503509,0.0020152603296564,0.9918654241887718,0.0021166723716847,0.002001189859536,19,0.3571428571428571,0.4071428571428571,0
+511,uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar,,,uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar uh  lid is off of the cookie jar,0.1666666666666666,15.59352689575142,3.0,0.3333333333333333,0.0,0.0,0.0,8,16.666666666666664,0,0,6,0.0,0.0080743081280561,0.0080454717815307,0.9677500074218786,0.0080836024437518,0.0080466102247827,0,0.0,0.0,3
+154,father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet,,,father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet father didnt come in yet,0.125,16.920968618253777,4.0,0.0,0.1666666666666666,0.0,0.0,2,12.5,0,0,0,0.0,0.0080833696637108,0.0080110776210808,0.0080000582152578,0.9678942133269643,0.0080112811729861,0,0.0,0.0,1
+209,a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back,,,a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back a uh you can see through the window the curtains are pulled back,0.1846153846153846,15.963527173919486,4.0,0.1538461538461538,0.1538461538461538,0.1538461538461538,0.0,3,18.461538461538463,0,0,5,0.0,0.0096247057092573,0.0095537529891212,0.0095954607742236,0.009637440757683,0.9615886397697144,0,0.0,0.0,3
+31,"Pat: (6 seconds) Er (3 seconds) two children er (2 seconds) one’s
+climbing on a cha, on a stool and it’s falling o, he’s falling over.
+There’s a wife getting her feet wet er cos the sink’s overflowing. Er,
+there’s a window open (1 second) and it looks like there’s wind blowing.
+She’s, the wife is er cleaning pots (1 second) er, and the kids are
+trying to get a (1 second) jam cookie, I think, on, out of the top (1
+second) cupboard. Er (sighs) there’s curtains at the window; the window
+is half open. There’s a (1 second) some, looks like utensils (1 second)
+on the er side (1 second) and there are one, two, three, four, five,
+six, seven, eight, nine, looks like ten er (1 second) cupboard
+doors. (2 seconds) Mm.
+","Pat: (1 second) People, oh (sighs) not; sorry, sorry. Panda (3 seconds)
+oh I can’t think of many (1 second) that’s got me stumped. (2 seconds)
+Panda (8 seconds) as many words beginning with P.
+Oth: Psst psst that one that one here that one here.
+Pat: Letters (1 second) beginning with P except for people’s names.
+Oth: People.
+Pat: People.
+Oth: Pupil.
+Pat: Pupils, poppy (laughs) er pirates (3 seconds) Penzance.
+Oth: That’s a place; you can’t name a place.
+Pat: Peterborough.
+","Pat: Rabbit, fish (2 seconds) er (5 seconds) er hamsters, guinea pigs (1
+second) er rats, um, er what else we had? Goldfish, koi carp.
+Oth: (?).
+Pat: Er, we’ve er (1 second) trying to think. Ca, we’ve had, well.
+Oth: No, what we’ve had, but how many animals as you can.
+Pat: Er, um.
+Oth: Think of.
+Pat: Er, deer; that’s about it, finish question. (7 seconds) (sighs) Oh.
+Oth: A fish in’t an animal. (laughs)
+Pat: Well a fish is a, a, a; er whale, er.
+Oth: Fish. (laughs) (?).
+Pat: (Laughs) Well I’m trying to think. Er, cow, sheep.
+","Pat: (6 seconds) Er (3 seconds) two children er (2 seconds) one’s
+climbing on a cha, on a stool and it’s falling o, he’s falling over.
+There’s a wife getting her feet wet er cos the sink’s overflowing. Er,
+there’s a window open (1 second) and it looks like there’s wind blowing.
+She’s, the wife is er cleaning pots (1 second) er, and the kids are
+trying to get a (1 second) jam cookie, I think, on, out of the top (1
+second) cupboard. Er (sighs) there’s curtains at the window; the window
+is half open. There’s a (1 second) some, looks like utensils (1 second)
+on the er side (1 second) and there are one, two, three, four, five,
+six, seven, eight, nine, looks like ten er (1 second) cupboard
+doors. (2 seconds) Mm.
+",0.6222222222222222,10.605079846935634,4.303703703703704,0.1483253588516746,0.0765550239234449,0.062200956937799,0.2,6,62.22222222222222,0,0,0,0.0,0.0031251095575981,0.9223352326033516,0.00312016512268,0.0031060191492695,0.0683134735671006,24,-0.0344444444444444,0.2044444444444444,2
+448,um view of the yard and the kitchen window with its curtain anyway and the kitchen window has curtains there are curtains in the kitchen and uh theres the uh drapes on the kitchen uh the curtains on the kitchen and the the cabinets all around the sink has a pretty nice kitchen like uh pretty nice curtains on it,,,um view of the yard and the kitchen window with its curtain anyway and the kitchen window has curtains there are curtains in the kitchen and uh theres the uh drapes on the kitchen uh the curtains on the kitchen and the the cabinets all around the sink has a pretty nice kitchen like uh pretty nice curtains on it,0.5,10.339046153673465,4.216666666666667,0.2950819672131147,0.0655737704918032,0.0655737704918032,0.0,6,50.0,1,0,5,0.0,0.0876180920763483,0.0067729800707342,0.006733033264237,0.0067103462000979,0.8921655483885824,0,0.425,1.0,0
+718,"Pat: There’s a boy going in the cupboard er, er trying to get some
+cookies; the chair is falling over er so he’s gonna fall down. The mum
+is, don’t look like she’s contra, concentrating cos she’s washing and
+thinking. The sink’s overflowing er with water; well she’s stepped in
+the water, she doesn’t seem to care. The window’s open looking in the
+garden. Um (3 seconds) the girl looking like she wants some cookies.
+","Pat: Potato, people, picture, prophecy, password (3 seconds) um picture,
+portrait, pen (3 seconds) puzzle (2 seconds) um (2 seconds) price, price
+tag, prize ra (laughs) prize, prizes, polish (2 seconds) pathetic,
+paedophile, paint, point (2 seconds) um paragraph, paraphernalia (4
+seconds) er (1 second) property.
+","Duck, goat, pig, elephant, crocodile, giraffe, horse, pony (1 second) er
+birds, um bee, um (1 second) octopus, fish, shark, um (2 seconds) um
+(laughs) gosh, um (2 seconds) dog, cat; I’ve done that. Goat, er (1
+second) turtle (1 second) swan (1 second) um (3 seconds) um monkey (2
+seconds) ape (2 seconds) um (1 second) gosh, it’s harder than you think,
+this. Um (1 second) bird again, swan lake, swan (laughs) giraffe, duck
+(1 second) um (1 second) pig (2 seconds) er.
+","Pat: There’s a boy going in the cupboard er, er trying to get some
+cookies; the chair is falling over er so he’s gonna fall down. The mum
+is, don’t look like she’s contra, concentrating cos she’s washing and
+thinking. The sink’s overflowing er with water; well she’s stepped in
+the water, she doesn’t seem to care. The window’s open looking in the
+garden. Um (3 seconds) the girl looking like she wants some cookies.
+",0.7733333333333333,9.109839929341016,4.56,0.1428571428571428,0.1523809523809524,0.0666666666666666,0.6,5,77.33333333333333,1,1,1,0.0,0.0051043840989364,0.97952380352619,0.0051565429742172,0.005055982354485,0.0051592870461712,2,0.0148148148148148,0.2962962962962963,0
+435,and she has two cups and a plate on the table and she has two cups and a plate on the table and she has two cups and a plate on the table and she has two cups and a plate on the table,,,and she has two cups and a plate on the table and she has two cups and a plate on the table and she has two cups and a plate on the table and she has two cups and a plate on the table,0.2272727272727272,13.303822050447856,3.1818181818181817,0.2727272727272727,0.0909090909090909,0.0909090909090909,0.0,5,22.727272727272727,0,0,0,0.0,0.0153848404203033,0.0154871503121725,0.9383582357545932,0.0153847948167799,0.0153849786961512,4,0.0,0.0,1
+283,and looking out the window uh its probably in the spring or summer of the year uh its obviously summer because the window as i said was open and obviously its spring or summer because the plants are blooming outside through the uh kitchen window its apparently summer outside because the windows open and it looks like shrubs are growing and uh its summer outside because the windows open and the grasses or the bushes look healthy,,,and looking out the window uh its probably in the spring or summer of the year uh its obviously summer because the window as i said was open and obviously its spring or summer because the plants are blooming outside through the uh kitchen window its apparently summer outside because the windows open and it looks like shrubs are growing and uh its summer outside because the windows open and the grasses or the bushes look healthy,0.4935064935064935,10.842245576652,4.6103896103896105,0.2337662337662337,0.0779220779220779,0.0909090909090909,3.0,5,49.35064935064935,1,0,4,0.0,0.0052907115771572,0.0053023389347303,0.0052865749336167,0.0052979467964072,0.9788224277580884,7,0.055,0.35,0
+264,and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar,,,and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar and the little boys gonna break his neck  trying to get into the cookie jar,0.1866666666666666,16.33509262031493,4.0,0.2352941176470588,0.2352941176470588,0.0588235294117647,0.0,6,18.666666666666668,0,0,0,0.0,0.2624725621678196,0.0049352923251999,0.7228288750548953,0.0048826874345212,0.0048805830175636,0,-0.1875,0.5,1
+153,it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over,,,it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over it seemed like theres water spl splattered over,0.2,13.701255839783723,5.0,0.2222222222222222,0.3333333333333333,0.2222222222222222,5.0,5,20.0,0,0,0,0.0,0.7034514527443044,0.0077731902411441,0.0077747235503,0.0077221279730143,0.2732785054912369,0,0.0,0.0,1
+486,and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out,,,and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out and the k the ladder is falling over when hes getting the cookies out,0.2142857142857142,14.460199572354314,4.0,0.1333333333333333,0.1333333333333333,0.0666666666666666,0.0,4,21.428571428571427,1,0,0,0.0,0.0095622030769298,0.0095827981909498,0.9614119396388248,0.0099191467683392,0.0095239123249563,0,0.0,0.0,1
+111,it must be a gentle breeze looks like the breeze is blowing in uh the breeze might be blowing,,,it must be a gentle breeze looks like the breeze is blowing in uh the breeze might be blowing,0.7368421052631579,6.719303068952157,3.947368421052632,0.1578947368421052,0.1578947368421052,0.0526315789473684,1.0,4,73.68421052631578,0,0,1,0.0,0.0200956668875348,0.0200891047505931,0.0200928736702499,0.0201271505816346,0.9195952041099874,0,0.2,0.8,0
+665,theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar,,,theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar theres a child reaching on a cookie jar,0.1458333333333333,16.577529284110394,4.0,0.3333333333333333,0.2222222222222222,0.1111111111111111,0.0,9,14.583333333333334,0,0,0,0.0,0.0064694657937191,0.0065101881212909,0.9740717878345884,0.0064526788742207,0.0064958793761808,0,0.0,0.0,1
+638,and she doesnt seem to notice it and she doesnt seem to be aware of it,,,and she doesnt seem to notice it and she doesnt seem to be aware of it,0.625,6.660574354584019,3.4375,0.0,0.1666666666666666,0.2222222222222222,0.0,5,62.5,0,0,0,0.0,0.8366835055566294,0.0405672214855797,0.0400023147190037,0.0407737253204065,0.0419732329183805,0,0.25,0.25,0
+586,and shes wiping the dish with two towels and um the uh while shes drying the dish with the dish with the towel the sink is running over and a lady is drying a dish um she has a dish cloth in her right hand dish towel in her right hand the lady is drying a dish  with a towel she has a dish towel in her hand wa doing drying one of the dishes,,,and shes wiping the dish with two towels and um the uh while shes drying the dish with the dish with the towel the sink is running over and a lady is drying a dish um she has a dish cloth in her right hand dish towel in her right hand the lady is drying a dish  with a towel she has a dish towel in her hand wa doing drying one of the dishes,0.4133333333333333,11.5877182885136,3.546666666666667,0.2435897435897435,0.1153846153846153,0.1025641025641025,1.0,8,41.333333333333336,0,0,3,0.0,0.0441645107450454,0.3114899168791806,0.0056793180953248,0.6330715696244729,0.0055946846559762,1,0.2857142857142857,0.5357142857142857,0
+522,she got yeah she got that running on the floor she got yeah she got that running on the floor she got yeah she got that running on the floor,,,she got yeah she got that running on the floor she got yeah she got that running on the floor she got yeah she got that running on the floor,0.2666666666666666,11.17142659616627,3.7,0.1,0.3,0.3,0.0,3,26.666666666666668,0,0,0,0.0,0.5221155303855106,0.439999870753521,0.0127131703169427,0.0126612415362001,0.0125101870078255,0,0.0,0.0,1
+620,and outside the window theres a walk with a c curved walk with a garden ou you can look out the window and see the shrubbery and outside you can see the walk and the shrubbery outside you can see outside there the the walk way and hedges a windowtree uh there are mm theres shrubbery to the left of the path i can see the grass and some shrubbery outsideandthe house nextdoor a walk outside with trees and grass,,,and outside the window theres a walk with a c curved walk with a garden ou you can look out the window and see the shrubbery and outside you can see the walk and the shrubbery outside you can see outside there the the walk way and hedges a windowtree uh there are mm theres shrubbery to the left of the path i can see the grass and some shrubbery outsideandthe house nextdoor a walk outside with trees and grass,0.45,11.313177319307236,4.15,0.2560975609756097,0.1219512195121951,0.0853658536585365,0.0,9,45.0,0,1,1,0.0,0.0062946232798522,0.0063085644883541,0.0062665603368156,0.0062593646842714,0.9748708872107064,1,0.0,0.0416666666666666,0
+577,he looks just about ready to tumble he looks just about ready to tumble,,,he looks just about ready to tumble he looks just about ready to tumble,0.5,6.782119313654422,4.142857142857143,0.0,0.2857142857142857,0.1428571428571428,0.0,3,50.0,0,0,0,0.0,0.0225063587677497,0.6917473236236933,0.2409064909299286,0.022253527901841,0.0225862987767871,0,0.2,0.5,2
+696,"Pat: (4 seconds) Oh (1 second) it’s in a kitchen scene. Er, the lady at
+the sink is in difficulties because the sink is overflowing onto the
+floor; she needs to call her insurance company er right away, but
+they’ll sort it all out, I’ve no doubt. Um, there’s er a view out the
+window and her lawn and I can see some trees and grass growing, and I
+think there’s a scaffold out there. There’s a few dishes on the worktop;
+two, two what looks like cups and a plate. And the curtains have got
+tiebacks on them. And er there’s er a little girl standing on the ground
+and what I presume is her brother is balancing very precariously on a
+stool on two legs (laughs) I think he’s gonna be on the ground pretty
+shortly. He’s at the cookies, cookie jar and he’s, she’s about to
+receive one, um, and I think the whole jar could be, is going to be on
+the ground very shortly. Er, the er kitchen has got low level (tuts) er
+cupboards round, and worktop, and the high level cupboard, which the boy
+is er stealing the cookies in.
+","Pat: (Sighs) Er, papa (1 second) P, er (1 second) power sta; that
+probably doesn’t count. (laughs) Um, proper, er prostitute (laughs) P,
+P, um pope, er, er popcorn, um, er piss (laughs) penis (laughs) proper,
+um (1 second) phenomenal, er probably, possibly, er, er (1 second)
+postulate, um (1 second) participate, er (1 second) precipitate, er put,
+pull (laughs) er pink, er pile, um P, P, P, P. (laughs)
+","Pat: Sheep, cows, calves, er (1 second) (tuts) elephants, er kangaroos,
+tigers, lions, er pumas, er big cats, wee cats, pussy cats, um (tuts) (1
+second) er phew (laughs) I’m struggling. (laughs) Er (tuts) animals? Er
+(1 second) mice, rats, er skunks, um (1 second) er phew, phew, phew.
+(laughs) Otters, um te, um (?) live in the water? Er, mm, mm, er yes.
+(laughs) Um (1 second) er wildcats; we’ve covered the cats. Er, just, I
+just, just feel so stupid that I can’t remember anymore. (laughs) Er
+(tuts) um, mm-mm-mm.
+","Pat: (4 seconds) Oh (1 second) it’s in a kitchen scene. Er, the lady at
+the sink is in difficulties because the sink is overflowing onto the
+floor; she needs to call her insurance company er right away, but
+they’ll sort it all out, I’ve no doubt. Um, there’s er a view out the
+window and her lawn and I can see some trees and grass growing, and I
+think there’s a scaffold out there. There’s a few dishes on the worktop;
+two, two what looks like cups and a plate. And the curtains have got
+tiebacks on them. And er there’s er a little girl standing on the ground
+and what I presume is her brother is balancing very precariously on a
+stool on two legs (laughs) I think he’s gonna be on the ground pretty
+shortly. He’s at the cookies, cookie jar and he’s, she’s about to
+receive one, um, and I think the whole jar could be, is going to be on
+the ground very shortly. Er, the er kitchen has got low level (tuts) er
+cupboards round, and worktop, and the high level cupboard, which the boy
+is er stealing the cookies in.
+",0.6142131979695431,10.964101458692774,4.152284263959391,0.1705426356589147,0.1007751937984496,0.1007751937984496,0.0909090909090909,7,61.42131979695431,2,2,2,0.0,0.0023808693058142,0.9342358809483392,0.0024202332165767,0.0023803027083957,0.0585827138208742,6,-0.0185989010989011,0.4435164835164835,2
+528,girl has her hand up to her mouth the girl is possibly moving her finger towards her mouth and reachingforacookie the girl is possibly moving her finger towards her mouth and reachingforacookie,,,girl has her hand up to her mouth the girl is possibly moving her finger towards her mouth and reachingforacookie the girl is possibly moving her finger towards her mouth and reachingforacookie,0.46875,9.17856547116828,5.0625,0.34375,0.09375,0.1875,0.0,5,46.875,0,0,0,0.0,0.1348947346762923,0.2044766702288834,0.241826967749851,0.4062906832145658,0.0125109441304072,0,0.0,1.0,0
+272,hes trying to get a cookie hes trying to get a cookie hes trying to get a cookie hes trying to get a cookie,,,hes trying to get a cookie hes trying to get a cookie hes trying to get a cookie hes trying to get a cookie,0.25,10.640280706355012,3.5,0.1428571428571428,0.2857142857142857,0.1428571428571428,0.0,11,25.0,0,0,0,0.0,0.015384657955902,0.0156291136894101,0.9381529459920712,0.0154486149257331,0.0153846674368835,0,0.0,0.0,1
+168,the sister wants him to hand her a cookie the sister wants him to hand her a cookie the sister wants him to hand her a cookie,,,the sister wants him to hand her a cookie the sister wants him to hand her a cookie the sister wants him to hand her a cookie,0.3333333333333333,9.910447540404558,3.6666666666666665,0.2222222222222222,0.2222222222222222,0.2222222222222222,0.0,4,33.33333333333333,0,0,0,0.0,0.0153846829128476,0.0154900091441294,0.9383446080681926,0.0153922828657306,0.0153884170090995,0,0.2,0.1,1
+175,and the girl is signaling to be quiet  not to let her mother know that the boy is getting the cookieforher,,,and the girl is signaling to be quiet  not to let her mother know that the boy is getting the cookieforher,0.8095238095238095,6.737131438342492,4.047619047619048,0.1818181818181818,0.1818181818181818,0.0454545454545454,1.0,6,80.95238095238095,1,0,0,0.0,0.0254320597638171,0.0252803553273777,0.5204326452180129,0.4038083509405778,0.0250465887502143,0,0.0,0.3333333333333333,0
+36,"Pat: OK, so there’s a lady washing up at the sink and the sink is
+overflow, flowing with water, the water is going onto the floor, she is
+standing in the puddle that’s on the floor. There’s a young boy standing
+on a three-legged chair trying to pinch the cookies from the cookie jar
+but it looks as if it’s going to fall over so he’ll get injured. The lid
+is off the cookie jar but the cookie jar is, the cookies are coming out.
+It looks er, there’s a little girl there which is waiting for one of the
+cookies to be passed to her; she’d stood in the floor. The cupboard door
+is open. There is a er window which is, has got curtains and outside the
+curtains you can see the side of a house and a path leading towards the
+house in which they er, the image is, is shown. There are kitchen units,
+there are one, two, three, four, five, six, seven, eight drawers visible
+on the er (1 second) on the units; some have handles, some don’t have
+handles. The er, the top window has a um (tuts) er a square er frame
+within it, um there are also some plates and cutl, um cups and crockery
+on the side of the unit. Um (2 seconds) the lady seems to be wearing a,
+a pinny and she’s drying the dishes with a tea towel.
+","Pat: pen, pencil (5 seconds) plate (1 second) placemat (1 second)
+pepper, piccolo, papa (4 seconds) primrose (1 second) pe, pedigree,
+puppy, pet (1 second) participate, play (1 second) premise (1 second)
+push, pull (8 seconds) plywood (1 second) pincer, pliers (1 second)
+pivot, practical, ple.
+","Pat: (?) ant (3 seconds) baboon, chicken, elephant, dog, cat, guinea
+pig, hamster, rabbit (2 seconds) giraffe, el, um tiger, lion (1 second)
+cheetah (sighs) whale, fish, shark (3 seconds) eagle, osprey (1 second)
+hawk (1 second) buzzard (1 second) thrush, starling (1 second) sparrow
+(5 seconds) slowworm, lizard, snake, cobra.(2 seconds)
+","Pat: OK, so there’s a lady washing up at the sink and the sink is
+overflow, flowing with water, the water is going onto the floor, she is
+standing in the puddle that’s on the floor. There’s a young boy standing
+on a three-legged chair trying to pinch the cookies from the cookie jar
+but it looks as if it’s going to fall over so he’ll get injured. The lid
+is off the cookie jar but the cookie jar is, the cookies are coming out.
+It looks er, there’s a little girl there which is waiting for one of the
+cookies to be passed to her; she’d stood in the floor. The cupboard door
+is open. There is a er window which is, has got curtains and outside the
+curtains you can see the side of a house and a path leading towards the
+house in which they er, the image is, is shown. There are kitchen units,
+there are one, two, three, four, five, six, seven, eight drawers visible
+on the er (1 second) on the units; some have handles, some don’t have
+handles. The er, the top window has a um (tuts) er a square er frame
+within it, um there are also some plates and cutl, um cups and crockery
+on the side of the unit. Um (2 seconds) the lady seems to be wearing a,
+a pinny and she’s drying the dishes with a tea towel.
+",0.5791666666666667,11.335240620857473,4.0125,0.1785714285714285,0.1071428571428571,0.0811688311688311,0.3,10,57.91666666666667,2,0,4,0.0,0.0021636598085254,0.9914151794034224,0.0021524211392002,0.0021323245346852,0.0021364151141666,13,0.1303571428571428,0.35,0
+765,"Pat: Um, er the mother is wiping the pots and the sink is overflowing with water. Um (2 seconds) er and the children, one, the little boy’s stood on a stool reaching the jar of biscuits in the cupboard and the little girl, the little girl’s standing at the side of him reaching out for him to pass her the biscuits. And outside the window um I can’t really see anything that’s happening out there. Um, er the, the stool is er tippling over with the little boy on so he’s gonna fall in a minute.
+","Pat: Pen, paper, prime, er premium, pepper, er person, people, principle, partial, er perhaps, er penny, er penguin, er (5 seconds) past, er, er passage, er pen, er paper, er (2 seconds) piece, er pensive (3 seconds) er (3 seconds) (tuts) oh (4 seconds) ohh (3 seconds) peck, person (1 second) pole, possible, er (1 second). (buzzer sounds)
+","Pat: Dog, cat, mouse, rabbit, er guinea pig, cow, pig, um sheep, er el, elephant, giraffe, er seal, kangaroo, tiger, er lion, um, er tiger, lion, um (1 second) um (1 second) a tiger, lion. Er (1 second) er (1 second) no, it’s (1 second) rats, er hedgehogs, er hedgehogs, um (2 seconds) um (2 seconds) (sighs) (1 second) cats, dogs, mice. Cows (2 seconds) er deer, er deers, um (sighs) (2 seconds) um er. (buzzer sounds)
+","Pat: Um, er the mother is wiping the pots and the sink is overflowing with water. Um (2 seconds) er and the children, one, the little boy’s stood on a stool reaching the jar of biscuits in the cupboard and the little girl, the little girl’s standing at the side of him reaching out for him to pass her the biscuits. And outside the window um I can’t really see anything that’s happening out there. Um, er the, the stool is er tippling over with the little boy on so he’s gonna fall in a minute.
+",0.65625,10.01443012989667,4.15625,0.1637931034482758,0.1034482758620689,0.0689655172413793,0.25,6,65.625,1,0,4,0.0,0.0045081295840331,0.8955975023307604,0.0908773728515591,0.004521267232636,0.0044957280010113,2,-0.0916666666666666,0.375,0
+193,and the water is coming out and the water is coming out,,,and the water is coming out and the water is coming out,0.5,6.352873532144457,3.6666666666666665,0.1666666666666666,0.1666666666666666,0.0,0.0,2,50.0,0,0,0,0.0,0.8397864908256901,0.0401150405008812,0.0400000553839316,0.0400009958153633,0.0400974174741336,0,0.0,0.0,2
+610,shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes,,,shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes shes too busy washing dishes,0.1428571428571428,15.274191794189775,4.8,0.3333333333333333,0.1666666666666666,0.1666666666666666,0.0,1,14.285714285714285,0,0,0,0.0,0.0069101423635894,0.0069273930463017,0.0068972728197907,0.9723681798036136,0.0068970119667045,0,0.0999999999999999,0.3,1
+271,its running on the floor its running on the floor its running on the floor,,,its running on the floor its running on the floor its running on the floor,0.3333333333333333,7.97630105895735,4.0,0.2,0.2,0.2,0.0,3,33.33333333333333,0,0,0,0.0,0.8856355742619269,0.0286500863778426,0.0285714407925157,0.0285714446199456,0.0285714539477692,0,0.0,0.0,1
+304,and shes standing by the window and shes standing by the window and shes standing by the window and shes standing by the window,,,and shes standing by the window and shes standing by the window and shes standing by the window and shes standing by the window,0.25,10.640280706355012,4.333333333333333,0.1428571428571428,0.1428571428571428,0.1428571428571428,0.0,3,25.0,0,0,0,0.0,0.0156514795159464,0.0155886310331242,0.0154249545972707,0.6289216958786256,0.3244132389750331,0,0.0,0.0,1
+69,"Pat: (4 seconds) It looks to be a chaotic family scene. The mother looks
+to be washing pots up; she seems somewhat distracted. She looks to have
+left the tap on and it’s flooded everywhere; and she’s standing in
+water. There’s two children behind her trying to get cookies out of the
+cookie jar; one’s standing, the boy is standing on the stool trying to
+get cookies from the top of the cupboard, the stool’s falling over. The
+little girl is standing next to him; she’s holding her hand up in the
+air because she wants a cookie. And (1 second) it looks to be in their
+family home with a garden outside.
+","Pat: Perfect, peace, practical (1 second) practicality, provisional,
+provisions, pound, place, people, person (2 seconds) pie (4 seconds)
+porcupine (1 second) piece, particular, proper (1 second) platoon,
+platypus, pratt (1 second) pick (1 second) pincers, popular, pratt, pop,
+pink (2 seconds) pedantic, plaits (3 seconds) posh, pack, pea, pierce,
+piece, pump.
+","Pat: Dog, cat, mouse, rabbit, rat, giraffe, zebra, wolf, tiger, leopard,
+cheetah, horse, donkey, chicken (1 second) um elephant (2 seconds) fox,
+hedgehog (2 seconds) um (1 second) pig, donkey, um (3 seconds) (tuts)
+shrew, vole, mouse (1 second) hare, deer (1 second) jackal, hyena (1
+second) gerbil, hamster, guinea pig, pony (3 seconds) piglets.
+","Pat: (4 seconds) It looks to be a chaotic family scene. The mother looks
+to be washing pots up; she seems somewhat distracted. She looks to have
+left the tap on and it’s flooded everywhere; and she’s standing in
+water. There’s two children behind her trying to get cookies out of the
+cookie jar; one’s standing, the boy is standing on the stool trying to
+get cookies from the top of the cupboard, the stool’s falling over. The
+little girl is standing next to him; she’s holding her hand up in the
+air because she wants a cookie. And (1 second) it looks to be in their
+family home with a garden outside.
+",0.6814159292035398,10.060414333959946,4.336283185840708,0.1724137931034483,0.1310344827586207,0.0896551724137931,0.1428571428571428,8,68.14159292035397,2,0,0,0.0,0.0043995712227642,0.9822732012298246,0.0045075910032267,0.0044266334290628,0.0043930031151213,5,-0.0708333333333333,0.3166666666666666,0
+232,and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl,,,and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl and then heres a girl,0.125,16.920968618253777,3.4,0.2,0.2,0.0,0.0,8,12.5,0,0,0,0.0,0.0118496983081959,0.0118171224507744,0.9527991143785646,0.0117648007257977,0.0117692641366672,0,0.0,0.0,1
+469,the lady is wash washing dishes the lady is wash washing dishes the lady is wash washing dishes the lady is wash washing dishes,,,the lady is wash washing dishes the lady is wash washing dishes the lady is wash washing dishes the lady is wash washing dishes,0.25,10.640280706355012,4.333333333333333,0.5,0.1666666666666666,0.0,0.0,3,25.0,0,0,0,0.0,0.0117785965277126,0.5482379747136928,0.0118032859445487,0.4163995608117832,0.0117805820022626,0,0.0,0.0,1
+138,um the boy looks as though hes dressed in sneakers and socks which are kindof sloppy his socks are drooping,,,um the boy looks as though hes dressed in sneakers and socks which are kindof sloppy his socks are drooping,0.9,6.420164280370741,4.4,0.238095238095238,0.1904761904761904,0.1428571428571428,2.0,6,90.0,0,0,1,0.0,0.1346419939939647,0.0228920126399673,0.2622793448021908,0.0224520656395446,0.5577345829243326,0,-0.4166666666666667,0.75,0
+0,,"Pat: People, partner, plate, platter, pants, porter, porcupine (1
+second) prestige, prestigiousness, er palatial, palace (3 seconds)
+parasite (2 seconds) painkiller, period, petal, pestilence (3 seconds)
+pint (3 seconds) pink (3 seconds) pot (3 seconds) postulate (2 seconds)
+prom, promulgate (2 seconds) pr, pr, prayer (2 seconds) price.
+","Pat: (3 seconds) Giraffe, kangaroo, lion, tiger, spider, fly, mosquito
+(7 seconds) moose, elephant (3 seconds) jaguar (3 seconds) lion (4
+seconds) mouse, rat (3 seconds) fly, dragonfly, fish, shark (3 seconds)
+eel (1 second) mosquito (6 seconds) platypus. (3 seconds)
+",,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,0,0,0,0.0,0.2,0.2,0.2,0.2,0.2,0,0.0,0.0,1
+741,"Pat: Well I guess the lady of the house is er off in another world thinking about other things; her sink is overflowing while she’s absentmindedly drying a plate and her children are standing on a very tall stool which is unsafe and is about to fall over as they’re currently raiding the cookie jar. What on earth is a cookie? It’s a biscuit jar. Er, it’s very American this system. Um, outside it looks like a nice day; she’s got curtains in the kitchen, which is unusual these days, and I don’t know what’s happened to the overflow from the sink cos I would have thought it ought to have operated before the sink er overflowed on the floor. Um, there’s not very much in, no bills and rubbish on the work surface like there is at our house. Er (2 seconds) other than that’s it’s er, that’s about it, I think. (4 seconds) She could do with a bit of a wakeup call, that mother, she’s not paying attention is she? (laughs)
+","Pat: Er, pipes, paper, pepper, um particle, piano, poison (1 second) er pseudonym (1 second) pencil, poker (2 seconds) er pleasant (2 seconds) um (8 seconds) oh, er many pla, poplar, poplar, popular, um (1 second) people, pointer (1 second) pint, pintle, (2 seconds) proper (3 seconds) um pineapple (1 second) pra. (buzzer sounds) Ooh (laughs) 
+","Pat: Um, um, a camel, a giraffe, a hippopotamus, um a hyena, a jackal, a bear, a lion, a tiger, a jaguar, a dog, a cat, a fish; is a fish an animal? Yes it is. Um, er all the birds of the air, the various types; um monkeys, primates, the er lemurs, er (1 second) what are the er wallabies, kangaroos (laughs) um (2 seconds) oh what have we got? Er, antelopes, deer, cows, horses, sheep, pigs, geese, hens, um. (buzzer sounds) (3 seconds) Mm.
+","Pat: Well I guess the lady of the house is er off in another world thinking about other things; her sink is overflowing while she’s absentmindedly drying a plate and her children are standing on a very tall stool which is unsafe and is about to fall over as they’re currently raiding the cookie jar. What on earth is a cookie? It’s a biscuit jar. Er, it’s very American this system. Um, outside it looks like a nice day; she’s got curtains in the kitchen, which is unusual these days, and I don’t know what’s happened to the overflow from the sink cos I would have thought it ought to have operated before the sink er overflowed on the floor. Um, there’s not very much in, no bills and rubbish on the work surface like there is at our house. Er (2 seconds) other than that’s it’s er, that’s about it, I think. (4 seconds) She could do with a bit of a wakeup call, that mother, she’s not paying attention is she? (laughs)
+",0.6839080459770115,10.431137226916116,4.293103448275862,0.1728971962616822,0.1074766355140186,0.1261682242990654,0.4,10,68.39080459770115,2,0,2,0.0,0.003191500833916,0.7790807958002856,0.0031761169125489,0.00319483621032,0.2113567502429293,6,0.0747863247863248,0.405982905982906,0
+508,and she seems to be oblivious to everything the mothers oblivious to all,,,and she seems to be oblivious to everything the mothers oblivious to all,0.7692307692307693,5.778815554134265,4.615384615384615,0.0769230769230769,0.0769230769230769,0.2307692307692307,0.0,7,76.92307692307693,1,0,0,0.0,0.0500023602237816,0.0502483023634224,0.0500005956417708,0.2973162462964181,0.552432495474607,0,0.0,0.0,0
+167,uh the little girl is kinda has her hand up to her mouth the little girls got her hand up for one and the little girl is holding up her hand to grab acookie out ofhishand little girl is reaching up with her hand to receive one she looks the little girl looks like shes motioning to theboytobequiet uh the little girl is kinda has her hand up to,,,uh the little girl is kinda has her hand up to her mouth the little girls got her hand up for one and the little girl is holding up her hand to grab acookie out ofhishand little girl is reaching up with her hand to receive one she looks the little girl looks like shes motioning to theboytobequiet uh the little girl is kinda has her hand up to,0.4492753623188406,11.052217906863747,4.0,0.1857142857142857,0.1428571428571428,0.1142857142857142,1.0,7,44.927536231884055,0,0,2,0.0,0.0059954331487598,0.1218886552233005,0.8596798155785135,0.0064832264273272,0.0059528696220988,2,-0.1875,0.5,0
+230,the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes,,,the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes the mother over there shes doing the dishes,0.109375,20.42426586861087,4.5,0.2222222222222222,0.1111111111111111,0.1111111111111111,0.0,2,10.9375,1,0,0,0.0,0.0060807974530548,0.0060937286828029,0.0060612927591534,0.9756786992271804,0.006085481877808,0,0.0,0.0,1
+576,shes stepping in the water shes stepping in the water shes stepping in the water shes shes step in the water,,,shes stepping in the water shes stepping in the water shes stepping in the water shes shes step in the water,0.2857142857142857,9.63393888429415,4.190476190476191,0.1923076923076923,0.1923076923076923,0.1923076923076923,0.0,8,28.57142857142857,0,0,0,0.0,0.6532093572433377,0.0143058680799331,0.0146713674134059,0.3035243759704367,0.0142890312928864,0,0.0,0.0,1
+233,oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me,,,oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me oh she is uh eel she is throwing something it looks like to me,0.1224489795918367,20.96355830866104,3.5,0.0714285714285714,0.1428571428571428,0.3571428571428571,0.0,4,12.244897959183673,0,0,7,0.0,0.0047217253581339,0.0047453142417177,0.7649970264584603,0.0047251701123894,0.2208107638292983,0,0.0,0.0,3
+567,and the kid on the stool is gonna fall off the stool son is uh falling off a stool well naturally the stool falls over the boy is going to fall on the floor hes hes the boy is falling off the stool well the little boy is gonna fall off the stool oh the stool the boy is falling off the stool the boy is going to fall off the stool the boy is falling off the stool uh the boy is falling off the uh stool uh the little boy is falling off the stool and the boy is falling off the stool,,,and the kid on the stool is gonna fall off the stool son is uh falling off a stool well naturally the stool falls over the boy is going to fall on the floor hes hes the boy is falling off the stool well the little boy is gonna fall off the stool oh the stool the boy is falling off the stool the boy is going to fall off the stool the boy is falling off the stool uh the boy is falling off the uh stool uh the little boy is falling off the stool and the boy is falling off the stool,0.2285714285714285,15.717672659578591,3.6,0.2293577981651376,0.1651376146788991,0.018348623853211,0.0,7,22.857142857142858,0,0,4,0.0,0.033398320351282,0.0039078344284083,0.7246171230327377,0.234217933976697,0.0038587882108746,0,-0.0916666666666666,0.4666666666666666,0
+403,and uh the windows open uh do do you want like the windows openthatsortofthing well the windows open but thats not action and uh  the wi the windows open the windows open  which implies an action earlier,,,and uh the windows open uh do do you want like the windows openthatsortofthing well the windows open but thats not action and uh  the wi the windows open the windows open  which implies an action earlier,0.5405405405405406,9.04906122897886,4.45945945945946,0.175,0.125,0.075,0.0,4,54.054054054054056,0,0,3,0.0,0.1666820165993182,0.0106002618044116,0.0105771528935276,0.1878834950864901,0.6242570736162524,0,0.0071428571428571,0.3857142857142857,0
+679,then theres an angle here that is incomplete of the st of the corner where the wall comes together,,,then theres an angle here that is incomplete of the st of the corner where the wall comes together,0.8421052631578947,6.44607569787407,4.2105263157894735,0.15,0.1,0.1,0.0,9,84.21052631578947,0,0,0,0.0,0.0250493729833562,0.0258149127313161,0.3973604904928138,0.0250058233399055,0.5267694004526082,0,0.0,0.0,2
+160,the ladys drying dishes the ladys drying dishes the ladys drying dishes and the ladys washing dishes and the ladys drying a plate,,,the ladys drying dishes the ladys drying dishes the ladys drying dishes and the ladys washing dishes and the ladys drying a plate,0.3478260869565217,9.251877811113362,4.652173913043479,0.2608695652173913,0.1739130434782608,0.0,0.0,3,34.78260869565217,0,0,0,0.0,0.012500799949021,0.0128072872819393,0.0745997737200214,0.8875919922657783,0.0125001467832398,0,0.0,0.0,0
+713,"Pat: (4 seconds) OK, so a woman um looks to be washing up (1 second) um
+but is not paying attention. Um, the sink is overflowing and she’s
+standing in a puddle of water, but meanwhile a disaster is brewing
+because um one of her children is reaching for the cookie jar, standing
+on the stool, and is about to fall over backwards and um there’s another
+child who’s kind of watching, um, and um (1 second) yes, it looks like
+an impending er (1 second) disaster. Outside um, we’re just looking out
+on the street but it doesn’t look like there’s anybody else around, and
+just looking at it I, it doesn’t look as if she’s going to respond
+before um (1 second) the child topples over backwards and hits his head
+on the counter.
+","Pat: Pineapple, pepper, pelargonium (1 second) pot, er (1 second) pope
+(laughs) palindrome, er (1 second) passion flower, passion fruit, er
+potato, pole, polecat, um (1 second) pop, poppy, um (1 second)
+Polemonium (1 second) posh (1 second) pongy (1 second) pole vaulting,
+pole vault, pole vaulter, um (tuts) pi (1 second) penguin, um (1 second)
+pittosporum, er piledriver, um piling, pin (2 seconds) palindrome (1
+second) pat-a-cake (1 second) pabulum, paltry (2 seconds) pandemic.
+","Pat: Bobcat, cat, puma, lion, tiger (1 second) panther, snow leopard, um
+(1 second) dog, hyena, um prairie dog, um (2 seconds) Tasmanian devil,
+kangaroo, wallaby, iguana, er alligator, crocodile, um, mm, duckbilled
+platypus, er badger, hedgehog, er armadillo, er mole, shrew, vole, um
+rat, um (1 second) mm, rat, um (1 second) lizard, adder, um (1 second)
+anaconda, um (5 seconds) ah I’ve gone blank. Um (1 second) vole, er
+vixen, fox, um (sighs) (6 seconds) wolf.
+","Pat: (4 seconds) OK, so a woman um looks to be washing up (1 second) um
+but is not paying attention. Um, the sink is overflowing and she’s
+standing in a puddle of water, but meanwhile a disaster is brewing
+because um one of her children is reaching for the cookie jar, standing
+on the stool, and is about to fall over backwards and um there’s another
+child who’s kind of watching, um, and um (1 second) yes, it looks like
+an impending er (1 second) disaster. Outside um, we’re just looking out
+on the street but it doesn’t look like there’s anybody else around, and
+just looking at it I, it doesn’t look as if she’s going to respond
+before um (1 second) the child topples over backwards and hits his head
+on the counter.
+",0.625,10.593837125005049,4.301470588235294,0.1,0.1222222222222222,0.0777777777777777,0.8,6,62.5,0,1,9,0.0,0.0032501002165675,0.80228209691102,0.0032392139399861,0.0032133967844377,0.1880151921479885,6,0.04375,0.3062499999999999,3
+144,the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies,,,the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies the little girl is reaching out to get the cookies,0.18,15.21674630331845,4.1,0.2,0.2,0.0,0.0,14,18.0,1,0,0,0.0,0.0095238197753184,0.0095837199428522,0.9618359061385964,0.0095238194716694,0.0095327346715637,0,-0.1875,0.5,1
+151,you gotta find something here no you dont want that oh this is gonna be like looking at those artistic things and fiddling when we get there uh action i mean you want something unusual out of the picture you want scenery description or anything like that wait w you want whats in the picture or whatsgoing on you dont want any of the whats in the picture right,,,you gotta find something here no you dont want that oh this is gonna be like looking at those artistic things and fiddling when we get there uh action i mean you want something unusual out of the picture you want scenery description or anything like that wait w you want whats in the picture or whatsgoing on you dont want any of the whats in the picture right,0.6811594202898551,9.423322990852933,4.231884057971015,0.0933333333333333,0.2133333333333333,0.24,0.2,7,68.11594202898551,0,0,1,0.0,0.0082311604359907,0.2114608165752325,0.0086099768288354,0.5572354120452759,0.2144626341146653,0,0.1213095238095238,0.6646428571428571,0
+514,theres a young boy uh going in a cookie jar theres a young boy uh going in a cookie jar theres a young boy uh going in a cookie jar,,,theres a young boy uh going in a cookie jar theres a young boy uh going in a cookie jar theres a young boy uh going in a cookie jar,0.3,10.664392863544547,3.4,0.2727272727272727,0.1818181818181818,0.0909090909090909,0.0,7,30.0,0,0,3,0.0,0.0091771915413057,0.0091846662659969,0.9631915094947766,0.0092125689098371,0.0092340637880836,0,0.1,0.4000000000000001,1
+342,so hes handing one down to her and shes asking him for one so hes handing one down to her so hes handing one down to her,,,so hes handing one down to her and shes asking him for one so hes handing one down to her so hes handing one down to her,0.4444444444444444,8.910781684756433,3.4814814814814814,0.0,0.1290322580645161,0.2580645161290322,0.3333333333333333,3,44.44444444444444,0,0,0,0.0,0.0224229243899016,0.0222496357577851,0.8064148642388418,0.1266835275761666,0.0222290480373048,0,-0.1555555555555555,0.2888888888888889,2
+415,somebodys gonna be screaming when the kid falls somebodys gonna be screaming when the kid falls,,,somebodys gonna be screaming when the kid falls somebodys gonna be screaming when the kid falls,0.5,7.151504158750832,5.0,0.2222222222222222,0.2222222222222222,0.0,0.0,2,50.0,0,0,0,0.0,0.9264276734041073,0.01831410246394,0.0188516846409248,0.0182235328839486,0.0181830066070791,0,0.0,0.0,0
+136,okay what do you want me to do okay what do you want me to do you want me to start at any particular time,,,okay what do you want me to do okay what do you want me to do you want me to start at any particular time,0.48,8.467093053897193,3.24,0.04,0.2,0.32,0.0,4,48.0,0,0,0,0.0,0.0223272924571733,0.0222808418051556,0.1511610060932495,0.7820073614125833,0.0222234982318382,0,0.3888888888888889,0.4444444444444444,0
+661,and his stool is about to dump him and his stool is about to dump him and his stool is about to dump him,,,and his stool is about to dump him and his stool is about to dump him and his stool is about to dump him,0.3333333333333333,9.535533687951103,3.375,0.125,0.125,0.25,0.0,5,33.33333333333333,0,0,0,0.0,0.4564572188283348,0.0290068124170207,0.0294447989674618,0.4565178389202097,0.0285733308669728,0,0.0,0.0,1
+565,and the housewife the mother is wiping the dishes and the housewife the mother is wiping the dishes and the housewife the mother is wiping the dishes,,,and the housewife the mother is wiping the dishes and the housewife the mother is wiping the dishes and the housewife the mother is wiping the dishes,0.2592592592592592,10.921102946471091,4.555555555555555,0.3333333333333333,0.1111111111111111,0.0,0.0,3,25.925925925925924,1,0,0,0.0,0.015387151440263,0.015693416120161,0.218589946051947,0.7349209050831296,0.0154085813044992,0,0.0,0.0,1
+662,the curtains are waving and the window is open curtains on the window hm curtains are hanging on the window and theres a house next door with curtains at the window the same kind of curtains as hers there are curtains on the windows and the picture i mean the window has two has a pair of drapes or curtains curtains at the windows it has curtains in the window and um  curtains at the window um the curtains are tie back curtains and its a casement type window and it has curtains pulled back at the window this is curtains on the window,,,the curtains are waving and the window is open curtains on the window hm curtains are hanging on the window and theres a house next door with curtains at the window the same kind of curtains as hers there are curtains on the windows and the picture i mean the window has two has a pair of drapes or curtains curtains at the windows it has curtains in the window and um  curtains at the window um the curtains are tie back curtains and its a casement type window and it has curtains pulled back at the window this is curtains on the window,0.4134615384615384,12.145158238501663,4.173076923076923,0.320754716981132,0.0943396226415094,0.0754716981132075,0.5,9,41.34615384615385,0,0,2,0.0,0.0045546538907882,0.0046239513489311,0.0045527511299911,0.0045596744205977,0.9817089692096916,1,0.0410714285714285,0.3160714285714285,0
+426,and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink,,,and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink and the mother is letting the water run out of the sink,0.1666666666666666,16.447441514587805,3.6666666666666665,0.25,0.1666666666666666,0.0,0.0,8,16.666666666666664,1,0,0,0.0,0.7832155260449353,0.0077422953105797,0.0076926571036688,0.193621047950026,0.00772847359079,0,0.0,0.0,1
+537,and uh shes letting the water run out of the faucet onto the floor as shes washing shes one of her feet is uh obviously in the water the other is somewhat obliterated and in looking out the window why shes letting her sink run over and the waters splashing on the floor all over her and uh shes letting the water run out of the faucet onto the floor at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet as shes washing shes one of her feet is uh obviously in the water the other is somewhat obliterated she could well i did say she was letting the uh water run over the sink down onto the floor splashing onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet and in looking out the window why shes letting her sink run over and the waters splashing on the floor all over her she could well i did say she was letting the uh water run over the sink down onto the floor splashing onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet,,,and uh shes letting the water run out of the faucet onto the floor as shes washing shes one of her feet is uh obviously in the water the other is somewhat obliterated and in looking out the window why shes letting her sink run over and the waters splashing on the floor all over her and uh shes letting the water run out of the faucet onto the floor at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet as shes washing shes one of her feet is uh obviously in the water the other is somewhat obliterated she could well i did say she was letting the uh water run over the sink down onto the floor splashing onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet and in looking out the window why shes letting her sink run over and the waters splashing on the floor all over her she could well i did say she was letting the uh water run over the sink down onto the floor splashing onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet at the same time she has let the sink uh run over and the water is cascading uh down on the floor and onto her feet,0.1455696202531645,21.331294252818157,3.727848101265823,0.1728395061728395,0.1388888888888889,0.1049382716049382,0.6666666666666666,9,14.556962025316457,0,0,18,0.0,0.9592564908722878,0.0015460091822441,0.0015308903808377,0.0015819957935954,0.0360846137710347,2,-0.0830246913580247,0.2672839506172839,3
+103,did you say action that is going on uh you said just the action did you say action thats going on uh action were looking for action,,,did you say action that is going on uh you said just the action did you say action thats going on uh action were looking for action,0.5925925925925926,8.051541975974617,3.888888888888889,0.1785714285714285,0.2142857142857142,0.1785714285714285,0.0,5,59.25925925925925,0,0,2,0.0,0.5177656303085887,0.0111961891453666,0.0111717026632921,0.3712147179126026,0.0886517599701497,0,0.1,0.1,0
+637,i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs,,,i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs i guess shes having her her problems and theyre having theirs,0.1636363636363636,16.260248501399904,4.636363636363637,0.0923076923076923,0.3076923076923077,0.4461538461538462,0.0,3,16.363636363636363,0,0,0,0.0,0.0055684588289909,0.0055609878314,0.0055794748399388,0.6733328591907615,0.3099582193089086,0,0.0,0.0,1
+158,and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains,,,and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains and these are curtains,0.1428571428571428,14.16664501880956,4.75,0.25,0.0,0.25,0.0,7,14.285714285714285,0,0,0,0.0,0.0250000270643148,0.025140600800434,0.0250000162031666,0.0250000211374996,0.8998593347945848,0,0.0,0.0,1
+381,hm i dont know if the winds blowing or not the wind is blowing outside the wind the winds probably blowing and  i dont know whether the wind is blowing ornot,,,hm i dont know if the winds blowing or not the wind is blowing outside the wind the winds probably blowing and  i dont know whether the wind is blowing ornot,0.5483870967741935,8.599161752707191,4.064516129032258,0.1470588235294117,0.1764705882352941,0.0588235294117647,2.0,3,54.83870967741935,0,0,0,0.0,0.0111217509133202,0.0111631633018835,0.0111470158312244,0.2821962416728559,0.6843718282807159,0,0.0,0.05,0
+419,well  the waters getting over the sink there well  the waters getting over the sink there well  the waters getting over the sink there,,,well  the waters getting over the sink there well  the waters getting over the sink there well  the waters getting over the sink there,0.2916666666666667,10.026793278771995,4.5,0.2222222222222222,0.1111111111111111,0.0,0.0,5,29.166666666666668,0,0,0,0.0,0.9196655923643738,0.0200504859198047,0.0202838441960289,0.0200000338951766,0.0200000436246158,0,0.0,0.0,1
+540,and the few dishes on the sink and the few dishes on the sink and the few dishes on the sink and the few dishes on the sink and there are some dishes on the sink and the few dishes on the sink and the few dishes on the sink and there are some dishes on the sink and there are some dishes on the sink,,,and the few dishes on the sink and the few dishes on the sink and the few dishes on the sink and the few dishes on the sink and there are some dishes on the sink and the few dishes on the sink and the few dishes on the sink and there are some dishes on the sink and there are some dishes on the sink,0.1363636363636363,18.45991968797152,3.5454545454545454,0.2727272727272727,0.0454545454545454,0.0454545454545454,0.0,12,13.636363636363637,0,0,0,0.0,0.484140217366067,0.0105931807978148,0.010526320921647,0.484213952201118,0.0105263287133531,0,-0.1999999999999999,0.0999999999999999,1
+485,and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like,,,and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like and uh i see a big plate and couple saucers like,0.2272727272727272,13.303822050447856,3.4545454545454546,0.2727272727272727,0.0909090909090909,0.0909090909090909,0.0,3,22.727272727272727,0,0,4,0.0,0.2170603751719469,0.008115720784537,0.6558427795731173,0.0080862571337812,0.1108948673366173,0,0.0,0.1,3
+29,"Pat: (2 seconds) There is, this is a picture of a housewife doing some
+washing up; she’s drying a plate. The water is overflowing from the
+sink. There is a cat sitting on a windowsill outside, I think. Two
+children are in the kitchen; there’s a little boy standing on a stool
+which is about to topple over; he’s trying to get biscuits out of the
+top shelf in the cupboard. The curtains are open and (sighs) (1 second)
+the wife, er the housewife is standing in a puddle of water.
+","Pat: (2 seconds) Pots, pans, prince, princess (2 seconds) er pork (5
+seconds) hmm, paint (1 second) peer (1 second) panther (5 seconds) party
+(6 seconds) play, playing field, porter, port (4 seconds) pants, plants
+(3 seconds) pretty (6 seconds) planter. (8 seconds)
+","Pat: Cat, dog (1 second) mouse (sighs) wallaby, kangaroo, whale (2
+seconds) hamster, fish, er goldfish (3 seconds) er panda, lion, tiger (1
+second) er pig, cow (3 seconds) sheep, bull (6 seconds) birds; er
+sparrows (1 second) robins, blackbirds (7 seconds) ducks, hens (7
+seconds) elephants (1 second) pangolins.
+","Pat: (2 seconds) There is, this is a picture of a housewife doing some
+washing up; she’s drying a plate. The water is overflowing from the
+sink. There is a cat sitting on a windowsill outside, I think. Two
+children are in the kitchen; there’s a little boy standing on a stool
+which is about to topple over; he’s trying to get biscuits out of the
+top shelf in the cupboard. The curtains are open and (sighs) (1 second)
+the wife, er the housewife is standing in a puddle of water.
+",0.7032967032967034,9.690223666230608,4.263736263736264,0.1848739495798319,0.1092436974789916,0.0672268907563025,0.0,9,70.32967032967034,1,1,0,0.0,0.0951061114365382,0.8883272148443614,0.0055389785351816,0.0055122596798822,0.0055154355040362,4,-0.0729166666666666,0.425,0
+421,the little boy has uh tennis shoes on and his heel is on the the heel of that foot is on the toe of his other foot and the boy has on a short sleeve shirt short pants socks and sh shoes uh theyre nicely dressed kids but uh the boy needs his socks pulled up um  the little boys uh shoes he looks like he has jogging shoes on and low um socks the boy looks like hes got on short trousers and a shirt withasweater the boy is stepping on one of his own toes,,,the little boy has uh tennis shoes on and his heel is on the the heel of that foot is on the toe of his other foot and the boy has on a short sleeve shirt short pants socks and sh shoes uh theyre nicely dressed kids but uh the boy needs his socks pulled up um  the little boys uh shoes he looks like he has jogging shoes on and low um socks the boy looks like hes got on short trousers and a shirt withasweater the boy is stepping on one of his own toes,0.4845360824742268,11.286831249441825,3.670103092783505,0.27,0.11,0.08,2.0,10,48.45360824742268,0,0,6,0.0,0.0483218888547524,0.0302851729571564,0.3026345907252821,0.0040179633079767,0.6147403841548323,1,0.0777777777777777,0.5083333333333333,0
+204,his sister has her has her hand up finger up to her mouth like shes saying and she is she isnt actually eating one but she has her fingerherhand up to hermouth shes got her hand upraised and um she is uh has her finger up to her lips as if shes saying shes making a um sign to her lips to say â€œshhâ€� so he wont make any noise and let mother know thats what theyre into she kindof has her finger up towards her mouth or something like she might be giggling uh point uh pointing in the motion on the uh lips oh uh sissy is holding her finger up to her mouth like,,,his sister has her has her hand up finger up to her mouth like shes saying and she is she isnt actually eating one but she has her fingerherhand up to hermouth shes got her hand upraised and um she is uh has her finger up to her lips as if shes saying shes making a um sign to her lips to say â€œshhâ€� so he wont make any noise and let mother know thats what theyre into she kindof has her finger up towards her mouth or something like she might be giggling uh point uh pointing in the motion on the uh lips oh uh sissy is holding her finger up to her mouth like,0.5384615384615384,11.06610771425767,3.8205128205128207,0.1666666666666666,0.1587301587301587,0.2222222222222222,1.6666666666666667,11,53.84615384615385,1,0,7,0.0,0.0038272039957155,0.0038728737780757,0.05792746396049,0.8503201658395808,0.0840522924261377,0,0.0,0.1,0
+676,do you want to know about their clothes or anything,,,do you want to know about their clothes or anything,1.0,4.829605387205156,4.2,0.1,0.2,0.3,0.0,4,100.0,0,0,0,0.0,0.0500041037466769,0.0500899647870645,0.0500024402935377,0.5509470091199804,0.2989564820527403,0,0.0,0.0,0
+584,okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps,,,okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps okay shes catching the a ball perhaps,0.2,13.183133814275577,4.428571428571429,0.125,0.125,0.125,0.0,1,20.0,0,1,0,0.0,0.0095408365010782,0.0095238447044673,0.0095655532541346,0.9618452223755918,0.0095245431647279,0,0.55,0.7000000000000001,1
+692,it almost looks like it doesnt have a trunk this is the top sash of the window and it has to have a trunk down here and thats just grass outsuhside the window there are grass and trees theres a tree outside the window outside the window where the mother is theres uh theres a walkway li it looks like itsgoing out to agarage,,,it almost looks like it doesnt have a trunk this is the top sash of the window and it has to have a trunk down here and thats just grass outsuhside the window there are grass and trees theres a tree outside the window outside the window where the mother is theres uh theres a walkway li it looks like itsgoing out to agarage,0.59375,9.796087483337017,4.078125,0.1884057971014492,0.1739130434782608,0.144927536231884,1.0,6,59.375,1,1,1,0.0,0.2243779136430292,0.0077878315748855,0.0077314921243925,0.0078410044856808,0.7522617581720118,1,0.0861111111111111,0.2222222222222222,0
+9,"Pat: (5 seconds) The picture shows a mother and a boy and a girl,
+presumably her children, in the kitchen; there are terrible accidents
+happening. The boy is standing on a st, three-legged stool, trying to
+reach up to a cookie jar on the top shelf of a cupboard and he’s about
+to fall off. The girl has put her left hand up to try and take a biscuit
+from him. The mother is by the kitchen sink, which is overflowing with
+water from the tap which is switched on, and it, water’s pouring all
+over the floor. The mother’s holding a plate in her left hand and
+drying, trying to dry it with her right hand, and seems oblivious to
+what’s going on with the water in the sink overflowing; she’s obviously
+trying to do the washing up. There are curtains in the window and
+outside you can see the path leading to her door; and the window looks
+like it might be open, I’m not sure; no, it’s probably just a sheet of
+glass; leading down to the garden gate, and she’s got flower beds and a
+lawn, by the looks of things, and there’s a tree through the window as
+well. There are cupboards in the kitchen; they’re all shut apart from
+the one on the top shelf going up to the cookie draw. The mother is
+wearing um a dress with something like a, an apron in the front; she’s
+got bare sleeves, um it must be summer or spring. The boy’s wearing
+shorts and um shirt (clears throat) and the girl’s wearing a skirt and a
+top, or a dress with a belt round it, and the boys and the girls are
+wearing some sort of shoes and so’s (clears throat) so’s the mother.
+","Pat: (3 seconds) People (1 second) persons (2 seconds) proprietary,
+personnel (5 seconds) peas (2 seconds) (sighs) (4 seconds) pots, pits,
+pans (1 second) pets (2 seconds) pra, practice (3 seconds) Pritt sticks
+(3 seconds) (sighs) (3 seconds) paint, painters (2 seconds) pretty (3
+seconds) paste (3 seconds) performance. (3 seconds)
+","Pat: (1 second) Cows, sheep, horses, donkeys, chicken, kangaroos (1
+second) (sighs) (2 seconds) cockerels, guinea pigs, hamsters, rabbits,
+hares (3 seconds) (sighs) tigers, lions, leopards, monkeys, giraffes (1
+second) baboons (2 seconds) (sighs) (3 seconds) cats, dogs, kittens,
+puppies (1 second) hedgehogs, foxes (2 seconds) mice, rats (3 seconds)
+er, um kang, um (tuts) (1 second) crocodiles, leopards. (1 second)
+(sighs) (2 seconds)
+","Pat: (5 seconds) The picture shows a mother and a boy and a girl,
+presumably her children, in the kitchen; there are terrible accidents
+happening. The boy is standing on a st, three-legged stool, trying to
+reach up to a cookie jar on the top shelf of a cupboard and he’s about
+to fall off. The girl has put her left hand up to try and take a biscuit
+from him. The mother is by the kitchen sink, which is overflowing with
+water from the tap which is switched on, and it, water’s pouring all
+over the floor. The mother’s holding a plate in her left hand and
+drying, trying to dry it with her right hand, and seems oblivious to
+what’s going on with the water in the sink overflowing; she’s obviously
+trying to do the washing up. There are curtains in the window and
+outside you can see the path leading to her door; and the window looks
+like it might be open, I’m not sure; no, it’s probably just a sheet of
+glass; leading down to the garden gate, and she’s got flower beds and a
+lawn, by the looks of things, and there’s a tree through the window as
+well. There are cupboards in the kitchen; they’re all shut apart from
+the one on the top shelf going up to the cookie draw. The mother is
+wearing um a dress with something like a, an apron in the front; she’s
+got bare sleeves, um it must be summer or spring. The boy’s wearing
+shorts and um shirt (clears throat) and the girl’s wearing a skirt and a
+top, or a dress with a belt round it, and the boys and the girls are
+wearing some sort of shoes and so’s (clears throat) so’s the mother.
+",0.5384615384615384,11.761176165337533,4.137123745819398,0.2058047493403693,0.1108179419525065,0.079155672823219,0.1,9,53.84615384615385,3,1,3,0.0,0.0016559209315246,0.7632610819360359,0.0478613069619816,0.0016517438041004,0.1855699463663572,4,-0.036656746031746,0.4602182539682539,0
+523,shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater,,,shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater shes got short skirt and a blouse jersey sweater,0.2,14.140961225293715,4.444444444444445,0.28,0.1,0.1,0.0,3,20.0,0,0,0,0.0,0.0055934183537017,0.0056568965777068,0.4356488706144287,0.1612558931888907,0.3918449212652719,0,0.0,0.3,1
+306,yeah thats about all i can see yeah thats about all i can see yeah thats about all i can see,,,yeah thats about all i can see yeah thats about all i can see yeah thats about all i can see,0.3333333333333333,9.101155127645942,3.4285714285714284,0.0,0.25,0.375,0.0,3,33.33333333333333,0,0,0,0.0,0.885398554935808,0.0287220982460128,0.0285715059476764,0.0287271564536005,0.0285806844169021,0,0.0,0.0,1
+595,the children are wearing um completely outfitted the children are wearing um completely outfitted,,,the children are wearing um completely outfitted the children are wearing um completely outfitted,0.5,6.782119313654422,6.0,0.1428571428571428,0.2142857142857142,0.0,0.0,3,50.0,0,0,2,0.0,0.0181946885534365,0.3495754777778632,0.0182184921719331,0.0181949576596259,0.5958163838371412,0,0.1,0.4,2
+451,shes washing the dishes looking out the open window shes looking out of the window drying the dish theres someone washing the dishes now she is seems to be looking out the window while shes drying her dish his mother in the meantime is wiping dishes looking out what is obviously the kitchen window the mother is washing dishes at the window with a curtain on the window and the lady is drying the dishes and looking out the window,,,shes washing the dishes looking out the open window shes looking out of the window drying the dish theres someone washing the dishes now she is seems to be looking out the window while shes drying her dish his mother in the meantime is wiping dishes looking out what is obviously the kitchen window the mother is washing dishes at the window with a curtain on the window and the lady is drying the dishes and looking out the window,0.45,11.313177319307236,4.4,0.238095238095238,0.1666666666666666,0.1071428571428571,1.0,10,45.0,2,0,0,0.0,0.0051416891236315,0.0052103838970117,0.0051438784195917,0.5216446905089819,0.4628593580507831,0,0.0,0.5,0
+656,and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies,,,and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies and i think that hell lose his cookies,0.2,13.701255839783723,3.875,0.25,0.25,0.25,1.25,3,20.0,1,0,0,0.0,0.0097558310062208,0.0096930487188396,0.3286220653548993,0.0095258269681589,0.6424032279518812,0,0.0,0.0,1
+242,and i dont know about the curtains and i dont know about the curtains and i dont know about the curtains,,,and i dont know about the curtains and i dont know about the curtains and i dont know about the curtains,0.3333333333333333,9.101155127645942,4.0,0.125,0.125,0.125,0.0,3,33.33333333333333,0,0,0,0.0,0.0200000559588399,0.0201390774780138,0.0200000333302834,0.5907087677007272,0.3491520655321356,0,0.0,0.0,1
+581,looks like shes laughing looks like shes trying to eat it or be quiet or shes laughing does it mean she wants to eat shes laughing i think wai waiting for a cookie um looks as if shes laugh saying be quiet,,,looks like shes laughing looks like shes trying to eat it or be quiet or shes laughing does it mean she wants to eat shes laughing i think wai waiting for a cookie um looks as if shes laugh saying be quiet,0.6428571428571429,8.756803128075514,3.9047619047619047,0.0425531914893617,0.3191489361702128,0.1914893617021276,1.3333333333333333,6,64.28571428571429,0,0,1,0.0,0.0072250026049985,0.2503750829104537,0.5053024726709875,0.2298125327982662,0.0072849090152942,1,0.0375,0.3108333333333333,0
+442,also taking cookies from the cupboard the cookies are in the cabinet with the lid off,,,also taking cookies from the cupboard the cookies are in the cabinet with the lid off,0.75,6.29661092329874,4.375,0.3125,0.0625,0.0,0.0,5,75.0,1,0,0,0.0,0.0287449765080377,0.2213584658125204,0.692752935035883,0.028571702720076,0.0285719199234827,0,0.0,0.0,0
+338,its full of its full of uh mistakes its full of its full of uh mistakes its full of its full of uh mistakes,,,its full of its full of uh mistakes its full of its full of uh mistakes its full of its full of uh mistakes,0.2083333333333333,11.4371116262777,3.5,0.0416666666666666,0.0833333333333333,0.25,0.0,14,20.833333333333336,0,0,3,0.0,0.0289421129529705,0.0285717011958837,0.0288291557424736,0.8848583194319729,0.0287987106766991,0,0.35,0.5499999999999999,1
+538,its dripping out of the sink and the water from the faucet was spilling over the cabinet of the sink uh waters uh spilling out of the sink the water is running over eh spilling over from the sink onto the floor the water is spilling out of the sink water is pouring out of the sink and the water is spilling over the sink onto the floor the waters spilling out of the sink the sinks spilling water onto the floor uh water spilling out of the sink the water is on and it is the sink is spilling over,,,its dripping out of the sink and the water from the faucet was spilling over the cabinet of the sink uh waters uh spilling out of the sink the water is running over eh spilling over from the sink onto the floor the water is spilling out of the sink water is pouring out of the sink and the water is spilling over the sink onto the floor the waters spilling out of the sink the sinks spilling water onto the floor uh water spilling out of the sink the water is on and it is the sink is spilling over,0.2475247524752475,15.081321751573617,3.940594059405941,0.2475247524752475,0.1089108910891089,0.0198019801980198,0.0,15,24.752475247524757,0,0,3,0.0,0.9813518488315156,0.0046669826012375,0.0046593504578283,0.0046607185362418,0.0046610995731767,0,-0.1,0.0,0
+480,hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said,,,hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said hm i i dont know about the this hickey here i whether thats more than what i said,0.1388888888888889,19.984215599596634,3.555555555555556,0.05,0.15,0.3,1.0,4,13.88888888888889,0,0,0,0.0,0.0055591948194086,0.0054108210142092,0.0054120664980759,0.9781846534217318,0.0054332642465744,0,0.5,0.5,1
+165,i guess the girl is laughing at her brother because hes going to fall and the little girls laughing at him of i think,,,i guess the girl is laughing at her brother because hes going to fall and the little girls laughing at him of i think,0.8333333333333334,6.949111428437498,3.9166666666666665,0.12,0.24,0.2,1.0,4,83.33333333333334,0,0,0,0.0,0.0168377685291039,0.0168612978271837,0.932626911101366,0.0168630323731595,0.0168109901691866,0,-0.1875,0.5,0
+310,i dont know what the mother gets by standing in all the water uh i dont know if its action but mom was standing in water uh i dont know if its action but mom was standing in water,,,i dont know what the mother gets by standing in all the water uh i dont know if its action but mom was standing in water uh i dont know if its action but mom was standing in water,0.4871794871794871,9.523550654766805,3.615384615384616,0.1904761904761904,0.1666666666666666,0.1428571428571428,2.0,5,48.71794871794872,1,0,2,0.0,0.2711818555804264,0.0095738158199459,0.0095485382365668,0.7001440676585202,0.0095517227045404,0,0.1,0.1,0
+737,"Pat: (4 seconds) (sighs) What I’m looking as a (2 seconds) accidents to happen or (1 second) somebody’s stood on a stool (1 second) firstly reaching out (1 second) the stool falling over while a person is drop, um is getting a biscuit out of the cookie jar to pass to the girl from a boy. (1 second) I’m presuming a mother or a woman (2 seconds) doing the pots in front of a window (1 second) er window that’s got curtains (1 second) clear window and a fret window. She’s washing (1 second) er drying (1 second) some pots. (3 seconds) The water is running over; so that’s an haz, hazard regarding slipping, falling (1 second) etc. There is cups on the side (1 second) and, as I said, there’s cookie jar. They’ve all got shoes on. (3 seconds)
+","Pat: (2 seconds) Pat, pet, pot, pit, put (1 second) um (1 second) patter (1 second) pattern (6 seconds) petal (5 seconds) patter (1 second) pitter (1 second) putty, put (1 second) pulp (1 second) public (1 second) pram (1 second) um (1 second) people, pope (1 second) popular, er (1 second) pupil, puppy, pups, pride (1 second) prid 
+","Pat: Cat, dog, rabbit, hamster, kangaroo, elephant (2 seconds) giraffe (1 second) birds (1 second) bears (2 seconds) different types of bears (laughs) um (2 seconds) worms (4 seconds) gerbils, mice (4 seconds) ooh dear, um (5 seconds) monkeys (2 seconds) apes (2 seconds) er emus (1 second) pigeons, doves (1 second) hmm (1 second) squirrels. 
+","Pat: (4 seconds) (sighs) What I’m looking as a (2 seconds) accidents to happen or (1 second) somebody’s stood on a stool (1 second) firstly reaching out (1 second) the stool falling over while a person is drop, um is getting a biscuit out of the cookie jar to pass to the girl from a boy. (1 second) I’m presuming a mother or a woman (2 seconds) doing the pots in front of a window (1 second) er window that’s got curtains (1 second) clear window and a fret window. She’s washing (1 second) er drying (1 second) some pots. (3 seconds) The water is running over; so that’s an haz, hazard regarding slipping, falling (1 second) etc. There is cups on the side (1 second) and, as I said, there’s cookie jar. They’ve all got shoes on. (3 seconds)
+",0.6071428571428571,10.742409545812492,4.3,0.1649484536082474,0.1082474226804123,0.0618556701030927,0.3,6,60.71428571428571,1,0,1,0.0,0.0030827019442112,0.873948648571938,0.1167481923246551,0.003114979184792,0.0031054779744036,17,-0.0357142857142857,0.1297619047619047,0
+207,i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken,,,i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken i dont know how he could stand like that and get a picture taken,0.1666666666666666,17.577800547737734,3.642857142857143,0.0666666666666666,0.2666666666666666,0.2,0.0,5,16.666666666666664,0,0,0,0.0,0.0054115680652248,0.0054500056665326,0.0054120823844936,0.2893810079306688,0.6943453359530801,0,0.0,0.0,1
+644,that boys climbed on a stool thats falling over to get a cookie oh the little boys reaching for the cookies and thestoolsfallingover a youngsters about to fall off a stool reaching fora cookie jar yet her kiddos are robbing the cookie jar and the little boy is falling off of the stool and the s the boys falling off the stool getting cookies from the cookie jar and the little boys falling off the stool standing up on to get the cookie little boys about to fall off a chair while hes reaching for some cookies uh the kids reaching in for cookies which is correct but hes d uh sl falling off thestool on a s the boys on a stool which is falling over getting cookies out ofajar,,,that boys climbed on a stool thats falling over to get a cookie oh the little boys reaching for the cookies and thestoolsfallingover a youngsters about to fall off a stool reaching fora cookie jar yet her kiddos are robbing the cookie jar and the little boy is falling off of the stool and the s the boys falling off the stool getting cookies from the cookie jar and the little boys falling off the stool standing up on to get the cookie little boys about to fall off a chair while hes reaching for some cookies uh the kids reaching in for cookies which is correct but hes d uh sl falling off thestool on a s the boys on a stool which is falling over getting cookies out ofajar,0.4122137404580153,12.482608935331417,4.175572519083969,0.2313432835820895,0.1641791044776119,0.044776119402985,0.6666666666666666,16,41.221374045801525,1,0,2,0.0,0.0037026404795091,0.0034799508896684,0.9355160656726458,0.05384516750257,0.0034561754556066,1,-0.1875,0.5,0
+404,and the stool hes standing on tilts over and the stool hes standing on tilts over and the stool hes standing on tilts over and the stool hes standing on tilts over,,,and the stool hes standing on tilts over and the stool hes standing on tilts over and the stool hes standing on tilts over and the stool hes standing on tilts over,0.25,11.694906241636998,4.125,0.2222222222222222,0.1111111111111111,0.1111111111111111,0.0,3,25.0,0,0,0,0.0,0.011833867972832,0.0118447830688102,0.012234721196998,0.9523217298190852,0.0117648979422743,0,0.0,0.0,1
