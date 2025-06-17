@@ -1,39 +1,13 @@
-import {
-   benefitIcon1,
-   benefitIcon2,
-   benefitIcon3,
-   benefitImage2,
-   chromecast,
-   disc02,
-   discord,
-   discordBlack,
-   facebook,
-   figma,
-   file02,
-   framer,
-   homeSmile,
-   instagram,
-   notification2,
-   notification3,
-   notification4,
-   notion,
-   photoshop,
-   plusSquare,
-   protopie,
-   raindrop,
-   recording01,
-   recording03,
-   roadmap1,
-   roadmap2,
-   roadmap3,
-   roadmap4,
-   searchMd,
-   slack,
-   sliders04,
-   telegram,
-   twitter,
-   yourlogo,
-} from "../assets";
+
+import discordBlack from "../assets/socials/discord.svg";
+import twitter from "../assets/socials/twitter.svg";
+import instagram from "../assets/socials/instagram.svg";
+import telegram from "../assets/socials/telegram.svg";
+import facebook from "../assets/socials/facebook.svg";
+import speech from "../assets/speech.jpeg"
+import clinical from "../assets/clinical.jpeg";
+import cognitive from "../assets/cognitive.webp";
+import eeg from "../assets/eeg.webp";
 
 export const navigation = [
    {
@@ -49,32 +23,27 @@ export const navigation = [
    {
       id: "2",
       title: "About Us",
-      url: "#about-us",
+      url: "/",
    },
    {
       id: "3",
       title: "Contact Us",
-      url: "#contact-us",
+      url: "/",
    },
    {
       id: "4",
       title: "New account",
-      url: "#signup",
+      url: "/",
       onlyMobile: true,
    },
    {
       id: "5",
       title: "Sign in",
-      url: "#login",
+      url: "/",
       onlyMobile: true,
    },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
-
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const mavericksServices = [
    "Photo generating",
@@ -82,52 +51,44 @@ export const mavericksServices = [
    "Seamless Integration",
 ];
 
-export const mavericksServicesIcons = [
-   recording03,
-   recording01,
-   disc02,
-   chromecast,
-   sliders04,
-];
 
-export const roadmap = [
+export const features = [
    {
       id: "0",
-      title: "Voice recognition",
-      text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+      title: "Speech Assessment",
+      text: "Enable users to record their voice for assessments, providing a more personalized and interactive experience.",
       date: "May 2023",
       status: "done",
-      imageUrl: roadmap1,
-      colorful: true,
+      imageUrl: speech,
    },
    {
       id: "1",
-      title: "Gamification",
-      text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+      title: "Clinical Assessment",
+      text: "Implement a comprehensive view of the user's medical history, including past diagnoses, treatments, and medications.",
       date: "May 2023",
       status: "progress",
-      imageUrl: roadmap2,
+      imageUrl: clinical,
    },
    {
       id: "2",
-      title: "Chatbot customization",
-      text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+      title: "EEG Assessment",
+      text: "Integrate EEG assessment capabilities to analyze brain activity and provide insights into mental health.",
       date: "May 2023",
       status: "done",
-      imageUrl: roadmap3,
+      imageUrl: eeg,
    },
    {
       id: "3",
-      title: "Integration with APIs",
-      text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+      title: "Cognitive Assessment",
+      text: "Add cognitive assessment History features to evaluate memory, attention, and other cognitive functions.",
       date: "May 2023",
       status: "progress",
-      imageUrl: roadmap4,
+      imageUrl: cognitive,
    },
 ];
 
 export const collabText =
-   "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+   "With smart automation and top-notch security, it's the perfect solution for consultants looking to work smarter.";
 
 export const collabContent = [
    {
@@ -145,100 +106,6 @@ export const collabContent = [
    },
 ];
 
-export const collabApps = [
-   {
-      id: "0",
-      title: "Figma",
-      icon: figma,
-      width: 26,
-      height: 36,
-   },
-   {
-      id: "1",
-      title: "Notion",
-      icon: notion,
-      width: 34,
-      height: 36,
-   },
-   {
-      id: "2",
-      title: "Discord",
-      icon: discord,
-      width: 36,
-      height: 28,
-   },
-   {
-      id: "3",
-      title: "Slack",
-      icon: slack,
-      width: 34,
-      height: 35,
-   },
-   {
-      id: "4",
-      title: "Photoshop",
-      icon: photoshop,
-      width: 34,
-      height: 34,
-   },
-   {
-      id: "5",
-      title: "Protopie",
-      icon: protopie,
-      width: 34,
-      height: 34,
-   },
-   {
-      id: "6",
-      title: "Framer",
-      icon: framer,
-      width: 26,
-      height: 34,
-   },
-   {
-      id: "7",
-      title: "Raindrop",
-      icon: raindrop,
-      width: 38,
-      height: 32,
-   },
-];
-
-export const pricing = [
-   {
-      id: "0",
-      title: "Basic",
-      description: "AI chatbot, personalized recommendations",
-      price: "0",
-      features: [
-         "An AI chatbot that can understand your queries",
-         "Personalized recommendations based on your preferences",
-         "Ability to explore the app and its features without any cost",
-      ],
-   },
-   {
-      id: "1",
-      title: "Premium",
-      description: "Advanced AI chatbot, priority support, analytics dashboard",
-      price: "9.99",
-      features: [
-         "An advanced AI chatbot that can understand complex queries",
-         "An analytics dashboard to track your conversations",
-         "Priority support to solve issues quickly",
-      ],
-   },
-   {
-      id: "2",
-      title: "Enterprise",
-      description: "Custom AI chatbot, advanced analytics, dedicated account",
-      price: null,
-      features: [
-         "An AI chatbot that can understand your queries",
-         "Personalized recommendations based on your preferences",
-         "Ability to explore the app and its features without any cost",
-      ],
-   },
-];
 
 export const modules = [
    {
@@ -246,8 +113,6 @@ export const modules = [
       title: "Dementia Module",
       text: "The app uses advanced algorithms to analyze user data and provide accurate diagnoses.",
       backgroundUrl: "./src/assets/benefits/card-1.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
       videoUrl: "./src/assets/animations/video3.mp4",
       light: true,
       pageUrl: "/dementia-module",
@@ -258,8 +123,6 @@ export const modules = [
       title: "Depression Module",
       text: "The app uses advanced algorithms to analyze user data and provide accurate diagnoses.",
       backgroundUrl: "./src/assets/benefits/card-2.svg",
-      iconUrl: benefitIcon2,
-      imageUrl: benefitImage2,
       videoUrl: "./src/assets/animations/video4.mp4",
       light: true,
       pageUrl: "/depression-module",
@@ -270,8 +133,6 @@ export const modules = [
       title: "Anxiety Module",
       text: "The app uses advanced algorithms to analyze user data and provide accurate diagnoses.",
       backgroundUrl: "./src/assets/benefits/card-3.svg",
-      iconUrl: benefitIcon3,
-      imageUrl: benefitImage2,
       videoUrl: "./src/assets/animations/video5.mp4",
       light: true,
       pageUrl: "/anxiety-module",

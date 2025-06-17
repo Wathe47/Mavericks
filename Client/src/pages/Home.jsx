@@ -1,16 +1,16 @@
 import ButtonGradient from "../assets/svg/ButtonGradient"
 import Modules from "../components/Modules"
-import Collaboration from "../components/Collaboration"
+import Specifications from "../components/Specifications"
 import Landing from "../components/Landing"
-import Roadmap from "../components/Roadmap"
+import Features from "../components/Features"
 
 const Home = () => {
    return (
       <>
          <Landing />
          <Modules />
-         <Collaboration />
-         <Roadmap />
+         <Specifications />
+         <Features />
          <ButtonGradient />
       </>
    )

@@ -4,7 +4,6 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
 
 const Header = () => {
@@ -68,10 +67,7 @@ const Header = () => {
                         </a>
                      ))}
                   </div>
-
-                  <HamburgerMenu />
                </nav>
-
                <a
                   href="#signup"
                   className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"

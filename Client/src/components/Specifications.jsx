@@ -1,14 +1,52 @@
-import { check } from "../assets";
+import { useEffect } from "react";
+import check from "../assets/check.png";
 import { collabContent } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import doctor from "../assets/doctor.png";
+import gsap from "gsap";
 
-const Collaboration = () => {
+const Specifications = () => {
+   useEffect(() => {
+      const section = document.getElementById("specifications-section");
+      const left = document.getElementById("specifications");
+      const right = document.getElementById("specifications-image");
+
+      gsap.set(left, { x: -100, opacity: 0 });
+      gsap.set(right, { x: 100, opacity: 0 });
+
+      const animate = () => {
+         gsap.to(left, { x: 0, opacity: 1, duration: 1, ease: "power2.out" });
+         gsap.to(right, { x: 0, opacity: 1, duration: 1, ease: "power2.out", delay: 0.1 });
+      };
+
+      const reset = () => {
+         gsap.set(left, { x: -100, opacity: 0 });
+         gsap.set(right, { x: 100, opacity: 0 });
+      };
+
+      const observer = new window.IntersectionObserver(
+         (entries) => {
+            entries.forEach(entry => {
+               if (entry.isIntersecting) {
+                  animate();
+               } else {
+                  reset();
+               }
+            });
+         },
+         { threshold: 0.3 }
+      );
+
+      if (section) observer.observe(section);
+
+      return () => observer.disconnect();
+   }, []);
+
    return (
-      <Section crosses>
+      <Section crosses id="specifications-section">
          <div className="container lg:flex">
-            <div className="max-w-[25rem]">
+            <div className="max-w-[25rem]" id="specifications">
                <h2 className="h2 mb-4 md:mb-8">
                   AI App for seamless diagnosis
                </h2>
@@ -30,8 +68,8 @@ const Collaboration = () => {
                <Button>Try it now</Button>
             </div>
 
-            <div className="relative z-1 lg:ml-auto xl:w-[50rem] xl:h-[30rem]">
-               <div className="relative min-h-[35rem] border border-n-1/10 rounded-3xl overflow-hidden shadow-xl shadow-gray-700">
+            <div className="relative z-1 lg:ml-auto xl:w-[50rem] xl:h-[30rem]" id="specifications-image">
+               <div className="relative min-h-[35rem] border border-n-1/10 rounded-3xl overflow-hidden shadow-2xl shadow-gray-800">
                   <div className="absolute inset-0">
                      <img
                         src={doctor}
@@ -47,10 +85,9 @@ const Collaboration = () => {
                   </div>
                </div>
             </div>
-
          </div>
       </Section>
    );
 };
 
-export default Collaboration;
+export default Specifications;
