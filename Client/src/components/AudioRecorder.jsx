@@ -39,7 +39,7 @@ const AudioRecorder = ({onTranscript,onAudioAvailable}) => {
          recognitionRef.current = new window.webkitSpeechRecognition();
          recognitionRef.current.continuous = true;
          recognitionRef.current.interimResults = true;
-         // recognitionRef.current.lang = 'en-US';
+         recognitionRef.current.lang = 'en-US';
 
 
          recognitionRef.current.onresult = (event) => {

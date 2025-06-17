@@ -52,6 +52,9 @@ const Modules = () => {
                   <div
                      className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
                      key={item.id}
+                     style={{
+                        backgroundImage: `url(${item.backgroundUrl})`,
+                     }}
                      id={`module-${idx}`}
                   >
                      <Link
@@ -75,7 +78,7 @@ const Modules = () => {
                            style={{ clipPath: "url(#benefits)" }}
                         >
                            <div className="absolute inset-0 opacity-15 transition-opacity hover:opacity-60 z-10">
-                              {item.imageUrl && (
+                              {item.videoUrl && (
                                  <video
                                     src={item.videoUrl}
                                     width={380}

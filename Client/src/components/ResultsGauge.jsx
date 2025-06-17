@@ -8,16 +8,15 @@ const severityMap = {
 };
 
 const colorMap = {
-  0: '#38f07b',   // green for Healthy
-  1: '#f7e967',   // yellow for Mild
-  2: '#ffb347',   // orange for Moderate
-  3: '#FF5F6D',   // red for Severe
+  0: '#38f07b',
+  1: '#f7e967',
+  2: '#ffb347',
+  3: '#FF5F6D',
 };
 
 export default function ResultsGauge({ resultData }) {
   if (!resultData) return null;
 
-  // Extract values from resultData
   const clinicalValue = resultData.clinical_proba * 100;
   const clinicalSeverity = severityMap[resultData.clinical_pred];
   const clinicalColor = colorMap[resultData.clinical_pred];
@@ -26,12 +25,10 @@ export default function ResultsGauge({ resultData }) {
   const speechSeverity = severityMap[resultData.speech_pred];
   const speechColor = colorMap[resultData.speech_pred];
 
-  // Gauge for meta prediction
   const metaValue = resultData.meta_proba * 100;
   const metaSeverity = severityMap[resultData.meta_pred];
   const metaColor = colorMap[resultData.meta_pred];
 
-  // Gauge chart config
   const percent = metaValue / 100;
   const coloredStops = Math.ceil(percent * 20);
   const colors = [
