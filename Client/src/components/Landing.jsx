@@ -23,7 +23,6 @@ const Landing = () => {
                if (entry.isIntersecting) {
                   animate();
                } else {
-                  // Reset for replay
                   gsap.set('#bg-video', { scale: 1 });
                   gsap.set('#heading', { opacity: 0 });
                   gsap.set('#cta', { opacity: 0, y: 0 });
@@ -61,7 +60,7 @@ const Landing = () => {
                   with Mavericks! 
                </h1>
                <div id='cta' className='opacity-0 mt-[22rem]'>
-                  <button className='bg-color-8 text-n-1 px-6 py-3 rounded-lg shadow-lg hover:bg-n-1 hover:text-n-7 transition duration-200 ease-in-out'>
+                  <button className='bg-color-8 text-n-1 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-n-1 hover:text-n-7 transition duration-200 ease-in-out'>
                      Get Started
                   </button>
                   <p className="body-1 mt-5 max-w-3xl mx-auto mb-6 text-n-1 lg:mb-8">

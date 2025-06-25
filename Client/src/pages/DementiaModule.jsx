@@ -99,7 +99,31 @@ const DementiaModule = () => {
       );
    }
 
+   const handleClear = () => {
+      setFormData(initialState);
+      setSpeechTranscripts({
+         Transcript_CTD: null,
+         Transcript_PFT: null,
+         Transcript_SFT: null
+      });
+      setAudioFiles({
+         CTD: false,
+         PFT: false,
+         SFT: false
+      });
+      setSendRequest(false);
+      setShowModal(false);
+      setSuccess(false);
+      setResultData(null);
+      setError(null);
+   };
 
+   const handleClose = () => {
+      setShowModal(false);
+      setSuccess(false);
+      setResultData(null);
+      setError(null);
+   };
 
    const handleSubmit = async (e) => {
       e.preventDefault();
@@ -185,7 +209,7 @@ const DementiaModule = () => {
 
                   <button
                      className="absolute top-4 right-4 text-2xl text-gray-700 hover:text-red-500 focus:outline-none z-20"
-                     onClick={() => setShowModal(false)}
+                     onClick={handleClose}
                      aria-label="Close"
                   >
                      &times;
@@ -290,6 +314,29 @@ const DementiaModule = () => {
                               <span className="text-sm text-[#94a3b8]">Yes</span>
                            </div>
                         </div>
+                        <div className="flex items-center justify-between">
+                           <label htmlFor="cardiovascular-disease" className="text-sm font-semibold">
+                              Cardiovascular Disease
+                           </label>
+                           <div className="flex items-center space-x-2">
+                              <input
+                                 id="cardiovascular-disease"
+                                 type="checkbox"
+                                 name="clinical.CardiovascularDisease"
+                                 checked={formData.clinical.CardiovascularDisease === 1}
+                                 onChange={(e) =>
+                                    handleChange({
+                                       target: {
+                                          name: "clinical.CardiovascularDisease",
+                                          value: e.target.checked ? 1 : 0,
+                                       },
+                                    })
+                                 }
+                                 className="rounded-md bg-[#1e293b] border border-[#334155] text-[#64748b] focus:ring-1 focus:ring-[#64748b]"
+                              />
+                              <span className="text-sm text-[#94a3b8]">Yes</span>
+                           </div>
+                        </div>
                         <div>
                            <label htmlFor="mmse" className="block text-sm font-semibold mb-1">MMSE Score</label>
                            <input
@@ -372,29 +419,7 @@ const DementiaModule = () => {
                               <span className="text-sm text-[#94a3b8]">Yes</span>
                            </div>
                         </div>
-                        <div className="flex items-center justify-between">
-                           <label htmlFor="cardiovascular-disease" className="text-sm font-semibold">
-                              Cardiovascular Disease
-                           </label>
-                           <div className="flex items-center space-x-2">
-                              <input
-                                 id="cardiovascular-disease"
-                                 type="checkbox"
-                                 name="clinical.CardiovascularDisease"
-                                 checked={formData.clinical.CardiovascularDisease === 1}
-                                 onChange={(e) =>
-                                    handleChange({
-                                       target: {
-                                          name: "clinical.CardiovascularDisease",
-                                          value: e.target.checked ? 1 : 0,
-                                       },
-                                    })
-                                 }
-                                 className="rounded-md bg-[#1e293b] border border-[#334155] text-[#64748b] focus:ring-1 focus:ring-[#64748b]"
-                              />
-                              <span className="text-sm text-[#94a3b8]">Yes</span>
-                           </div>
-                        </div>
+
 
 
 
@@ -448,14 +473,20 @@ const DementiaModule = () => {
 
                   <AudioRecorder onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_SFT: transcript }))} onAudioAvailable={isAudio => setAudioFiles(prev => ({ ...prev, SFT: isAudio }))} />               </div>
             </div>
-            <div className="flex justify-center mt-10">
+            <div className="flex justify-center gap-40 mt-20">
+               <button
+                  onClick={handleClear}
+                  className={`px-6 py-3 rounded-md text-white bg-[#1e293b] hover:bg-red-500 transition-colors ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+               >
+                  Clear Data
+               </button>
                <button
                   onClick={handleSubmit}
-                  disabled={loading}
                   className={`px-6 py-3 rounded-md text-white bg-[#1e293b] hover:bg-[#38f07b] transition-colors ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
                >
                   {loading ? 'Submitting...' : 'Submit Data'}
                </button>
+
             </div>
             <div className="flex justify-center mt-5 text-lg font-semibold">
                {error && <p className="text-red-500"> {error}</p>}
