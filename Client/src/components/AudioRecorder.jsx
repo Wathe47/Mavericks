@@ -86,7 +86,7 @@ const AudioRecorder = ({onTranscript,onAudioAvailable}) => {
       try {
          const formData = new FormData();
          formData.append("file", audioBlobRef.current, "audio.webm");
-         const res = await fetch("http://localhost:8000/transcribe/", {
+         const res = await fetch("http://localhost:8000/api/dementia/transcribe/", {
             method: "POST",
             body: formData,
          });

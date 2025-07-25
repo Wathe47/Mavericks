@@ -47,6 +47,8 @@ const DementiaModule = () => {
    const [sendRequest, setSendRequest] = useState(false);
    const [showModal, setShowModal] = useState(false);
    const [resultData, setResultData] = useState(null);
+   const [records, setRecords] = useState(null);
+   const [showRecords, setShowRecords] = useState(false)
 
    const handleChange = (e) => {
       const { name, value } = e.target;
@@ -123,6 +125,7 @@ const DementiaModule = () => {
       setSuccess(false);
       setResultData(null);
       setError(null);
+      setShowRecords(null)
    };
 
    const handleSubmit = async (e) => {
@@ -148,6 +151,28 @@ const DementiaModule = () => {
          setLoading(false);
       }
    };
+
+   const handleFetchRecords = async (e) => {
+      e.preventDefault();
+      setLoading(true);
+      setError(null);
+      try {
+         const response = await axiosInstance.get('/dementia/records');
+         if (response.status !== 200) {
+            throw new Error('Failed to fetch records');
+         }
+         console.log('Fetched records:', response.data);
+         setRecords(response.data);
+         setShowRecords(true)
+      } catch (err) {
+         console.error('Error fetching records:', err);
+         setError('Failed to fetch records. Please try again later.');
+      } finally {
+         setLoading(false);
+      }
+   };
+
+
 
    return (
       <>
@@ -218,10 +243,64 @@ const DementiaModule = () => {
             </div>
          )}
 
+         <div className="fixed top-0 left-0 w-full h-full bg-black/40 z-10 pointer-events-none"></div>
+         {showRecords && (
+
+            <div className="fixed inset-0 z-50 flex items-center justify-center ">
+               <div className="absolute inset-0 bg-black/45 backdrop-blur-sm"></div>
+               <div className="relative bg-white rounded-xl shadow-xl p-10 max-w-5xl w-full z-10"> {/* Increased max width */}
+
+                  {records && Array.isArray(records) && records.length > 0 ? (
+                     <div>
+                        <h2 className="text-xl font-bold mb-4 text-center text-black">Previous Records</h2>
+                        <div className="overflow-x-auto overflow-y-auto max-h-[500px]"> {/* Added horizontal scroll and increased height */}
+                           <table className="min-w-full text-left text-sm">
+                              <thead>
+                                 <tr>
+                                    {Object.keys(records[0]).map((key) => (
+                                       <th key={key} className="px-4 py-2 border-b font-semibold text-black whitespace-nowrap">{key}</th>
+                                    ))}
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 {records.map((record, idx) => (
+                                    <tr key={idx} className="hover:bg-gray-100">
+                                       {Object.values(record).map((value, i) => (
+                                          <td key={i} className="px-4 py-2 border-b text-black whitespace-nowrap">{String(value)}</td>
+                                       ))}
+                                    </tr>
+                                 ))}
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  ) : (
+                     <p className="text-center text-black">No records found.</p>
+                  )}
+
+                  <button
+                     className="absolute top-4 right-4 text-2xl text-gray-700 hover:text-red-500 focus:outline-none z-20"
+                     onClick={handleClose}
+                     aria-label="Close"
+                  >
+                     &times;
+                  </button>
+               </div>
+            </div>
+         )}
+
          <div className="relative z-10 min-h-screen p-6 mt-16 text-[#cbd5e1]">
             <Heading
                title="Clinical Data Submission"
             />
+            <div className='flex justify-center mt-5 mb-10'>
+               <button
+                  onClick={handleFetchRecords}
+                  className={`px-6 py-3 rounded-md text-white bg-[#1e293b] hover:bg-[#38f07b] transition-colors ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+               >
+                  Previous Records
+               </button>
+            </div>
             <div className="relative z-1 flex items-center w-1/2 h-flex mb-5 p-3 border border-n-1/10 rounded-3xl lg:p-15 xl:h-full m-auto bg-[#0f172ab3] rounded-3xl backdrop-blur-sm " >
                <div className="relative top-0 left-0 w-full h-full  p-6 ">
                   <main className="max-w-lg mx-auto">
@@ -420,9 +499,6 @@ const DementiaModule = () => {
                            </div>
                         </div>
 
-
-
-
                      </form>
                   </main>
                </div>
@@ -492,6 +568,8 @@ const DementiaModule = () => {
                {error && <p className="text-red-500"> {error}</p>}
                {success && <p className="text-green-500">Data submitted successfully!</p>}
             </div>
+
+
 
          </div>
       </>

@@ -8,23 +8,28 @@ import subprocess
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from predict_dementia import predict_from_input
-from config import add_cors_middleware
+from Config.corsConfig import add_cors_middleware
 from schemas import PredictionRequest
 from Transcribe.transcribe import transcribe_local
 from Transcribe.transcribe import transcribe_azure
+from Config.dbConfig import SessionLocal,engine, Base
+from Models.dementia_model import DementiaModel
+
+# Create or update tables
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 add_cors_middleware(app)
 
 
-@app.post("/transcribe/")
+@app.post("/api/dementia/transcribe/")
 async def transcribe_audio(file: UploadFile = File(...)):
-    
+
     print("Received file for transcription:", file.filename)
-   
+
     with tempfile.NamedTemporaryFile(delete=False, suffix=".webm") as tmp_in:
-       tmp_in.write(await file.read())
-       tmp_in.flush()
+        tmp_in.write(await file.read())
+        tmp_in.flush()
 
     wav_file = tmp_in.name.replace(".webm", ".wav")
 
@@ -43,7 +48,7 @@ async def transcribe_audio(file: UploadFile = File(...)):
         output = await transcribe_local(wav_file)
 
     if output == {"transcript": ""}:
-        output = {"transcript": "(Returned empty result!)"}
+        output = {"transcript": "(Empty result!)"}
 
     # Clean up temporary files
     os.remove(tmp_in.name)
@@ -69,4 +74,57 @@ def predict(request: PredictionRequest):
     result["speech_proba"] = float(result["speech_proba"])
     result["meta_proba"] = float(result["meta_proba"])
 
+    # Save the record to the database
+    db = SessionLocal()
+    try:
+        record = DementiaModel(
+            # Clinical fields
+            age=manual_input["Age"],
+            gender=manual_input["Gender"],
+            bmi=manual_input["BMI"],
+            family_history_alzheimers=manual_input["FamilyHistoryAlzheimers"],
+            hypertension=manual_input["Hypertension"],
+            cardiovascular_disease=manual_input["CardiovascularDisease"],
+            mmse=manual_input["MMSE"],
+            adl=manual_input["ADL"],
+            functional_assessment=manual_input["FunctionalAssessment"],
+            memory_complaints=manual_input["MemoryComplaints"],
+            behavioral_problems=manual_input["BehavioralProblems"],
+            # Speech fields
+            transcript_ctd=transcript_ctd,
+            transcript_pft=transcript_pft,
+            transcript_sft=transcript_sft,
+            # Prediction results
+            clinical_pred=result["clinical_pred"],
+            clinical_proba=result["clinical_proba"],
+            speech_pred=result["speech_pred"],
+            speech_proba=result["speech_proba"],
+            meta_pred=result["meta_pred"],
+            meta_proba=result["meta_proba"],
+        )
+        db.add(record)
+        db.commit()
+        db.refresh(record)
+    except Exception as e:
+        db.rollback()
+        print(f"Error saving to database: {e}")
+    finally:
+        db.close()
+
     return result
+
+#get all records 
+@app.get('/api/dementia/records')
+def getRecords():
+   db = SessionLocal()
+   try:
+      records = db.query(DementiaModel).order_by(DementiaModel.id.desc()).all()
+      result = [record.__dict__ for record in records]
+      # Remove SQLAlchemy internal state
+      for r in result:
+         r.pop('_sa_instance_state', None)
+   except Exception as e:
+      print(f"Error fetching records from database: {e}")
+   finally:
+      db.close()
+   return result

@@ -14,7 +14,7 @@ import requests
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from predict_dementia import predict_from_input
-from config import add_cors_middleware
+from Config.corsConfig import add_cors_middleware
 from schemas import PredictionRequest
 
 
