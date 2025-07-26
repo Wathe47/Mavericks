@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, HTTPException, UploadFile
 import sys
 import os
 import tempfile
@@ -7,13 +7,15 @@ import subprocess
 # Add the path to import using_trained.py
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from predict_dementia import predict_from_input
+from Dementia_Models.predict_dementia import predict_from_input
 from Config.corsConfig import add_cors_middleware
 from schemas import PredictionRequest
 from Transcribe.transcribe import transcribe_local
 from Transcribe.transcribe import transcribe_azure
 from Config.dbConfig import SessionLocal,engine, Base
 from Models.dementia_model import DementiaModel
+from Depression_module.predictor import predict_depression
+from Depression_module.severity import predict_severity
 
 # Create or update tables
 Base.metadata.create_all(bind=engine)
@@ -114,7 +116,7 @@ def predict(request: PredictionRequest):
     return result
 
 #get all records 
-@app.get('/api/dementia/records')
+@app.get("/api/dementia/records")
 def getRecords():
    db = SessionLocal()
    try:
@@ -128,3 +130,38 @@ def getRecords():
    finally:
       db.close()
    return result
+
+@app.post("/api/depression/predict/")
+async def predict(file: UploadFile = File(...)):
+    if not file.filename.endswith('.edf'):
+        raise HTTPException(status_code=400, detail="Only .edf files are supported")
+
+    # Save uploaded file temporarily
+    temp_path = f"./temp_{file.filename}"
+    contents = await file.read()
+    with open(temp_path, "wb") as f:
+        f.write(contents)
+
+    try:
+        depression_label, depression_prob = predict_depression(temp_path)
+    except Exception as e:
+        os.remove(temp_path)
+        raise HTTPException(status_code=500, detail=f"Error during depression prediction: {e}")
+
+    result = {
+        "depression_detected": bool(depression_label),
+        "depression_probability": depression_prob
+    }
+
+    if depression_label == 1:
+        try:
+            severity_label = predict_severity(temp_path)
+            result["severity_prediction"] = severity_label
+        except Exception as e:
+            os.remove(temp_path)
+            raise HTTPException(status_code=500, detail=f"Error during severity prediction: {e}")
+    else:
+        result["message"] = "No depression detected"
+
+    os.remove(temp_path)
+    return result

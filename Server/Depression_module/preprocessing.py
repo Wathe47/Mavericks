@@ -1,7 +1,7 @@
 import mne
 import numpy as np
 import torch
-from app.models_cbramod import Params
+from Depression_module.models_cbramod import Params
 
 selected_channels = [
     'EEG Fp1-LE', 'EEG Fp2-LE', 'EEG F3-LE', 'EEG F4-LE', 'EEG C3-LE', 'EEG C4-LE',

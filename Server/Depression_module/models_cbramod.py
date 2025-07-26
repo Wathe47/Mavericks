@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from einops.layers.torch import Rearrange
-from models.cbramod import CBraMod  
+from Depression_module.models.cbramod import CBraMod  
 
 
 class CBraModMumtaz(nn.Module):
@@ -36,7 +36,7 @@ class CBraModMumtaz(nn.Module):
 
 class Params:
     use_pretrained_weights = True  
-    pretrained_ckpt_path = 'models/best_cbramod_mumtaz.pth' 
+    pretrained_ckpt_path = './Depression_module/models/best_cbramod_mumtaz.pth' 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     classifier = 'all_patch_reps_twolayer'
     dropout = 0.1

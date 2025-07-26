@@ -5,7 +5,7 @@ import Heading from '../components/Heading';
 import AudioRecorder from '../components/AudioRecorder';
 import Loading from '../components/Loading';
 import Check from '../components/Check';
-import ResultsGauge from '../components/ResultsGauge';
+import DementiaResultsGauge from '../components/DementiaResultsGauge';
 
 const initialState = {
    clinical: {
@@ -185,14 +185,14 @@ const DementiaModule = () => {
             className="fixed top-0 left-0 w-full h-full object-cover z-0 "
             style={{ minHeight: '100vh', minWidth: '100vw' }}
          />
-         <div className="fixed top-0 left-0 w-full h-full bg-black/40 z-10 pointer-events-none"></div>
+         <div className="fixed top-0 left-0 w-full h-full bg-black/10 z-10 pointer-events-none"></div>
          {showModal && (
 
             <div className="fixed inset-0 z-50 flex items-center justify-center ">
                <div className="absolute inset-0 bg-black/45 backdrop-blur-sm"></div>
                <div className="relative bg-white rounded-xl shadow-xl p-10 max-w-lg w-full z-10">
                   {success ? (
-                     <ResultsGauge
+                     <DementiaResultsGauge
                         name="Clinical Data"
                         value={67.89}
                         color="#FF5F6D"

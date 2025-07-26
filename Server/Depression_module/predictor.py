@@ -1,7 +1,7 @@
 import torch
-from app.models_cbramod import CBraModMumtaz, Params
-from app.preprocessing import preprocess_edf
-from app.severity import predict_severity
+from Depression_module.models_cbramod import CBraModMumtaz, Params
+from Depression_module.preprocessing import preprocess_edf
+from Depression_module.severity import predict_severity
 
 param = Params()
 model = CBraModMumtaz(param).to(param.device)

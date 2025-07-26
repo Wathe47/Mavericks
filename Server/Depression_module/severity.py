@@ -55,8 +55,8 @@ def extract_band_powers(eeg, sfreq):
     return features
 
 # Load severity model and label encoder once
-MODEL_PATH = 'models/rf_severity_model.pkl' 
-LABEL_ENCODER_PATH = 'models/severity_label_encoder.pkl' 
+MODEL_PATH = './Depression_module/models/rf_severity_model.pkl' 
+LABEL_ENCODER_PATH = './Depression_module/models/severity_label_encoder.pkl' 
 
 with open(MODEL_PATH, 'rb') as f_model, open(LABEL_ENCODER_PATH, 'rb') as f_le:
     clf = pickle.load(f_model)

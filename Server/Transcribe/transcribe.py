@@ -13,7 +13,7 @@ import requests
 # Add the path to import using_trained.py
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from predict_dementia import predict_from_input
+from Dementia_Models.predict_dementia import predict_from_input
 from Config.corsConfig import add_cors_middleware
 from schemas import PredictionRequest
 

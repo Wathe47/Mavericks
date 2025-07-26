@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from models.criss_cross_transformer import TransformerEncoderLayer, TransformerEncoder
+from Depression_module.models.criss_cross_transformer import TransformerEncoderLayer, TransformerEncoder
 
 
 class CBraMod(nn.Module):
