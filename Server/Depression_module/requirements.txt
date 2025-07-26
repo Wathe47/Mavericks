@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+torch
+numpy
+mne
+lmdb
+einops
+scikit-learn
+pandas
+scipy
+python-multipart
