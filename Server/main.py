@@ -16,6 +16,7 @@ from Config.dbConfig import SessionLocal,engine, Base
 from Models.dementia_model import DementiaModel
 from Depression_module.predictor import predict_depression
 from Depression_module.severity import predict_severity
+from Anxiety_Module.anxiety_predictor import predict_anxiety
 
 # Create or update tables
 Base.metadata.create_all(bind=engine)
@@ -165,3 +166,16 @@ async def predict(file: UploadFile = File(...)):
 
     os.remove(temp_path)
     return result
+
+
+@app.post("/api/anxiety/predict/")
+async def predict_anxiety_endpoint(
+        audio: UploadFile = File(...),
+        facial1: UploadFile = File(...),
+        facial2: UploadFile = File(...),
+        facial3: UploadFile = File(...),
+        transcript: UploadFile = File(...),
+    ):
+    result = predict_anxiety( audio, facial1, facial2, facial3, transcript )
+    return result
+ 
