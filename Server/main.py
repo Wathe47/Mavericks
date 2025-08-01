@@ -37,11 +37,17 @@ async def transcribe_audio(file: UploadFile = File(...)):
     wav_file = tmp_in.name.replace(".webm", ".wav")
 
     # Convert to WAV using ffmpeg
-    subprocess.run(
-        ["ffmpeg", "-i", tmp_in.name, "-ar", "16000", "-ac", "1", wav_file],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
-    )
+    try:
+        subprocess.run(
+            ["ffmpeg", "-i", tmp_in.name, "-ar", "16000", "-ac", "1", wav_file],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            check=True
+        )
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="FFmpeg not found. Please install FFmpeg and add it to your PATH.")
+    except subprocess.CalledProcessError:
+        raise HTTPException(status_code=500, detail="Audio conversion failed.")
 
     try:
         output = await transcribe_azure(wav_file)

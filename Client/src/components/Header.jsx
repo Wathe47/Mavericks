@@ -34,7 +34,8 @@ const Header = () => {
          >
 
             <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-               <a className="block w-[12rem] xl:mr-8" href="/">
+               <div className="flex items-center justify-center w-1/4 mr-4 lg:mr-6 xl:mr-8">
+               <a className="block w-[13rem] xl:mr-8" href="/">
                   <h1 className="text-4xl text-color-9 font-bold font-bigshoulders"
                      style={{
                         textShadow: `
@@ -46,6 +47,8 @@ const Header = () => {
                      }}
                   >M A V E R I C K S</h1>
                </a>
+               </div>
+
 
                <nav
                   className={`${openNavigation ? "flex" : "hidden"
