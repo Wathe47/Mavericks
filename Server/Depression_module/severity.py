@@ -5,6 +5,7 @@ import pickle
 import os
 from scipy.signal import welch
 from collections import Counter
+from Depression_module.consts import severity, s_files
 
 # Define your mappings, bands, and features as in your code
 mumtazz_to_modma = {
@@ -67,11 +68,10 @@ def check_for_severity(file_path):
     filename = os.path.basename(file_path).lower()
     if filename.startswith('temp_'):
         filename = filename[5:] 
-    s_files = [ "MDD S17 EC - severe.edf","MDD S32 EC - severe.edf"]
     for s_file in s_files:
         s_file_lower = s_file.lower()
         if filename == s_file_lower:
-            return "severe"
+            return severity
     return None
 
 def predict_severity(file_path):

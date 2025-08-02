@@ -1,45 +1,81 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import axiosInstance from "../config/axiosConfig";
 import Loading from "../components/Loading";
 import DepressionResultsGauge from "../components/DepressionResultsGauge";
+import {
+   validateUploadFile,
+   ALLOWED_FILE_TYPES,
+   MAX_FILE_SIZE
+} from '../validations/depressionValidate';
 
 const DepressionModule = () => {
 
    const [formData, setFormData] = useState({
       file: null
    });
+   const fileInputRef = useRef(null);
 
    const [showModal, setShowModal] = useState(false);
    const [success, setSuccess] = useState(false);
    const [resultData, setResultData] = useState({});
-   const [error, setError] = useState(null);
+   const [errors, setErrors] = useState(null);
+   const [fileInfo, setFileInfo] = useState({
+      name: '',
+      size: '',
+   });
 
    const handleChange = (e) => {
       const { name, files } = e.target;
       if (name === 'file') {
+         const selectedFile = files[0];
+
          setFormData((prevData) => ({
             ...prevData,
-            file: files[0] // Store the first selected file
+            file: selectedFile
          }));
+
+         // Real-time validation
+         if (selectedFile) {
+            const fileError = validateUploadFile(selectedFile);
+            setErrors(fileError.errors[0]);
+
+            // Set file info for display
+            setFileInfo({
+               name: selectedFile.name,
+               size: selectedFile.size ? selectedFile.size > 1024 * 1024 ? `${(selectedFile.size / (1024 * 1024)).toFixed(2)} MB` : `${selectedFile.size / 1024} KB` : '',
+            });
+
+         } else {
+            setErrors(null);
+            setFileInfo({
+               name: '',
+               size: '',
+            });
+         }
       }
    };
 
    const handleSubmit = (e) => {
       e.preventDefault();
       // Handle form submission logic here
+
       if (!formData.file) {
-         setError("Please upload a file.");
+         setErrors("Please upload a file.");
       } else {
+
+         const fileError = validateUploadFile(formData.file);
+
+         if (!fileError.isValid) {
+            setErrors(fileError.errors[0]);
+            return;
+         }
+
          setShowModal(true);
-         setError(null); 
+         setErrors(null);
 
          console.log("File submitted:", formData.file);
          console.log("File name:", formData.file.name);
-         console.log("File size:", formData.file.size);
-         console.log("File type:", formData.file.type);
 
-         // You can process the file here or send it to your server
-         // Example: Create FormData for server upload
          const fileData = new FormData();
          fileData.append('file', formData.file);
 
@@ -72,6 +108,16 @@ const DepressionModule = () => {
 
    const handleClear = () => {
       setFormData({ file: null });
+      console.log(formData);
+      setErrors(null);
+      setFileInfo({
+         name: '',
+         size: '',
+      });
+
+      if (fileInputRef.current) {
+         fileInputRef.current.value = '';
+      }
    };
 
    return (
@@ -138,15 +184,33 @@ const DepressionModule = () => {
                      <main className="max-w-lg mx-auto">
                         <form onSubmit={handleSubmit} className="space-y-6">
                            <div>
-                              <label htmlFor="file-upload" className="block text-sm font-semibold mb-1 ">Upload File</label>
+                              <label htmlFor="file-upload" className="block text-sm font-semibold mb-1">
+                                 Upload EEG File (.edf or .mat)
+                              </label>
+                              <div className="mb-2 text-xs mb-5 text-gray-400">
+                                 Accepted formats: {ALLOWED_FILE_TYPES.join(', ')} |
+                                 Max size: {(MAX_FILE_SIZE / (1024 * 1024)).toFixed(0)}MB
+                              </div>
                               <input
+                                 ref={fileInputRef}
                                  id="file-upload"
                                  type="file"
                                  name="file"
                                  onChange={handleChange}
                                  required
-                                 className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff] file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-[#2563eb] file:text-white hover:file:bg-[#1d4ed8] "
+                                 className={`w-full rounded-md bg-[#1e293b] border ${errors?.file ? 'border-red-500' : 'border-[#334155]'
+                                    } text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff] file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-[#2563eb] file:text-white hover:file:bg-[#1d4ed8]`}
                               />
+
+                              {errors && (
+                                 <p className="text-red-400 text-sm mt-1">{errors}</p>
+                              )}
+
+                              {(fileInfo.name !== '' && fileInfo.size !== '') && !errors && (
+                                 <div className="text-green-400 text-sm mt-1">
+                                    ✓ {fileInfo?.name} ({fileInfo?.size})
+                                 </div>
+                              )}
                            </div>
 
                         </form>
@@ -165,7 +229,6 @@ const DepressionModule = () => {
                            </button>
                         </div>
                         <div className="mt-10 text-center">
-                           {error && <p className=" text-red-500 text-lg mt-10">{error}</p>}
                            {success && (
                               <p className="text-green-500 mt-10">File submitted successfully!</p>
                            )}

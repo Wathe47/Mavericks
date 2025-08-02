@@ -1,30 +1,32 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import axiosInstance from '../config/axiosConfig';
 import Heading from '../components/Heading';
 import AudioRecorder from '../components/AudioRecorder';
 import Loading from '../components/Loading';
 import Check from '../components/Check';
 import DementiaResultsGauge from '../components/DementiaResultsGauge';
+import { useCallback } from 'react';
+import { validateField, validateForm } from '../validations/dementiaValidate';
 
 const initialState = {
    clinical: {
-      Age: null,
-      Gender: null,
-      BMI: null,
+      Age: '',
+      Gender: '',
+      BMI: '',
       FamilyHistoryAlzheimers: 0,
       Hypertension: 0,
       CardiovascularDisease: 0,
-      MMSE: null,
-      ADL: null,
-      FunctionalAssessment: null,
+      MMSE: '',
+      ADL: '',
+      FunctionalAssessment: '',
       MemoryComplaints: 0,
       BehavioralProblems: 0
    },
    speech: {
-      Transcript_CTD: null,
-      Transcript_PFT: null,
-      Transcript_SFT: null
+      Transcript_CTD: '',
+      Transcript_PFT: '',
+      Transcript_SFT: ''
    }
 };
 
@@ -50,6 +52,13 @@ const DementiaModule = () => {
    const [records, setRecords] = useState(null);
    const [showRecords, setShowRecords] = useState(false)
 
+   const ctdRecorderRef = useRef(null);
+   const pftRecorderRef = useRef(null);
+   const sftRecorderRef = useRef(null);
+
+   const [validationErrors, setValidationErrors] = useState({});
+
+
    const handleChange = (e) => {
       const { name, value } = e.target;
       const [section, field] = name.split('.');
@@ -60,6 +69,13 @@ const DementiaModule = () => {
             [field]: value
          }
       }));
+
+      const fieldError = validateField(field, value);
+      setValidationErrors(prev => ({
+         ...prev,
+         [field]: fieldError
+      }));
+      console.log(fieldError);
    };
 
    useEffect(() => {
@@ -95,30 +111,42 @@ const DementiaModule = () => {
       setLoading(false);
    };
 
-   function validateClinicalData(clinical) {
-      return Object.values(clinical).every(
-         value => value !== null && value !== "" && !(typeof value === "number" && isNaN(value))
-      );
-   }
+   const handleClear = useCallback(() => {
+      console.log('Clearing form data');
 
-   const handleClear = () => {
       setFormData(initialState);
+
       setSpeechTranscripts({
          Transcript_CTD: null,
          Transcript_PFT: null,
          Transcript_SFT: null
       });
+
       setAudioFiles({
          CTD: false,
          PFT: false,
          SFT: false
       });
+
+      if (ctdRecorderRef.current) {
+         ctdRecorderRef.current.handleClear();
+      }
+      if (pftRecorderRef.current) {
+         pftRecorderRef.current.handleClear();
+      }
+      if (sftRecorderRef.current) {
+         sftRecorderRef.current.handleClear();
+      }
+
       setSendRequest(false);
       setShowModal(false);
       setSuccess(false);
       setResultData(null);
       setError(null);
-   };
+      setLoading(false);
+
+   }, []);
+
 
    const handleClose = () => {
       setShowModal(false);
@@ -133,11 +161,21 @@ const DementiaModule = () => {
       setLoading(true);
       setError(null);
       try {
-         if (!validateClinicalData(formData.clinical)) {
-            setError("Please fill in all clinical data fields.");
+         const validation = validateForm(formData, audioFiles);
+         console.log(validationErrors.speech);
+
+         if (!validation.isValid) {
+            setValidationErrors({
+               ...validation.errors.clinical,
+               speech: validation.errors.speech
+            });
+            setError("Please fix the validation errors before submitting.");
             setLoading(false);
             return;
          }
+
+         setValidationErrors({});
+
          if (audioFiles.CTD && audioFiles.PFT && audioFiles.SFT) {
             setError('');
             setShowModal(true)
@@ -289,19 +327,30 @@ const DementiaModule = () => {
             </div>
          )}
 
-         <div className="relative z-10 min-h-screen p-6 mt-16 text-[#cbd5e1]">
+         <div className="relative z-10 min-h-screen p-6 mt-0 text-[#cbd5e1]">
+            <div className="flex flex-col items-center justify-center py-20">
+               <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Dementia Module</h1>
+               <p className="text-lg md:text-xl text-white text-center max-w-2xl">
+                  This module is designed to assist in the early detection and classification of dementia by analyzing both clinical data and patient speech               </p>
+            </div>
+
+            <div className='flex justify-center mt-5 mb-10 '>
+               <div className="w-1/2 flex justify-end">
+                  <button
+                     onClick={handleFetchRecords}
+                     className={`flex items-center justify-center gap-2 px-6 py-3 rounded-md text-white bg-[#1e293b] hover:bg-[#38f07b] transition-colors ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+                  >
+                     <img src="./src/assets/history-icon.png" alt="history" className="w-5 h-4" />
+                     Previous Records
+                  </button>
+               </div>
+            </div>
+
             <Heading
                title="Clinical Data Submission"
             />
-            <div className='flex justify-center mt-5 mb-10'>
-               <button
-                  onClick={handleFetchRecords}
-                  className={`px-6 py-3 rounded-md text-white bg-[#1e293b] hover:bg-[#38f07b] transition-colors ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
-               >
-                  Previous Records
-               </button>
-            </div>
-            <div className="relative z-1 flex items-center w-1/2 h-flex mb-5 p-3 border border-n-1/10 rounded-3xl lg:p-15 xl:h-full m-auto bg-[#0f172ab3] rounded-3xl backdrop-blur-sm " >
+
+            <div className="relative z-1 flex items-center -mt-10 w-1/2 h-flex mb-5 p-3 border border-n-1/10 rounded-3xl lg:p-15 xl:h-full m-auto bg-[#0f172ab3] rounded-3xl backdrop-blur-sm " >
                <div className="relative top-0 left-0 w-full h-full  p-6 ">
                   <main className="max-w-lg mx-auto">
                      <form onSubmit={handleSubmit} className="space-y-6">
@@ -317,6 +366,9 @@ const DementiaModule = () => {
                               required
                               className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                            />
+                           {validationErrors.Age && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.Age}</p>
+                           )}
                         </div>
                         <div>
                            <label htmlFor="gender" className="block text-sm font-semibold mb-1">Gender</label>
@@ -332,6 +384,9 @@ const DementiaModule = () => {
                               <option value="0">Male</option>
                               <option value="1">Female</option>
                            </select>
+                           {validationErrors.Gender && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.Gender}</p>
+                           )}
                         </div>
                         <div>
                            <label htmlFor="bmi" className="block text-sm font-semibold mb-1">BMI</label>
@@ -345,6 +400,9 @@ const DementiaModule = () => {
                               required
                               className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                            />
+                           {validationErrors.BMI && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.BMI}</p>
+                           )}
                         </div>
                         <div className="flex items-center justify-between">
                            <label htmlFor="family-history" className="text-sm font-semibold">
@@ -427,7 +485,11 @@ const DementiaModule = () => {
                               required
                               className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                            />
+                           {validationErrors.MMSE && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.MMSE}</p>
+                           )}
                         </div>
+
                         <div>
                            <label htmlFor="adl" className="block text-sm font-semibold mb-1">ADL Score</label>
                            <input
@@ -439,6 +501,9 @@ const DementiaModule = () => {
                               required
                               className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                            />
+                           {validationErrors.ADL && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.ADL}</p>
+                           )}
                         </div>
                         <div>
                            <label htmlFor="functional-assessment" className="block text-sm font-semibold mb-1">Functional Assessment</label>
@@ -451,6 +516,9 @@ const DementiaModule = () => {
                               required
                               className="w-full rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                            />
+                           {validationErrors.FunctionalAssessment && (
+                              <p className="text-red-400 text-xs mt-1">{validationErrors.FunctionalAssessment}</p>
+                           )}
                         </div>
                         <div className="flex items-center justify-between">
                            <label htmlFor="memory-complaints" className="text-sm font-semibold">
@@ -508,7 +576,7 @@ const DementiaModule = () => {
             <Heading
                title="Speech Data Submission"
             />
-            <div className="flex justify-center mb-5 -mt-5 font-medium">
+            <div className="flex justify-center mb-5 -mt-10 font-medium">
                <h5 className="h5 m-0 text-center">Cookie Theft Test</h5>
             </div>
             <div className="relative z-1 flex items-center w-1/2  mb-5 p-3 border border-n-1/10 rounded-3xl lg:p-5 m-auto bg-[#0f172ab3] rounded-3xl backdrop-blur-sm " >
@@ -517,7 +585,19 @@ const DementiaModule = () => {
                   </div>
                   <img src="./src/assets/ct-image.ppm" alt="Cookie Theft Test" className="w-full h-auto mb-10 rounded-lg" />
                   <h6 className="h7 mb-10 font-semibold ">Tell me everything you see going on in this picture:</h6>
-                  <AudioRecorder onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_CTD: transcript }))} onAudioAvailable={isAudio => setAudioFiles(prev => ({ ...prev, CTD: isAudio }))} />
+                  <AudioRecorder
+                     onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_CTD: transcript }))}
+                     onAudioAvailable={isAudio => {
+                        setAudioFiles(prev => ({ ...prev, CTD: isAudio }));
+                        if (isAudio) {
+                           setValidationErrors(prev => ({ ...prev, speech: { ...prev.speech, CTD_Audio: '' } }));
+                        }
+                     }}
+                     ref={ctdRecorderRef}
+                  />
+                  {validationErrors.speech?.CTD_Audio && (
+                     <p className="text-red-400 text-sm text-center mt-4">{validationErrors.speech.CTD_Audio}</p>
+                  )}
                </div>
             </div>
             <div className="h-20"></div>
@@ -532,7 +612,19 @@ const DementiaModule = () => {
                   </div>
                   <h6 className="h7 mb-10 font-semibold ">Name as many words as possible starting with the letter "P":</h6>
 
-                  <AudioRecorder onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_PFT: transcript }))} onAudioAvailable={isAudio => setAudioFiles(prev => ({ ...prev, PFT: isAudio }))} />
+                  <AudioRecorder
+                     onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_PFT: transcript }))}
+                     onAudioAvailable={isAudio => {
+                        setAudioFiles(prev => ({ ...prev, PFT: isAudio }));
+                        if (isAudio) {
+                           setValidationErrors(prev => ({ ...prev, speech: { ...prev.speech, PFT_Audio: '' } }));
+                        }
+                     }}
+                     ref={pftRecorderRef}
+                  />
+                  {validationErrors.speech?.PFT_Audio && (
+                     <p className="text-red-400 text-sm text-center mt-4">{validationErrors.speech.PFT_Audio}</p>
+                  )}
                </div>
             </div>
             <div className="h-20"></div>
@@ -547,7 +639,20 @@ const DementiaModule = () => {
                   </div>
                   <h6 className="h7 mb-10 font-semibold "> Name as many animal names as possible:</h6>
 
-                  <AudioRecorder onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_SFT: transcript }))} onAudioAvailable={isAudio => setAudioFiles(prev => ({ ...prev, SFT: isAudio }))} />               </div>
+                  <AudioRecorder
+                     onTranscript={transcript => setSpeechTranscripts(prev => ({ ...prev, Transcript_SFT: transcript }))}
+                     onAudioAvailable={isAudio => {
+                        setAudioFiles(prev => ({ ...prev, SFT: isAudio }));
+                        if (isAudio) {
+                           setValidationErrors(prev => ({ ...prev, speech: { ...prev.speech, SFT_Audio: '' } }));
+                        }
+                     }}
+                     ref={sftRecorderRef}
+                  />
+                  {validationErrors.speech?.SFT_Audio && (
+                     <p className="text-red-400 text-sm text-center mt-4">{validationErrors.speech.SFT_Audio}</p>
+                  )}
+               </div>
             </div>
             <div className="flex justify-center gap-40 mt-20">
                <button

@@ -1,9 +1,8 @@
-// filepath: /home/wathsalya/Documents/WebApp/Client/src/utils/axiosConfig.js
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-   baseURL: 'http://localhost:8000/api', // Replace with your API base URL
-   timeout: 10000, // Request timeout in milliseconds
+   baseURL: 'http://localhost:8000/api', 
+   timeout: 100000, 
    headers: {
       'Content-Type': 'application/json',
    },
