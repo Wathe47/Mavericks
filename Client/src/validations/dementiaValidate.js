@@ -38,7 +38,7 @@ const validateADL = (adl) => {
   const numADL = Number(adl);
   if (isNaN(numADL)) return 'ADL Score must be a number';
   if (numADL < 0) return 'ADL Score cannot be negative';
-  if (numADL > 10) return 'ADL Score cannot exceed 10';
+  if (numADL > 6) return 'ADL Score cannot exceed 6';
   return null;
 };
 
@@ -47,7 +47,7 @@ const validateFunctionalAssessment = (fa) => {
   const numFA = Number(fa);
   if (isNaN(numFA)) return 'Functional Assessment must be a number';
   if (numFA < 0) return 'Functional Assessment cannot be negative';
-  if (numFA > 10) return 'Functional Assessment cannot exceed 10';
+  if (numFA > 8) return 'Functional Assessment cannot exceed 8';
   return null;
 };
 
