@@ -8,7 +8,7 @@ const RecordsModal = ({ showRecords, records, handleClose }) => {
         {records && Array.isArray(records) && records.length > 0 ? (
           <div>
             <h2 className="text-xl font-bold mb-4 text-center text-black">
-              Previous Records
+              Previous Records 
             </h2>
             <div className="overflow-x-auto overflow-y-auto max-h-[500px]">
               <table className="min-w-full text-left text-sm">
