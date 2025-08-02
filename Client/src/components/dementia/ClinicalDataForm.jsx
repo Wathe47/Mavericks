@@ -1,54 +1,12 @@
-import { useState } from 'react';
-import BMICalculator from './tests/BMICalculator';
-import MMSETest from './tests/MMSETest';
-import ADLTest from './tests/ADLTest';
-import FunctionalAssessmentTest from './tests/FunctionalAssessmentTest';
-
 const ClinicalDataForm = ({
    formData,
    validationErrors,
-   handleChange
+   handleChange,
+   onShowBMICalculator,
+   onShowMMSETest,
+   onShowADLTest,
+   onShowFATest
 }) => {
-   const [showBMICalculator, setShowBMICalculator] = useState(false);
-   const [showMMSETest, setShowMMSETest] = useState(false);
-   const [showADLTest, setShowADLTest] = useState(false);
-   const [showFATest, setShowFATest] = useState(false);
-
-   const handleBMICalculated = (bmi) => {
-      handleChange({
-         target: {
-            name: "clinical.BMI",
-            value: bmi
-         }
-      });
-   };
-
-   const handleMMSECompleted = (score) => {
-      handleChange({
-         target: {
-            name: "clinical.MMSE",
-            value: score
-         }
-      });
-   };
-
-   const handleADLCompleted = (score) => {
-      handleChange({
-         target: {
-            name: "clinical.ADL",
-            value: score
-         }
-      });
-   };
-
-   const handleFACompleted = (score) => {
-      handleChange({
-         target: {
-            name: "clinical.FunctionalAssessment",
-            value: score
-         }
-      });
-   };
    return (
       <>
          <form className="space-y-6">
@@ -100,7 +58,7 @@ const ClinicalDataForm = ({
                   className="w-3/4 rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                />
                <button
-                  onClick={() => setShowBMICalculator(true)}
+                  onClick={onShowBMICalculator}
                   type="button"
                   className={`px-4 py-2 rounded-md text-white bg-[#1e293b] ml-4 hover:bg-blue-500 transition-colors`}
                >
@@ -195,7 +153,7 @@ const ClinicalDataForm = ({
                   className="w-3/4 rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                />
                <button
-                  onClick={() => setShowMMSETest(true)}
+                  onClick={onShowMMSETest}
                   type="button"
                   className={`px-3 py-2 rounded-md text-white bg-[#1e293b] ml-4 hover:bg-blue-500 transition-colors`}
                >
@@ -218,7 +176,7 @@ const ClinicalDataForm = ({
                   className="w-3/4 rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                />
                <button
-                  onClick={() => setShowADLTest(true)}
+                  onClick={onShowADLTest}
                   type="button"
                   className={`px-4 py-2 rounded-md text-white bg-[#1e293b] ml-6 hover:bg-blue-500 transition-colors`}
                >
@@ -241,7 +199,7 @@ const ClinicalDataForm = ({
                   className="w-3/4 rounded-md bg-[#1e293b] border border-[#334155] text-[#ffffff] text-sm px-3 py-2 focus:outline-none focus:ring-1 focus:ring-[#ffffff]"
                />
                <button
-                  onClick={() => setShowFATest(true)}
+                  onClick={onShowFATest}
                   type="button"
                   className={`px-5 py-2 rounded-md text-white bg-[#1e293b] ml-7 hover:bg-blue-500 transition-colors`}
                >
@@ -300,31 +258,6 @@ const ClinicalDataForm = ({
                </div>
             </div>
          </form>
-
-         {/* Test Components */}
-         <BMICalculator
-            isOpen={showBMICalculator}
-            onClose={() => setShowBMICalculator(false)}
-            onCalculate={handleBMICalculated}
-         />
-
-         <MMSETest
-            isOpen={showMMSETest}
-            onClose={() => setShowMMSETest(false)}
-            onComplete={handleMMSECompleted}
-         />
-
-         <ADLTest
-            isOpen={showADLTest}
-            onClose={() => setShowADLTest(false)}
-            onComplete={handleADLCompleted}
-         />
-
-         <FunctionalAssessmentTest
-            isOpen={showFATest}
-            onClose={() => setShowFATest(false)}
-            onComplete={handleFACompleted}
-         />
       </>
    );
 };

@@ -1,38 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const BMICalculator = ({ isOpen, onClose, onCalculate }) => {
    const [height, setHeight] = useState('');
    const [weight, setWeight] = useState('');
    const [unit, setUnit] = useState('metric'); // metric or imperial
    const [result, setResult] = useState(null);
-
-   // Apply blur to all parent content when modal is open
-   useEffect(() => {
-      if (isOpen) {
-         // Find the main app container and apply blur
-         const appContainer = document.querySelector('.pt-\\[4\\.75rem\\]') || document.body;
-         if (appContainer) {
-            appContainer.style.filter = 'blur(3px)';
-            appContainer.style.pointerEvents = 'none';
-         }
-      } else {
-         // Remove blur when modal closes
-         const appContainer = document.querySelector('.pt-\\[4\\.75rem\\]') || document.body;
-         if (appContainer) {
-            appContainer.style.filter = 'none';
-            appContainer.style.pointerEvents = 'auto';
-         }
-      }
-
-      // Cleanup function
-      return () => {
-         const appContainer = document.querySelector('.pt-\\[4\\.75rem\\]') || document.body;
-         if (appContainer) {
-            appContainer.style.filter = 'none';
-            appContainer.style.pointerEvents = 'auto';
-         }
-      };
-   }, [isOpen]);
 
    const calculateBMI = () => {
       let bmi;
@@ -74,7 +46,7 @@ const BMICalculator = ({ isOpen, onClose, onCalculate }) => {
 
    return (
       <div className="fixed inset-0 z-50 flex items-center justify-center">
-         <div className="absolute inset-0 bg-black/45"></div>
+         <div className="absolute inset-0 bg-black/45 backdrop-blur-sm"></div>
          <div className="relative bg-white rounded-xl shadow-xl p-8 max-w-md w-full z-10">
             <h2 className="text-2xl font-bold mb-6 text-center text-black">BMI Calculator</h2>
 

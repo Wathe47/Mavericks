@@ -1,12 +1,23 @@
 /* eslint-disable react/no-unescaped-entities */
+import { useState } from 'react';
 import Heading from '../components/Heading';
 import ClinicalDataForm from '../components/dementia/ClinicalDataForm';
 import SpeechTaskCard from '../components/dementia/SpeechTaskCard';
 import DementiaModal from '../components/dementia/DementiaModal';
 import RecordsModal from '../components/dementia/RecordsModal';
+import BMICalculator from '../components/dementia/tests/BMICalculator';
+import MMSETest from '../components/dementia/tests/MMSETest';
+import ADLTest from '../components/dementia/tests/ADLTest';
+import FunctionalAssessmentTest from '../components/dementia/tests/FunctionalAssessmentTest';
 import { useDementiaForm } from '../hooks/useDementiaForm';
 
 const DementiaModuleRefactored = () => {
+   // Test modal states
+   const [showBMICalculator, setShowBMICalculator] = useState(false);
+   const [showMMSETest, setShowMMSETest] = useState(false);
+   const [showADLTest, setShowADLTest] = useState(false);
+   const [showFATest, setShowFATest] = useState(false);
+
    const {
       // State
       formData,
@@ -40,6 +51,45 @@ const DementiaModuleRefactored = () => {
       setValidationErrors
    } = useDementiaForm();
 
+   // Test completion handlers
+   const handleBMICalculated = (bmi) => {
+      handleChange({
+         target: {
+            name: "clinical.BMI",
+            value: bmi
+         }
+      });
+   };
+
+   const handleMMSECompleted = (score) => {
+      handleChange({
+         target: {
+            name: "clinical.MMSE",
+            value: score
+         }
+      });
+   };
+
+   const handleADLCompleted = (score) => {
+      handleChange({
+         target: {
+            name: "clinical.ADL",
+            value: score
+         }
+      });
+   };
+
+   const handleFACompleted = (score) => {
+      handleChange({
+         target: {
+            name: "clinical.FunctionalAssessment",
+            value: score
+         }
+      });
+   };
+
+   const anyTestModalOpen = showBMICalculator || showMMSETest || showADLTest || showFATest;
+
    return (
       <>
          <video
@@ -71,7 +121,7 @@ const DementiaModuleRefactored = () => {
             handleClose={handleClose}
          />
 
-         <div className="relative z-10 min-h-screen p-6 mt-0 text-[#cbd5e1]">
+         <div className={`relative z-10 min-h-screen p-6 mt-0 text-[#cbd5e1] transition-all duration-300 ${anyTestModalOpen ? 'blur-sm pointer-events-none' : ''}`}>
             <div className="flex flex-col items-center justify-center py-20">
                <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
                   Dementia Module
@@ -101,6 +151,10 @@ const DementiaModuleRefactored = () => {
                         formData={formData}
                         validationErrors={validationErrors}
                         handleChange={handleChange}
+                        onShowBMICalculator={() => setShowBMICalculator(true)}
+                        onShowMMSETest={() => setShowMMSETest(true)}
+                        onShowADLTest={() => setShowADLTest(true)}
+                        onShowFATest={() => setShowFATest(true)}
                      />
                   </main>
                </div>
@@ -187,6 +241,31 @@ const DementiaModuleRefactored = () => {
                {success && <p className="text-green-500">Data submitted successfully!</p>}
             </div>
          </div>
+
+         {/* Test Modal Components */}
+         <BMICalculator
+            isOpen={showBMICalculator}
+            onClose={() => setShowBMICalculator(false)}
+            onCalculate={handleBMICalculated}
+         />
+
+         <MMSETest
+            isOpen={showMMSETest}
+            onClose={() => setShowMMSETest(false)}
+            onComplete={handleMMSECompleted}
+         />
+
+         <ADLTest
+            isOpen={showADLTest}
+            onClose={() => setShowADLTest(false)}
+            onComplete={handleADLCompleted}
+         />
+
+         <FunctionalAssessmentTest
+            isOpen={showFATest}
+            onClose={() => setShowFATest(false)}
+            onComplete={handleFACompleted}
+         />
       </>
    );
 };
