@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+import { forwardRef, useImperativeHandle } from "react";
 import { useRef, useState } from "react";
 import { FaMicrophone, FaMicrophoneSlash } from 'react-icons/fa';
 
-const AudioRecorder = ({onTranscript,onAudioAvailable}) => {
+const AudioRecorder = forwardRef(({onTranscript,onAudioAvailable},ref) => {
    const [recording, setRecording] = useState(false);
    const [audioURL, setAudioURL] = useState(null);
    const [browserTranscript, setBrowserTranscript] = useState('');
@@ -113,6 +114,50 @@ const AudioRecorder = ({onTranscript,onAudioAvailable}) => {
       }
    };
 
+   const handleClear = () => {
+      console.log('Clearing audio recorder state');
+      
+      // Stop any ongoing recording
+      if (recording) {
+         setRecording(false);
+         if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+            mediaRecorderRef.current.stop();
+         }
+      }
+
+      // Clear all states
+      setBrowserTranscript('');
+      setBackendTranscript('');
+      setAudioURL(null);
+      
+      // Clean up media recorder
+      if (mediaRecorderRef.current) {
+         if (mediaRecorderRef.current.stream) {
+            mediaRecorderRef.current.stream.getTracks().forEach(track => track.stop());
+         }
+         mediaRecorderRef.current = null;
+      }
+      
+      // Clean up speech recognition
+      if (recognitionRef.current) {
+         recognitionRef.current.stop();
+         recognitionRef.current = null;
+      }
+      
+      // Clear refs
+      audioChunksRef.current = [];
+      audioBlobRef.current = null;
+      finalTranscript = '';
+      
+      // Reset parent state
+      if (onTranscript) onTranscript('');
+      if (onAudioAvailable) onAudioAvailable(false);
+   };
+
+   useImperativeHandle(ref, () => ({
+      handleClear
+   }));
+
    return (
       <div className="flex flex-col items-center space-y-4">
          <div className="flex items-center space-x-3">
@@ -149,6 +194,8 @@ const AudioRecorder = ({onTranscript,onAudioAvailable}) => {
          )}
       </div>
    );
-};
+});
+
+AudioRecorder.displayName = 'AudioRecorder';
 
 export default AudioRecorder;

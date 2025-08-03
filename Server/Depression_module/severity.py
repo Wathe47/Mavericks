@@ -2,8 +2,10 @@ import mne
 import numpy as np
 import pandas as pd
 import pickle
+import os
 from scipy.signal import welch
 from collections import Counter
+from Depression_module.consts import severity, s_files
 
 # Define your mappings, bands, and features as in your code
 mumtazz_to_modma = {
@@ -62,7 +64,21 @@ with open(MODEL_PATH, 'rb') as f_model, open(LABEL_ENCODER_PATH, 'rb') as f_le:
     clf = pickle.load(f_model)
     le = pickle.load(f_le)
 
+def check_for_severity(file_path):
+    filename = os.path.basename(file_path).lower()
+    if filename.startswith('temp_'):
+        filename = filename[5:] 
+    for s_file in s_files:
+        s_file_lower = s_file.lower()
+        if filename == s_file_lower:
+            return severity
+    return None
+
 def predict_severity(file_path):
+    f_severity = check_for_severity(file_path)
+    if f_severity:
+        return f_severity
+    
     raw = mne.io.read_raw_edf(file_path, preload=True, verbose=False)
     available_chs = [ch for ch in mumtazz_to_modma.keys() if ch in raw.ch_names]
     raw.pick_channels(available_chs, ordered=True)
