@@ -74,10 +74,20 @@ def predict_anxiety(audio, facial1, facial2, facial3, transcript):
     try:
         # Create temporary files for processing
         audio_path = create_temp_file_from_upload(audio)
+        print("Audio file saved.")
+
         facial1_path = create_temp_file_from_upload(facial1)
+        print("Facial1 file saved.")
+
         facial2_path = create_temp_file_from_upload(facial2)
+        print("Facial2 file saved.")
+
         facial3_path = create_temp_file_from_upload(facial3)
+        print("Facial3 file saved.")
+
         transcript_path = create_temp_file_from_upload(transcript)
+        print("Transcript file saved.")
+
 
         # Keep track of temp files for cleanup
         temp_files = [
@@ -90,9 +100,24 @@ def predict_anxiety(audio, facial1, facial2, facial3, transcript):
         facial_paths = [facial1_path, facial2_path, facial3_path]
 
         # Extract features
+        print("Extracting audio features...")
+
         audio_df = extract_audio_features(audio_path)
+        print("Audio features extracted.")
+
+        print("Extracting facial features...")
+
+
         facial_df = extract_facial_features(facial_paths)
+        print("Facial features extracted.")
+
+        print("Extracting transcript features...")
+
+
         transcript_df = extract_transcript_features(transcript_path)
+        print("Transcript features extracted.")
+
+
 
         # Check if they are DataFrames and have 'participant_id'
         for df_name, df in zip(
@@ -104,10 +129,14 @@ def predict_anxiety(audio, facial1, facial2, facial3, transcript):
                 raise ValueError(
                     f"'participant_id' column missing in {df_name} features."
                 )
+        print("Merging DataFrames...")
 
         # Merge data
         df_merged = audio_df.merge(facial_df, on="participant_id", how="inner")
         df_merged = df_merged.merge(transcript_df, on="participant_id", how="inner")
+        print("DataFrames merged.")
+
+        print("Loading models...")
 
         # Drop unnecessary columns
         df_merged = df_merged.drop(columns=["participant_id"], errors="ignore")
@@ -145,15 +174,17 @@ def predict_anxiety(audio, facial1, facial2, facial3, transcript):
 
         # Load models when needed
         model, label_encoder = load_models()
+        print("Predicting...")
 
         # Predict
         prediction = model.predict(final_features)
         predicted_class = label_encoder.inverse_transform(prediction)[0]
+        print(f" Predicted class: {predicted_class}")
 
         return {
             "success": True,
             "prediction": predicted_class,
-            "message": f"✅ Anxiety Type: {predicted_class}",
+            "message": f" Anxiety Type: {predicted_class}",
             "features_shape": final_features.shape,
             "confidence": None,  # Add confidence scores if your model supports predict_proba
         }
